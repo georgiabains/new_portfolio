@@ -1,0 +1,123 @@
+@import "_fonts";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $body;
+    color: #222;
+    background: #fefefe;
+    overflow-x: hidden;
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+//h1, h2, h3, h4, h5, h6 {
+//    font-family: $heading;
+//}
+
+header {
+    width: 100%;
+    border: 1px solid #ddd;
+    display: flex;
+    h1.main-title {
+        flex-basis: 50%;
+    }
+    nav {
+        flex-basis: 50%;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+#list-of-projects {
+    .project-container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 40px;
+        .project-flex {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            .project {
+                flex-basis: calc(100% / 3);
+                -ms-flex: auto;
+                box-sizing: border-box;
+                position: relative;
+                padding: 20px;
+                .project-details {
+                    box-sizing: border-box;
+                    padding: 10px;
+                    border: 1px solid #ddd;
+                    img {
+                        width: 100%;
+                        display: block;
+                    }
+                    ul.site-links {
+                        margin: 0;
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        padding: 7px 9px;
+                        list-style: none;
+                        background: #111;
+                        color: white;
+                        text-align: right;
+                        li {
+                            display: inline-block;
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                            a {
+                                color: white;
+                                text-transform: uppercase;
+                                font-size: 12px;
+                                line-height: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Media queries */
+@media screen and (max-width: 1400px) {
+    #list-of-projects {
+        .project-container {
+            .project-flex {
+                .project {
+                    flex-basis: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 555px) {
+    #list-of-projects {
+        .project-container {
+            .project-flex {
+                .project {
+                    flex-basis: 100%;
+                }
+            }
+        }
+    }
+}

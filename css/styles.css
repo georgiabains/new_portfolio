@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #222;
+  background: #fefefe;
+  overflow-x: hidden; }
+
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+header {
+  width: 100%;
+  border: 1px solid #ddd;
+  display: flex; }
+  header h1.main-title {
+    flex-basis: 50%; }
+  header nav {
+    flex-basis: 50%; }
+    header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      header nav ul li {
+        display: inline-block; }
+
+#list-of-projects .project-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px; }
+  #list-of-projects .project-container .project-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; }
+    #list-of-projects .project-container .project-flex .project {
+      flex-basis: calc(100% / 3);
+      -ms-flex: auto;
+      box-sizing: border-box;
+      position: relative;
+      padding: 20px; }
+      #list-of-projects .project-container .project-flex .project .project-details {
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #ddd; }
+        #list-of-projects .project-container .project-flex .project .project-details img {
+          width: 100%;
+          display: block; }
+        #list-of-projects .project-container .project-flex .project .project-details ul.site-links {
+          margin: 0;
+          margin-block-start: 0;
+          margin-block-end: 0;
+          padding: 7px 9px;
+          list-style: none;
+          background: #111;
+          color: white;
+          text-align: right; }
+          #list-of-projects .project-container .project-flex .project .project-details ul.site-links li {
+            display: inline-block; }
+            #list-of-projects .project-container .project-flex .project .project-details ul.site-links li:first-child {
+              margin-right: 10px; }
+            #list-of-projects .project-container .project-flex .project .project-details ul.site-links li a {
+              color: white;
+              text-transform: uppercase;
+              font-size: 12px;
+              line-height: 12px;
+              letter-spacing: 1px; }
+
+/* Media queries */
+@media screen and (max-width: 1400px) {
+  #list-of-projects .project-container .project-flex .project {
+    flex-basis: 50%; } }
+@media screen and (max-width: 555px) {
+  #list-of-projects .project-container .project-flex .project {
+    flex-basis: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */
