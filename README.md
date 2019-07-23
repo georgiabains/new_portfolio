@@ -1,6 +1,6 @@
 # Portfolio
 
-View my work in progress for constructing a new Portfolio design.
+View my work in progress for constructing a new Portfolio site.
 
 Goals include:
 - Accessibility
