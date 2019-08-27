@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Darker+Grotesque|Nunito|Muli|Red+Hat+Display|Source+Sans+Pro&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -15,6 +15,10 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 300; }
 
 header {
   width: 100%;

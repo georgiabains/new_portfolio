@@ -77,13 +77,13 @@
             
             <div class="project">
                 <div class="project-details">
-                    <img src="">
+                    <img src="https://i.imgur.com/9vGsZHb.png">
                     <ul class="site-links">
-                        <li><a href="">live link</a></li>
-                        <li><a href="">view code</a></li>
+                        <li><a href="https://pomegranate-theme.tumblr.com/">live link</a></li>
+                        <li><a href="https://pastebin.com/Cd1eyVLB">view code</a></li>
                     </ul>
-                    <h3>Spotlight - Tumblr Theme</h3>
-                    <p>Short description of project goes here</p>
+                    <h3>Pomegranate - Tumblr Theme</h3>
+                    <p>Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
                     <p>Role: Web Design & Development</p>
                     <p>Languages: HTML, CSS, jQuery</p>
                 </div>
