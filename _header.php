@@ -4,10 +4,10 @@
     
     <nav>
         <ul>
-            <li><a href="projects.php"><span class="full-stop">.</span> portfolio</a></li>
-            <li><a title="link to resume"><span class="full-stop">.</span> resume</a></li>
-            <li><a href="https://github.com/georgiabains"><span class="full-stop">.</span> github</a></li>
-            <li><a href="https://www.linkedin.com/in/georgia-bains/"><span class="full-stop">.</span> linkedin</a></li>
+            <li><a href="projects.php">portfolio</a></li>
+            <li><a title="link to resume">resume</a></li>
+            <li><a href="https://github.com/georgiabains">github</a></li>
+            <li><a href="https://www.linkedin.com/in/georgia-bains/">linkedin</a></li>
         </ul>
     </nav>
 

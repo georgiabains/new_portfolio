@@ -12,15 +12,12 @@
     <section id="list-of-projects">
 
         <div class="projects-heading">
-            <h3>Selected Projects</h3>
-            <a href="projects.php">[view all]</a>
+            <h3>> now viewing selected projects<span class="blinking-underscore">_</span> <a href="projects.php">[view all]</a></h3>
         </div>
         
         <div class="project-container">
         
             <div class="project">
-                <!-- <h3>Volaris Group Website</h3>
-                    <a href="https://volarisgroup.com">_live link</a> -->
                 <div class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/volaris/volaris_desktop_one.png">
@@ -30,9 +27,10 @@
                     </div>
                 </div>
                 <div class="project-details">
+                    <h4>Volaris Group &mdash; Core Website</h4>
                     <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
                     <p>Role: Web Development</p>
-                    <p>Languages: PHP, HTML, CSS (SCSS), JavaScript, jQuery</p>
+                    <p>Languages: CSS (SCSS), HTML JavaScript, jQuery, PHP</p>
                 </div>
             </div>
             
@@ -46,9 +44,10 @@
                     </div>
                 </div>
                 <div class="project-details">
+                    <h4>Experiential Learning Modules &mdash; Website</h4>
                     <p>The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
                     <p>Role: Web Design & Development</p>
-                    <p>Languages: PHP, HTML, CSS (SCSS), JavaScript, jQuery</p>
+                    <p>Languages: CSS (SCSS), HTML, JavaScript, jQuery, PHP</p>
                 </div>
             </div>
             
@@ -62,13 +61,10 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <!-- <div class="site-title">
-                        <h3>Open UToronto Website</h3>
-                        <a href="https://ocw.utoronto.ca">_live link</a>
-                    </div> -->
+                    <h4>Open UToronto &mdash; Website</h4>
                     <p>The core website for Open Projects at the University of Toronto.</p>
                     <p>Role: Web Design & Development</p>
-                    <p>Languages: PHP, HTML, CSS, jQuery</p>
+                    <p>Languages: HTML, CSS, HTML, jQuery, PHP</p>
                 </div>
             </div>
             
@@ -82,13 +78,10 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <!-- <div class="site-title">
-                        <h3>Pomegranate - Tumblr Theme</h3>
-                        <a href="https://pomegranate-theme.tumblr.com/">live link</a>
-                    </div> -->
+                    <h4>Pomegranate &mdash; Tumblr Theme</h4>
                     <p>Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
                     <p>Role: Web Design & Development</p>
-                    <p>Languages: HTML, CSS, jQuery</p>
+                    <p>Languages: CSS, HTML, jQuery</p>
                 </div>
             </div>
             
@@ -102,13 +95,10 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <!-- <div class="site-title">
-                        <h3>Spotlight - Tumblr Theme</h3>
-                        <a href="https://wonderfullythemes.tumblr.com/theme63">live link</a>
-                    </div> -->
+                    <h4>Spotlight &mdash; Tumblr Theme</h4>
                     <p>Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
                     <p>Role: Web Design & Development</p>
-                    <p>Languages: HTML, CSS, jQuery</p>
+                    <p>Languages: CSS, HTML, jQuery</p>
                 </div>
             </div>
                 

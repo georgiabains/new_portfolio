@@ -1,0 +1,81 @@
+main {
+    top: 0;
+    width: calc(75% - 80px);
+    margin-left: calc(25% + 40px);
+    padding: 40px;
+    aside {
+        h2 {
+            color: #848484;
+            display: inline-block;
+            &:not(:first-child) {
+                margin-left: 10px;
+            }
+        }
+    }
+    #list-of-projects {
+        margin-top: 50px;
+        .projects-heading {
+            padding: 20px 0;
+            h3 {
+                font-family: $body;
+                font-size: 1.0em;
+                letter-spacing: 1px;
+                display: inline-block;
+            }
+        }
+        .project-container {
+            width: 90%;
+            .project {
+                margin: 120px 0;
+                position: relative;
+                &:first-child {
+                    margin: 20px 0 120px 0;
+                }
+                .project-thumbnail {
+                    display: block;
+                    img {
+                        border: 1px solid #eee;
+                        border-radius: 10px;
+                    }
+                    .desktop {
+                        img {
+                            width: 90%;
+                            display: inline-block;
+                        }
+                    }
+                    .mobile {
+                        position: absolute;
+                        top: 80px;
+                        right: 0px;
+                        img {
+                            height: 420px;
+                            display: inline-block;
+                        }
+                    }
+                }
+                .project-details {
+                    width: 55%;
+                    margin: 20px 0;
+                    padding: 20px;
+                    background: #fff;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    border-bottom-left-radius: 7px;
+                    h4 {
+                        font-family: $body;
+                        font-size: 1.25em;
+                        margin: 0 0 0.75em 0;
+                    }
+                    p {
+                        &:first-child {
+                            margin-block-start: 0;
+                        }
+                        &:last-child {
+                            margin-block-end: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

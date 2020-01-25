@@ -1,0 +1,40 @@
+header {
+    top: 0;
+    left: 0;
+    width: calc(25% - 40px);
+    height: calc(100% - 140px);
+    padding: 30px;
+    position: fixed;
+    h1.main-title {
+        margin: 0.1em 0;
+    }
+    nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                a {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                } 
+            }
+        }
+    }
+    .intro {
+        margin-top: 40px;
+        ul.languages {
+            margin: 0;
+            padding: 0;
+            li {
+                line-height: 20px;
+                list-style: none;
+                &::before {
+                    content: ">";
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
