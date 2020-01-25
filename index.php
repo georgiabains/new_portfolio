@@ -29,8 +29,8 @@
                 <div class="project-details">
                     <h4>Volaris Group &mdash; Core Website</h4>
                     <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
-                    <p>Role: Web Development</p>
-                    <p>Languages: CSS (SCSS), HTML JavaScript, jQuery, PHP</p>
+                    <p class="role">Web Development</p>
+                    <p class="languages">CSS (SCSS), HTML JavaScript, jQuery, PHP</p>
                 </div>
             </div>
             
@@ -46,8 +46,8 @@
                 <div class="project-details">
                     <h4>Experiential Learning Modules &mdash; Website</h4>
                     <p>The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
-                    <p>Role: Web Design & Development</p>
-                    <p>Languages: CSS (SCSS), HTML, JavaScript, jQuery, PHP</p>
+                    <p class="role">Web Design & Development</p>
+                    <p class="languages">CSS (SCSS), HTML, JavaScript, jQuery, PHP</p>
                 </div>
             </div>
             
@@ -63,8 +63,8 @@
                 <div class="project-details">
                     <h4>Open UToronto &mdash; Website</h4>
                     <p>The core website for Open Projects at the University of Toronto.</p>
-                    <p>Role: Web Design & Development</p>
-                    <p>Languages: HTML, CSS, HTML, jQuery, PHP</p>
+                    <p class="role">Web Design & Development</p>
+                    <p class="languages">CSS, HTML, jQuery, PHP</p>
                 </div>
             </div>
             
@@ -80,8 +80,8 @@
                 <div class="project-details">
                     <h4>Pomegranate &mdash; Tumblr Theme</h4>
                     <p>Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
-                    <p>Role: Web Design & Development</p>
-                    <p>Languages: CSS, HTML, jQuery</p>
+                    <p class="role">Web Design & Development</p>
+                    <p class="languages">CSS, HTML, jQuery</p>
                 </div>
             </div>
             
@@ -97,8 +97,8 @@
                 <div class="project-details">
                     <h4>Spotlight &mdash; Tumblr Theme</h4>
                     <p>Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
-                    <p>Role: Web Design & Development</p>
-                    <p>Languages: CSS, HTML, jQuery</p>
+                    <p class="role">Web Design & Development</p>
+                    <p class="languages">CSS, HTML, jQuery</p>
                 </div>
             </div>
                 

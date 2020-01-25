@@ -12,8 +12,8 @@ body {
   overflow-x: hidden; }
 
 p {
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
+  margin-block-start: 1.0em;
+  margin-block-end: 1.0em;
   line-height: 20px; }
 
 a {
@@ -116,7 +116,7 @@ main {
         main #list-of-projects .project-container .project .project-details {
           width: 55%;
           margin: 20px 0;
-          padding: 20px;
+          padding: 20px 80px 20px 20px;
           background: #fff;
           border-bottom: 1px solid #eee;
           border-left: 1px solid #eee;
@@ -124,10 +124,19 @@ main {
           main #list-of-projects .project-container .project .project-details h4 {
             font-family: "Anonymous Pro", monospace;
             font-size: 1.25em;
-            margin: 0 0 0.75em 0; }
+            margin: 0.25em 0 0.75em 0; }
           main #list-of-projects .project-container .project .project-details p:first-child {
             margin-block-start: 0; }
           main #list-of-projects .project-container .project .project-details p:last-child {
             margin-block-end: 0; }
+          main #list-of-projects .project-container .project .project-details p.role::before {
+            content: "\f007"; }
+          main #list-of-projects .project-container .project .project-details p.languages::before {
+            content: "\f120"; }
+          main #list-of-projects .project-container .project .project-details p.role::before, main #list-of-projects .project-container .project .project-details p.languages::before {
+            width: 20px;
+            margin-right: 10px;
+            font-family: FontAwesome;
+            display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

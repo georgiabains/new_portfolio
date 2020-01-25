@@ -13,7 +13,6 @@
 
     <div class="intro">
         <p>A part self-taught, part university-taught software developer based in Canada.</p>
-        <br>
         <p>Languages:</p>
         <ul class="languages">
             <li>CSS (LESS & SASS/SCSS)</li>
