@@ -1,21 +1,30 @@
 <?php include "_top.php";?>
 <?php include "_header.php";?>
 
-<section id="list-of-projects">
+<main>
 
-    <h2>Latest Projects</h2>
-    
-    <div class="project-container">
-        <div class="project-flex">
-    
+    <aside>
+        <h2>Software Developer.</h2>
+        <h2>Web Developer.</h2>
+        <h2>Game Developer.</h2>
+    </aside>
+
+    <section id="list-of-projects">
+
+        <div class="projects-heading">
+            <h2>Selected Projects</h2>
+            <a href="projects.php">[view all]</a>
+        </div>
+        
+        <div class="project-container">
+        
             <div class="project">
-                <div class="project-details">
+                <!-- <h3>Volaris Group Website</h3>
+                    <a href="https://volarisgroup.com">_live link</a> -->
+                <div class="project-thumbnail">
                     <img src="img/projects/volaris_one.png">
-                    <ul class="site-links">
-                        <li><a href="https://volarisgroup.com">live link</a></li>
-                        <li><a href="">view code</a></li>
-                    </ul>
-                    <h3>Volaris Group Website</h3>
+                </div>
+                <div class="project-details">
                     <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
                     <p>Role: Web Development</p>
                     <p>Languages: PHP, HTML, CSS (SCSS), JavaScript, jQuery</p>
@@ -23,55 +32,25 @@
             </div>
             
             <div class="project">
-                <div class="project-details">
+                <div class="project-thumbnail">
                     <img src="img/projects/el_one.png">
-                    <ul class="site-links">
-                        <li><a href="https://experientialmodules.utoronto.ca">live link</a></li>
-                        <li><a href="https://github.com/georgiabains/experiential-learning">view code</a></li>
-                    </ul>
-                    <h3>Experiential Learning Modules Website</h3>
+                </div>
+                <div class="project-details">
                     <p>The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
                     <p>Role: Web Design & Development</p>
                     <p>Languages: PHP, HTML, CSS (SCSS), JavaScript, jQuery</p>
                 </div>
             </div>
-
-            <div class="project">
-                <div class="project-details">
-                    <img src="img/projects/aw_nuture_one.png">
-                    <ul class="site-links">
-                        <li><a href="https://www.volarisgroup.com/assetworks/assetworks-overview/">live link</a></li>
-                        <li><a href="">view code</a></li>
-                    </ul>
-                    <h3>AssetWorks Nuture 2019 Landing Page</h3>
-                    <p>Short description of project goes here</p>
-                    <p>Role: Web Development</p>
-                    <p>Languages: HTML, CSS (SCSS)</p>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-details">
-                    <img src="img/projects/aw_nuture_vol_one.png">
-                    <ul class="site-links">
-                        <li><a href="https://www.volarisgroup.com/assetworks/volaris-overview/">live link</a></li>
-                        <li><a href="">view code</a></li>
-                    </ul>
-                    <h3>AssetWorks Nuture 2019 Landing Page - Volaris Branded</h3>
-                    <p>Short description of project goes here</p>
-                    <p>Role: Web Development</p>
-                    <p>Languages: HTML, CSS (SCSS)</p>
-                </div>
-            </div>
             
             <div class="project">
-                <div class="project-details">
+                <div class="project-thumbnail">
                     <img src="img/projects/ocw_one.png">
-                    <ul class="site-links">
-                        <li><a href="https://ocw.utoronto.ca">live link</a></li>
-                        <li><a href="">view code</a></li>
-                    </ul>
-                    <h3>Open UToronto Website</h3>
+                </div>
+                <div class="project-details">
+                    <!-- <div class="site-title">
+                        <h3>Open UToronto Website</h3>
+                        <a href="https://ocw.utoronto.ca">_live link</a>
+                    </div> -->
                     <p>The core website for Open Projects at the University of Toronto.</p>
                     <p>Role: Web Design & Development</p>
                     <p>Languages: PHP, HTML, CSS, jQuery</p>
@@ -79,13 +58,14 @@
             </div>
             
             <div class="project">
-                <div class="project-details">
+                <div class="project-thumbnail">
                     <img src="https://i.imgur.com/9vGsZHb.png">
-                    <ul class="site-links">
-                        <li><a href="https://pomegranate-theme.tumblr.com/">live link</a></li>
-                        <li><a href="https://pastebin.com/Cd1eyVLB">view code</a></li>
-                    </ul>
-                    <h3>Pomegranate - Tumblr Theme</h3>
+                </div>
+                <div class="project-details">
+                    <!-- <div class="site-title">
+                        <h3>Pomegranate - Tumblr Theme</h3>
+                        <a href="https://pomegranate-theme.tumblr.com/">live link</a>
+                    </div> -->
                     <p>Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
                     <p>Role: Web Design & Development</p>
                     <p>Languages: HTML, CSS, jQuery</p>
@@ -93,42 +73,25 @@
             </div>
             
             <div class="project">
-                <div class="project-details">
+                <div class="project-thumbnail">
                     <img src="http://i.imgur.com/LU7Qjno.png">
-                    <ul class="site-links">
-                        <li><a href="https://wonderfullythemes.tumblr.com/theme63">live link</a></li>
-                        <li><a href="https://pastebin.com/PjTDvVmU">view code</a></li>
-                    </ul>
-                    <h3>Spotlight - Tumblr Theme</h3>
-                    <p>Short description of project goes here</p>
+                </div>
+                <div class="project-details">
+                    <!-- <div class="site-title">
+                        <h3>Spotlight - Tumblr Theme</h3>
+                        <a href="https://wonderfullythemes.tumblr.com/theme63">live link</a>
+                    </div> -->
+                    <p>Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
                     <p>Role: Web Design & Development</p>
                     <p>Languages: HTML, CSS, jQuery</p>
                 </div>
             </div>
-            
-            
-<!--
-            <div class="project">
-                <div class="project-details">
-                    <img src="">
-                    <ul class="site-links">
-                        <li><a href="">live link</a></li>
-                        <li><a href="">view code</a></li>
-                    </ul>
-                    <h3>Project title</h3>
-                    <p>Short description of project goes here</p>
-                    <p>Role: role here</p>
-                    <p>Languages: CSS, HTML etc.</p>
-                </div>
-            </div>
--->
-            
-        </div><!--end .project-flex-->
-    </div><!--end .project-container-->
-    
-    <a href="projects.php">View all projects</a> (only show the 1st six)
+                
+        </div><!--end .project-container-->
 
-</section>
+    </section>
+
+</main>
 
 <?php include "_footer.php";?>
 <?php include "_bottom.php";?>
