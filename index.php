@@ -12,7 +12,7 @@
     <section id="list-of-projects">
 
         <div class="projects-heading">
-            <h2>Selected Projects</h2>
+            <h3>Selected Projects</h3>
             <a href="projects.php">[view all]</a>
         </div>
         
@@ -22,7 +22,12 @@
                 <!-- <h3>Volaris Group Website</h3>
                     <a href="https://volarisgroup.com">_live link</a> -->
                 <div class="project-thumbnail">
-                    <img src="img/projects/volaris_one.png">
+                    <div class="desktop">
+                        <img src="img/projects/volaris/volaris_desktop_one.png">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/volaris/volaris_mobile_one.png">
+                    </div>
                 </div>
                 <div class="project-details">
                     <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
@@ -33,7 +38,12 @@
             
             <div class="project">
                 <div class="project-thumbnail">
-                    <img src="img/projects/el_one.png">
+                    <div class="desktop">
+                        <img src="img/projects/el/el_desktop_one.png">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/el/el_mobile_one.png">
+                    </div>
                 </div>
                 <div class="project-details">
                     <p>The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
@@ -44,7 +54,12 @@
             
             <div class="project">
                 <div class="project-thumbnail">
-                    <img src="img/projects/ocw_one.png">
+                    <div class="desktop">
+                        <img src="img/projects/ocw/ocw_desktop_one.png">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/ocw/ocw_mobile_one.png">
+                    </div>
                 </div>
                 <div class="project-details">
                     <!-- <div class="site-title">
@@ -59,7 +74,12 @@
             
             <div class="project">
                 <div class="project-thumbnail">
-                    <img src="https://i.imgur.com/9vGsZHb.png">
+                    <div class="desktop">
+                        <img src="img/projects/pom/pom_desktop_one.png">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/pom/pom_mobile_one.png">
+                    </div>
                 </div>
                 <div class="project-details">
                     <!-- <div class="site-title">
@@ -74,7 +94,12 @@
             
             <div class="project">
                 <div class="project-thumbnail">
-                    <img src="http://i.imgur.com/LU7Qjno.png">
+                    <div class="desktop">
+                        <img src="img/projects/spotlight/spotlight_desktop_one.png">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/spotlight/spotlight_mobile_one.png">
+                    </div>
                 </div>
                 <div class="project-details">
                     <!-- <div class="site-title">
