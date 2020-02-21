@@ -1,38 +1,36 @@
+@import "_base";
+
 header {
     top: 0;
     left: 0;
-    width: calc(25% - 40px);
+    width: calc(25% - 60px);
     height: calc(100% - 140px);
     padding: 30px;
     position: fixed;
     h1.main-title {
         margin: 0.1em 0;
+        a {
+            color: #222;
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
     nav {
         ul {
             margin: 0;
             padding: 0;
+            font-size: 1.25em;
+            line-height: 1.3em;
             list-style: none;
             li {
-                a {
-                    &:hover {
-                        text-decoration: none;
-                    }
-                } 
-            }
-        }
-    }
-    .intro {
-        margin-top: 40px;
-        ul.languages {
-            margin: 0;
-            padding: 0;
-            li {
-                line-height: 20px;
-                list-style: none;
-                &::before {
+                line-height: 24px;
+                &:before {
                     content: ">";
-                    margin-right: 5px;
+                    margin-right: 10px;
+                }
+                a {
+                    color: #444;
                 }
             }
         }

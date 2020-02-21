@@ -1,0 +1,114 @@
+@import "_base";
+@import "_fonts";
+@import "header";
+@import "footer";
+
+header {
+	height: auto !important;
+	position: relative !important;
+}
+
+main {
+    top: 0;
+    left: 0;
+    width: calc(100% - 60px);
+    padding: 0 30px;
+    section.roles {
+        h2 {
+            color: #848484;
+            display: inline-block;
+            &:not(:first-child) {
+                margin-left: 10px;
+            }
+        }
+    }
+    section#list-of-projects {
+        .projects-heading {
+            padding: 20px 0;
+            h3 {
+                font-family: $body;
+                font-size: 1.0em;
+                letter-spacing: 1px;
+                display: inline-block;
+            }
+        }
+        .project-container {
+            width: 100%;
+            margin: 0 auto;
+            .project-flex {
+            	display: flex;
+            	flex-wrap: wrap;
+            	justify-content: space-between;
+            	.project {
+            		flex-basis: 48%;
+	                margin: 20px 0 120px 0;
+	                position: relative;
+	                &.project-web {
+	                    .project-thumbnail {
+	                        display: block;
+	                        img {
+	                            border: 1px solid #eee;
+	                            border-radius: 10px;
+	                        }
+	                        .desktop {
+	                            img {
+	                                width: 90%;
+	                                display: inline-block;
+	                            }
+	                        }
+	                        .mobile {
+	                            position: absolute;
+	                            top: 65px;
+	                            right: 0px;
+	                            img {
+	                                height: 300px;
+	                                display: inline-block;
+	                            }
+	                        }
+	                    }
+	                    .project-details {
+	                        width: 55%;
+	                        margin: 20px 0;
+	                        padding: 20px 80px 20px 20px;
+	                        background: #fff;
+	                        border-bottom: 1px solid #eee;
+	                        border-left: 1px solid #eee;
+	                        border-bottom-left-radius: 7px;
+	                        h4 {
+	                            font-family: $body;
+	                            font-size: 1.25em;
+	                            margin: 0.25em 0 0.75em 0;
+	                        }
+	                        p {
+	                            &:first-child {
+	                                margin-block-start: 0;
+	                            }
+	                            &:last-child {
+	                                margin-block-end: 0;
+	                            }
+	                            &.role {
+	                                &::before {
+	                                    content: "\f007";
+	                                }
+	                            }
+	                            &.languages {
+	                                &::before {
+	                                    content: "\f120";   
+	                                }
+	                            }
+	                            &.role, &.languages {
+	                                &::before {
+	                                    width: 20px;
+	                                    margin-right: 10px;
+	                                    font-family: FontAwesome;
+	                                    display: inline-block;
+	                                }
+	                            }
+	                        }
+	                    }
+	                }
+	            }
+            }
+        }
+    }
+}

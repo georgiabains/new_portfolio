@@ -3,11 +3,11 @@
 
 <main>
 
-    <aside>
-        <h2>Software Developer.</h2>
+    <section class="roles">
         <h2>Web Developer.</h2>
-        <h2>Game Developer.</h2>
-    </aside>
+        <!-- <h2>Game Developer.</h2>
+        <h2>Software Developer.</h2> -->
+    </section>
 
     <section id="list-of-projects">
 
@@ -17,7 +17,7 @@
         
         <div class="project-container">
         
-            <div class="project">
+            <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/volaris/volaris_desktop_one.png">
@@ -34,7 +34,7 @@
                 </div>
             </div>
             
-            <div class="project">
+            <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/el/el_desktop_one.png">
@@ -51,7 +51,7 @@
                 </div>
             </div>
             
-            <div class="project">
+            <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/ocw/ocw_desktop_one.png">
@@ -68,7 +68,7 @@
                 </div>
             </div>
             
-            <div class="project">
+            <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/pom/pom_desktop_one.png">
@@ -85,7 +85,7 @@
                 </div>
             </div>
             
-            <div class="project">
+            <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/spotlight/spotlight_desktop_one.png">
