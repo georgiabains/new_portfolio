@@ -3,12 +3,6 @@
 
 <main>
 
-    <section class="roles">
-        <h2>Web Developer.</h2>
-        <!-- <h2>Game Developer.</h2>
-        <h2>Software Developer.</h2> -->
-    </section>
-
     <section id="list-of-projects">
 
         <div class="projects-heading">

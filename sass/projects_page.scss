@@ -4,24 +4,16 @@
 @import "footer";
 
 header {
-	height: auto !important;
-	position: relative !important;
+	h1.main-title {
+		position: absolute;
+	}
 }
 
 main {
     top: 0;
     left: 0;
-    width: calc(100% - 60px);
-    padding: 0 30px;
-    section.roles {
-        h2 {
-            color: #848484;
-            display: inline-block;
-            &:not(:first-child) {
-                margin-left: 10px;
-            }
-        }
-    }
+    width: calc(100% - 100px);
+    padding: 0 60px 0 40px;
     section#list-of-projects {
         .projects-heading {
             padding: 20px 0;

@@ -80,50 +80,61 @@ h1, h2, h3, h4, h5, h6 {
 header {
   top: 0;
   left: 0;
-  width: calc(25% - 60px);
-  height: calc(100% - 140px);
-  padding: 30px;
-  position: fixed; }
+  width: calc(100% - 70px);
+  padding: 35px 30px 30px 40px; }
   header h1.main-title {
+    position: fixed;
     margin: 0.1em 0; }
     header h1.main-title a {
       color: #222; }
       header h1.main-title a:hover {
         text-decoration: none; }
-  header nav ul {
-    margin: 0;
+  header ul.roles {
+    margin: 25px 0 0 calc(25% + 6px);
     padding: 0;
-    font-size: 1.25em;
-    line-height: 1.3em;
-    list-style: none; }
-    header nav ul li {
-      line-height: 24px; }
-      header nav ul li:before {
-        content: ">";
-        margin-right: 10px; }
-      header nav ul li a {
-        color: #444; }
+    position: relative; }
+    header ul.roles li {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      header ul.roles li h2 {
+        font-size: 1.5em;
+        color: #848484; }
+  header nav {
+    top: 62px;
+    right: 50px;
+    padding: 3px 7px;
+    position: fixed;
+    background: white;
+    z-index: 2; }
+    header nav ul {
+      margin: 0;
+      padding: 0;
+      font-size: 1.25em;
+      line-height: 1.3em;
+      list-style: none; }
+      header nav ul li {
+        line-height: 24px;
+        display: inline-block; }
+        header nav ul li:not(:last-child) {
+          margin-right: 15px; }
+        header nav ul li a {
+          color: #444; }
 
 footer {
-  width: calc(25% - 60px);
+  width: calc(25% - 80px);
   bottom: 0;
   left: 0;
-  padding: 30px; }
+  padding: 30px 40px; }
 
-header {
-  height: auto !important;
-  position: relative !important; }
+header h1.main-title {
+  position: absolute; }
 
 main {
   top: 0;
   left: 0;
-  width: calc(100% - 60px);
-  padding: 0 30px; }
-  main section.roles h2 {
-    color: #848484;
-    display: inline-block; }
-    main section.roles h2:not(:first-child) {
-      margin-left: 10px; }
+  width: calc(100% - 100px);
+  padding: 0 60px 0 40px; }
   main section#list-of-projects .projects-heading {
     padding: 20px 0; }
     main section#list-of-projects .projects-heading h3 {

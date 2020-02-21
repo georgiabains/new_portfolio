@@ -3,11 +3,10 @@
 header {
     top: 0;
     left: 0;
-    width: calc(25% - 60px);
-    height: calc(100% - 140px);
-    padding: 30px;
-    position: fixed;
+    width: calc(100% - 70px);
+    padding: 35px 30px 30px 40px;
     h1.main-title {
+        position: fixed;
         margin: 0.1em 0;
         a {
             color: #222;
@@ -16,7 +15,27 @@ header {
             }
         }
     }
+    ul.roles {
+        margin: 25px 0 0 calc(25% + 6px);
+        padding: 0;
+        position: relative;
+        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            h2 {
+                font-size: 1.5em;
+                color: #848484;
+            }
+        }
+    }
     nav {
+        top: 62px;
+        right: 50px;
+        padding: 3px 7px;
+        position: fixed;
+        background: white;
+        z-index: 2;
         ul {
             margin: 0;
             padding: 0;
@@ -25,9 +44,9 @@ header {
             list-style: none;
             li {
                 line-height: 24px;
-                &:before {
-                    content: ">";
-                    margin-right: 10px;
+                display: inline-block;
+                &:not(:last-child) {
+                    margin-right: 15px;
                 }
                 a {
                     color: #444;
@@ -35,4 +54,5 @@ header {
             }
         }
     }
+    
 }

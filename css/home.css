@@ -145,26 +145,20 @@ main {
 
 main {
   top: 0;
-  width: calc(75% - 80px);
-  margin-left: calc(25% + 40px);
-  padding: 40px 40px 40px 0; }
-  main section.roles {
-    text-align: right; }
-    main section.roles h2 {
-      font-size: 2.0em;
-      color: #848484;
-      display: block; }
+  width: calc(75% - 90px);
+  margin-left: calc(25% + 30px);
+  padding: 0 40px 50px 0; }
   main section#list-of-projects {
-    margin-top: 50px; }
+    margin-top: 20px; }
     main section#list-of-projects .projects-heading {
-      padding: 20px 0; }
+      padding: 0 0 20px 0; }
       main section#list-of-projects .projects-heading h3 {
         font-family: "Anonymous Pro", monospace;
         font-size: 1.0em;
         letter-spacing: 1px;
         display: inline-block; }
     main section#list-of-projects .project-container {
-      width: 90%; }
+      width: 100%; }
       main section#list-of-projects .project-container .project {
         margin: 120px 0;
         position: relative; }
