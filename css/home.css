@@ -75,9 +75,10 @@ main section#list-of-projects .project-container {
       border-left: 1px solid #eee;
       border-bottom-left-radius: 7px; }
       main section#list-of-projects .project-container .project.project-web .project-details h4 {
+        margin: 0.25em 0 0.75em 0;
         font-family: "Anonymous Pro", monospace;
         font-size: 1.25em;
-        margin: 0.25em 0 0.75em 0; }
+        line-height: 23px; }
       main section#list-of-projects .project-container .project.project-web .project-details ul {
         margin: 0;
         padding: 0;

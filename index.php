@@ -27,7 +27,7 @@
                         <li><a href="https://www.volarisgroup.com/" target="_blank">[site]</a></li>
                         <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
                     </ul>
-                    <p class="description">The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
+                    <p class="description">The core website for the company Volaris Group, a company dedicated to acquiring and supporting its child companies.</p>
                     <ul class="role">
                         <li>Web Development</li>
                     </ul>

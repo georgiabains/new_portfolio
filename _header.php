@@ -14,7 +14,7 @@
         </button>
         <ul id="navigation">
             <li><a href="about.php">about</a></li>
-            <li><a href="projects.php">work</a></li>
+            <li><a href="projects.php">projects</a></li>
         </ul>
     </nav>
 

@@ -147,9 +147,10 @@ main section#list-of-projects .project-container {
       border-left: 1px solid #eee;
       border-bottom-left-radius: 7px; }
       main section#list-of-projects .project-container .project.project-web .project-details h4 {
+        margin: 0.25em 0 0.75em 0;
         font-family: "Anonymous Pro", monospace;
         font-size: 1.25em;
-        margin: 0.25em 0 0.75em 0; }
+        line-height: 23px; }
       main section#list-of-projects .project-container .project.project-web .project-details ul {
         margin: 0;
         padding: 0;
@@ -196,7 +197,7 @@ main {
       justify-content: space-between; }
       main section#list-of-projects .project-container .project-flex .project {
         flex-basis: 48%;
-        margin: 20px 0 120px 0; }
+        margin: 20px 0 60px 0; }
         main section#list-of-projects .project-container .project-flex .project.project-web .project-thumbnail .desktop img {
           width: 90%; }
         main section#list-of-projects .project-container .project-flex .project.project-web .project-thumbnail .mobile {
@@ -204,5 +205,19 @@ main {
           right: 0px; }
           main section#list-of-projects .project-container .project-flex .project.project-web .project-thumbnail .mobile img {
             height: 300px; }
+        main section#list-of-projects .project-container .project-flex .project.project-web .project-details {
+          width: 67%;
+          padding: 20px 80px 20px 20px; }
+          main section#list-of-projects .project-container .project-flex .project.project-web .project-details h4 {
+            font-size: 1.15em; }
+          main section#list-of-projects .project-container .project-flex .project.project-web .project-details ul,
+          main section#list-of-projects .project-container .project-flex .project.project-web .project-details p {
+            font-size: 0.9em;
+            line-height: 18px; }
+          main section#list-of-projects .project-container .project-flex .project.project-web .project-details ul.role {
+            margin-bottom: 3px; }
+          main section#list-of-projects .project-container .project-flex .project.project-web .project-details p.description::after {
+            margin: 15px 0;
+            width: 70px; }
 
 /*# sourceMappingURL=projects_page.css.map */
