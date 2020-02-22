@@ -23,5 +23,6 @@ $(document).scroll(function() {
     } else {
         $("#menu").removeClass("menu-on-scroll");
         $("#navigation").fadeIn();
+        hideNav = true;
     }
 });
