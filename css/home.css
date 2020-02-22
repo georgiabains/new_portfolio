@@ -81,36 +81,31 @@ main section#list-of-projects .project-container {
       main section#list-of-projects .project-container .project.project-web .project-details ul {
         margin: 0;
         padding: 0;
-        list-style: none; }
+        list-style: none;
+        line-height: 20px; }
         main section#list-of-projects .project-container .project.project-web .project-details ul li {
           display: inline-block; }
-        main section#list-of-projects .project-container .project.project-web .project-details ul.role::before {
-          content: "\f0ad"; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.role {
+          margin-bottom: 7px; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.role::before {
+            content: "\f0ad"; }
         main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
           content: "\f120"; }
-        main section#list-of-projects .project-container .project.project-web .project-details ul.role, main section#list-of-projects .project-container .project.project-web .project-details ul.languages {
-          margin: 5px 0;
-          font-size: 0.95em; }
-          main section#list-of-projects .project-container .project.project-web .project-details ul.role::before, main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
-            width: 20px;
-            margin-right: 2px;
-            font-family: FontAwesome;
-            display: inline-block; }
-          main section#list-of-projects .project-container .project.project-web .project-details ul.role li:not(:last-child)::after, main section#list-of-projects .project-container .project.project-web .project-details ul.languages li:not(:last-child)::after {
-            content: ","; }
-      main section#list-of-projects .project-container .project.project-web .project-details p:first-child {
-        margin-block-start: 0; }
-      main section#list-of-projects .project-container .project.project-web .project-details p:last-child {
-        margin-block-end: 0; }
-      main section#list-of-projects .project-container .project.project-web .project-details p.role::before {
-        content: "\f007"; }
-      main section#list-of-projects .project-container .project.project-web .project-details p.languages::before {
-        content: "\f120"; }
-      main section#list-of-projects .project-container .project.project-web .project-details p.role::before, main section#list-of-projects .project-container .project.project-web .project-details p.languages::before {
-        width: 20px;
-        margin-right: 10px;
-        font-family: FontAwesome;
-        display: inline-block; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.role::before, main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
+          width: 20px;
+          margin-right: 2px;
+          font-family: FontAwesome;
+          display: inline-block; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.role li:not(:last-child)::after, main section#list-of-projects .project-container .project.project-web .project-details ul.languages li:not(:last-child)::after {
+          content: ","; }
+      main section#list-of-projects .project-container .project.project-web .project-details p.description::after {
+        content: "";
+        display: block;
+        margin: 20px 0;
+        position: relative;
+        height: 1px;
+        width: 90px;
+        background: #eee; }
 
 main {
   top: 0;

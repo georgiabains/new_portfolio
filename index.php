@@ -11,6 +11,7 @@
         
         <div class="project-container">
         
+            <!-- Volaris Group Core -->
             <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
@@ -26,8 +27,7 @@
                         <li><a href="https://www.volarisgroup.com/" target="_blank">[site]</a></li>
                         <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
                     </ul>
-                    <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
-
+                    <p class="description">The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
                     <ul class="role">
                         <li>Web Development</li>
                     </ul>
@@ -41,6 +41,7 @@
                 </div>
             </div>
             
+            <!-- Experiential Learning -->
             <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
@@ -53,15 +54,26 @@
                 <div class="project-details">
                     <h4>Experiential Learning Modules &mdash; Website</h4>
                     <ul class="project-links">
-                        <li><a href="https://www.volarisgroup.com/" target="_blank">[site]</a></li>
+                        <li><a href="https://www.experientialmodules.utoronto.ca/" target="_blank">[site]</a></li>
                         <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                        <li><a href="https://github.com/georgiabains/experiential-learning" target="_blank">[code]</a></li>
                     </ul>
-                    <p>The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
-                    <p class="role">Web Design & Development</p>
-                    <p class="languages">CSS (SCSS), HTML, JavaScript, jQuery, PHP</p>
+                    <p class="description">The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
+                    <ul class="role">
+                        <li>Web Design</li>
+                        <li>Web Development</li>
+                    </ul>
+                    <ul class="languages">
+                        <li>CSS (SCSS)</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                    </ul>
                 </div>
             </div>
             
+            <!-- Open UToronto -->
             <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
@@ -73,12 +85,25 @@
                 </div>
                 <div class="project-details">
                     <h4>Open UToronto &mdash; Website</h4>
-                    <p>The core website for Open Projects at the University of Toronto.</p>
-                    <p class="role">Web Design & Development</p>
-                    <p class="languages">CSS, HTML, jQuery, PHP</p>
+                    <ul class="project-links">
+                        <li><a href="https://www.ocw.utoronto.ca/" target="_blank">[site]</a></li>
+                        <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                    </ul>
+                    <p class="description">The core website for Open Projects at the University of Toronto.</p>
+                    <ul class="role">
+                        <li>Web Design</li>
+                        <li>Web Development</li>
+                    </ul>
+                    <ul class="languages">
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                    </ul>
                 </div>
             </div>
             
+            <!-- Pomegranate Tumblr -->
             <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
@@ -90,12 +115,25 @@
                 </div>
                 <div class="project-details">
                     <h4>Pomegranate &mdash; Tumblr Theme</h4>
-                    <p>Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
-                    <p class="role">Web Design & Development</p>
-                    <p class="languages">CSS, HTML, jQuery</p>
+                    <ul class="project-links">
+                        <li><a href="https://pomegranate-theme.tumblr.com/" target="_blank">[site]</a></li>
+                        <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                        <li><a href="https://pastebin.com/Cd1eyVLB" target="_blank">[code]</a></li>
+                    </ul>
+                    <p class="description">Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
+                    <ul class="role">
+                        <li>Web Design</li>
+                        <li>Web Development</li>
+                    </ul>
+                    <ul class="languages">
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>jQuery</li>
+                    </ul>
                 </div>
             </div>
             
+            <!-- Spotlight Tumblr -->
             <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
@@ -107,9 +145,21 @@
                 </div>
                 <div class="project-details">
                     <h4>Spotlight &mdash; Tumblr Theme</h4>
-                    <p>Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
-                    <p class="role">Web Design & Development</p>
-                    <p class="languages">CSS, HTML, jQuery</p>
+                    <ul class="project-links">
+                        <li><a href="https://spotlight-theme.tumblr.com/" target="_blank">[site]</a></li>
+                        <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                        <li><a href="https://pastebin.com/PjTDvVmU" target="_blank">[code]</a></li>
+                    </ul>
+                    <p class="description">Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
+                    <ul class="role">
+                        <li>Web Design</li>
+                        <li>Web Development</li>
+                    </ul>
+                    <ul class="languages">
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>jQuery</li>
+                    </ul>
                 </div>
             </div>
                 
