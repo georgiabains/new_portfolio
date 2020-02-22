@@ -1,21 +1,7 @@
 @import "_base";
 
 main {
-    top: 0;
-    width: calc(75% - 80px);
-    margin-left: calc(25% + 40px);
-    padding: 40px 40px 40px 0;
-    section.roles {
-        h2 {
-            color: #848484;
-            display: inline-block;
-            &:not(:first-child) {
-                margin-left: 10px;
-            }
-        }
-    }
     section#list-of-projects {
-        margin-top: 50px;
         .projects-heading {
             padding: 20px 0;
             h3 {
@@ -26,7 +12,7 @@ main {
             }
         }
         .project-container {
-            width: 90%;
+            width: 100%;
             .project {
                 margin: 120px 0;
                 position: relative;

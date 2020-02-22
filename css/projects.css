@@ -37,71 +37,59 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: 0; }
 
-main {
-  top: 0;
-  width: calc(75% - 80px);
-  margin-left: calc(25% + 40px);
-  padding: 40px 40px 40px 0; }
-  main section.roles h2 {
-    color: #848484;
+main section#list-of-projects .projects-heading {
+  padding: 20px 0; }
+  main section#list-of-projects .projects-heading h3 {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 1.0em;
+    letter-spacing: 1px;
     display: inline-block; }
-    main section.roles h2:not(:first-child) {
-      margin-left: 10px; }
-  main section#list-of-projects {
-    margin-top: 50px; }
-    main section#list-of-projects .projects-heading {
-      padding: 20px 0; }
-      main section#list-of-projects .projects-heading h3 {
-        font-family: "Anonymous Pro", monospace;
-        font-size: 1.0em;
-        letter-spacing: 1px;
+main section#list-of-projects .project-container {
+  width: 100%; }
+  main section#list-of-projects .project-container .project {
+    margin: 120px 0;
+    position: relative; }
+    main section#list-of-projects .project-container .project:first-child {
+      margin: 20px 0 120px 0; }
+    main section#list-of-projects .project-container .project.project-web .project-thumbnail {
+      display: block; }
+      main section#list-of-projects .project-container .project.project-web .project-thumbnail img {
+        border: 1px solid #eee;
+        border-radius: 10px; }
+      main section#list-of-projects .project-container .project.project-web .project-thumbnail .desktop img {
+        width: 90%;
         display: inline-block; }
-    main section#list-of-projects .project-container {
-      width: 90%; }
-      main section#list-of-projects .project-container .project {
-        margin: 120px 0;
-        position: relative; }
-        main section#list-of-projects .project-container .project:first-child {
-          margin: 20px 0 120px 0; }
-        main section#list-of-projects .project-container .project.project-web .project-thumbnail {
-          display: block; }
-          main section#list-of-projects .project-container .project.project-web .project-thumbnail img {
-            border: 1px solid #eee;
-            border-radius: 10px; }
-          main section#list-of-projects .project-container .project.project-web .project-thumbnail .desktop img {
-            width: 90%;
-            display: inline-block; }
-          main section#list-of-projects .project-container .project.project-web .project-thumbnail .mobile {
-            position: absolute;
-            top: 80px;
-            right: 0px; }
-            main section#list-of-projects .project-container .project.project-web .project-thumbnail .mobile img {
-              height: 420px;
-              display: inline-block; }
-        main section#list-of-projects .project-container .project.project-web .project-details {
-          width: 55%;
-          margin: 20px 0;
-          padding: 20px 80px 20px 20px;
-          background: #fff;
-          border-bottom: 1px solid #eee;
-          border-left: 1px solid #eee;
-          border-bottom-left-radius: 7px; }
-          main section#list-of-projects .project-container .project.project-web .project-details h4 {
-            font-family: "Anonymous Pro", monospace;
-            font-size: 1.25em;
-            margin: 0.25em 0 0.75em 0; }
-          main section#list-of-projects .project-container .project.project-web .project-details p:first-child {
-            margin-block-start: 0; }
-          main section#list-of-projects .project-container .project.project-web .project-details p:last-child {
-            margin-block-end: 0; }
-          main section#list-of-projects .project-container .project.project-web .project-details p.role::before {
-            content: "\f007"; }
-          main section#list-of-projects .project-container .project.project-web .project-details p.languages::before {
-            content: "\f120"; }
-          main section#list-of-projects .project-container .project.project-web .project-details p.role::before, main section#list-of-projects .project-container .project.project-web .project-details p.languages::before {
-            width: 20px;
-            margin-right: 10px;
-            font-family: FontAwesome;
-            display: inline-block; }
+      main section#list-of-projects .project-container .project.project-web .project-thumbnail .mobile {
+        position: absolute;
+        top: 80px;
+        right: 0px; }
+        main section#list-of-projects .project-container .project.project-web .project-thumbnail .mobile img {
+          height: 420px;
+          display: inline-block; }
+    main section#list-of-projects .project-container .project.project-web .project-details {
+      width: 55%;
+      margin: 20px 0;
+      padding: 20px 80px 20px 20px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      border-left: 1px solid #eee;
+      border-bottom-left-radius: 7px; }
+      main section#list-of-projects .project-container .project.project-web .project-details h4 {
+        font-family: "Anonymous Pro", monospace;
+        font-size: 1.25em;
+        margin: 0.25em 0 0.75em 0; }
+      main section#list-of-projects .project-container .project.project-web .project-details p:first-child {
+        margin-block-start: 0; }
+      main section#list-of-projects .project-container .project.project-web .project-details p:last-child {
+        margin-block-end: 0; }
+      main section#list-of-projects .project-container .project.project-web .project-details p.role::before {
+        content: "\f007"; }
+      main section#list-of-projects .project-container .project.project-web .project-details p.languages::before {
+        content: "\f120"; }
+      main section#list-of-projects .project-container .project.project-web .project-details p.role::before, main section#list-of-projects .project-container .project.project-web .project-details p.languages::before {
+        width: 20px;
+        margin-right: 10px;
+        font-family: FontAwesome;
+        display: inline-block; }
 
 /*# sourceMappingURL=projects.css.map */

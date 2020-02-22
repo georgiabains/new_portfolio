@@ -22,6 +22,10 @@
                 </div>
                 <div class="project-details">
                     <h4>Volaris Group &mdash; Core Website</h4>
+                    <ul class="project-links">
+                        <li><a href="https://www.volarisgroup.com/" target="_blank">[site]</a></li>
+                        <li><a href="/projects-page.php">[project details]</a></li>
+                    </ul>
                     <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
                     <p class="role">Web Development</p>
                     <p class="languages">CSS (SCSS), HTML JavaScript, jQuery, PHP</p>

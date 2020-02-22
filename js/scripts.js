@@ -1,9 +1,9 @@
 var hideNav = true;
 
 $(document).ready(function () {
-    (function blink() { 
-      $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
-    })(); 
+    // (function blink() { 
+    //   $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
+    // })(); 
 
 	$("#menu").click(function() {
 		$("#navigation").fadeToggle();
