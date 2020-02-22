@@ -35,6 +35,66 @@
         <div class="project-container">
             <div class="project-flex">
         
+                <!-- Trapeze JoinUs -->
+                <div class="project project-web">
+                    <div class="project-thumbnail">
+                        <div class="desktop">
+                            <img src="img/projects/joinus/joinus_desktop_one.png">
+                        </div>
+                        <div class="mobile">
+                            <img src="img/projects/joinus/joinus_mobile_one.png">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Trapeze JoinUs &mdash; Landing Page</h4>
+                        <ul class="project-links">
+                            <li><a href="https://joinus.trapezegroup.com/" target="_blank">[site]</a></li>
+                            <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                        </ul>
+                        <p class="description">A landing page directed towards transit software companies detailing the opportunies present within Trapeze Group.</p>
+                        <ul class="role">
+                            <li>Web Development</li>
+                        </ul>
+                        <ul class="languages">
+                            <li>CSS (SCSS)</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Trapeze AV -->
+                <div class="project project-web">
+                    <div class="project-thumbnail">
+                        <div class="desktop">
+                            <img src="img/projects/trapeze_av/trapeze_av_desktop_one.png">
+                        </div>
+                        <div class="mobile">
+                            <img src="img/projects/trapeze_av/trapeze_av_mobile_one.png">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Trapeze Autonomous Vehicles &mdash; Landing Page</h4>
+                        <ul class="project-links">
+                            <li><a href="https://joinus.trapezegroup.com/av/" target="_blank">[site]</a></li>
+                            <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                        </ul>
+                        <p class="description">A landing page detailing the history and develepmental concerns of autonomous vehicles from an industry standpoint.</p>
+                        <ul class="role">
+                            <li>Web Development</li>
+                        </ul>
+                        <ul class="languages">
+                            <li>CSS (SCSS)</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <!-- Volaris Group Core -->
                 <div class="project project-web">
                     <div class="project-thumbnail">
@@ -61,60 +121,6 @@
                             <li>JavaScript</li>
                             <li>jQuery</li>
                             <li>PHP</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- AssetWorks Nurture -->
-                <div class="project project-web">
-                    <div class="project-thumbnail">
-                        <div class="desktop">
-                            <img src="img/projects/aw_nurture/aw_nurture_desktop_one.png">
-                        </div>
-                        <div class="mobile">
-                            <img src="img/projects/aw_nurture/aw_nurture_mobile_one.png">
-                        </div>
-                    </div>
-                    <div class="project-details">
-                        <h4>AssetWorks Nuture 2019 &mdash; Landing Page</h4>
-                        <ul class="project-links">
-                            <li><a href="https://www.volarisgroup.com/assetworks/assetworks-overview/">[site]</a></li>
-                            <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
-                        </ul>
-                        <p class="description">Short description of project goes here</p>
-                        <ul class="role">
-                            <li>Web Development</li>
-                        </ul>
-                        <ul class="languages">
-                            <li>CSS (SCSS)</li>
-                            <li>HTML</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- AssetWorks Nurture Volaris Branded -->
-                <div class="project project-web">
-                    <div class="project-thumbnail">
-                        <div class="desktop">
-                            <img src="img/projects/aw_nurture/vol/aw_nurture_vol_desktop_one.png">
-                        </div>
-                        <div class="mobile">
-                            <img src="img/projects/aw_nurture/vol/aw_nurture_vol_mobile_one.png">
-                        </div>
-                    </div>
-                    <div class="project-details">
-                        <h4>AssetWorks Nuture 2019 (Volaris Branded) &mdash; Landing Page</h4>
-                        <ul class="site-links">
-                            <li><a href="https://www.volarisgroup.com/assetworks/volaris-overview/">[site]</a></li>
-                            <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
-                        </ul>
-                        <p class="description">Short description of project goes here</p>
-                        <ul class="role">
-                            <li>Web Development</li>
-                        </ul>
-                        <ul class="languages">
-                            <li>CSS (SCSS)</li>
-                            <li>HTML</li>
                         </ul>
                     </div>
                 </div>
