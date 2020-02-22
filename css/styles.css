@@ -268,6 +268,26 @@ main section#list-of-projects .project-container {
         font-family: "Anonymous Pro", monospace;
         font-size: 1.25em;
         margin: 0.25em 0 0.75em 0; }
+      main section#list-of-projects .project-container .project.project-web .project-details ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul li {
+          display: inline-block; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.role::before {
+          content: "\f0ad"; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
+          content: "\f120"; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.role, main section#list-of-projects .project-container .project.project-web .project-details ul.languages {
+          margin: 5px 0;
+          font-size: 0.95em; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.role::before, main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
+            width: 20px;
+            margin-right: 2px;
+            font-family: FontAwesome;
+            display: inline-block; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.role li:not(:last-child)::after, main section#list-of-projects .project-container .project.project-web .project-details ul.languages li:not(:last-child)::after {
+            content: ","; }
       main section#list-of-projects .project-container .project.project-web .project-details p:first-child {
         margin-block-start: 0; }
       main section#list-of-projects .project-container .project.project-web .project-details p:last-child {

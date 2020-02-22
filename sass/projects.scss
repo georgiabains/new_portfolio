@@ -55,6 +55,42 @@ main {
                             font-size: 1.25em;
                             margin: 0.25em 0 0.75em 0;
                         }
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+                            li {
+                                display: inline-block;
+                            }
+                            &.role {
+                                &::before {
+                                    content: "\f0ad";
+                                }
+                            }
+                            &.languages {
+                                &::before {
+                                    content: "\f120";   
+                                }
+                            }
+                            &.role, 
+                            &.languages {
+                                margin: 5px 0;
+                                font-size: 0.95em;
+                                &::before {
+                                    width: 20px;
+                                    margin-right: 2px;
+                                    font-family: FontAwesome;
+                                    display: inline-block;
+                                }
+                                li {
+                                    &:not(:last-child) {
+                                        &::after {
+                                            content: ",";
+                                        }
+                                    }
+                                }
+                            }
+                        }
                         p {
                             &:first-child {
                                 margin-block-start: 0;

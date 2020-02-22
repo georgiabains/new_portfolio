@@ -24,11 +24,20 @@
                     <h4>Volaris Group &mdash; Core Website</h4>
                     <ul class="project-links">
                         <li><a href="https://www.volarisgroup.com/" target="_blank">[site]</a></li>
-                        <li><a href="/projects-page.php">[project details]</a></li>
+                        <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
                     </ul>
                     <p>The core website for the company Volaris Group, a company dedicated to acquiring and holding onto its child companies.</p>
-                    <p class="role">Web Development</p>
-                    <p class="languages">CSS (SCSS), HTML JavaScript, jQuery, PHP</p>
+
+                    <ul class="role">
+                        <li>Web Development</li>
+                    </ul>
+                    <ul class="languages">
+                        <li>CSS (SCSS)</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                    </ul>
                 </div>
             </div>
             
@@ -43,6 +52,10 @@
                 </div>
                 <div class="project-details">
                     <h4>Experiential Learning Modules &mdash; Website</h4>
+                    <ul class="project-links">
+                        <li><a href="https://www.volarisgroup.com/" target="_blank">[site]</a></li>
+                        <li><a href="/portfolio_new/projects-page.php">[project details]</a></li>
+                    </ul>
                     <p>The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
                     <p class="role">Web Design & Development</p>
                     <p class="languages">CSS (SCSS), HTML, JavaScript, jQuery, PHP</p>
