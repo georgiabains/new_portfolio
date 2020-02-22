@@ -31,14 +31,28 @@ header {
     }
     nav {
         top: 62px;
-        right: 50px;
-        padding: 3px 7px;
+        right: 25px;
         position: fixed;
-        background: white;
         z-index: 2;
-        ul {
-            margin: 0;
+        button#menu {
+            top: 68px;
+            right: 30px;
             padding: 0;
+            position: fixed;
+            color: #ccc;
+            border: none;
+            font-size: 1.05em;
+        }
+        .menu-on-scroll {
+            color: #222 !important;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        ul {
+            margin: 0 40px 0 0;
+            padding: 3px 7px;
+            background: white;
             font-size: 1.25em;
             line-height: 1.3em;
             list-style: none;
@@ -48,9 +62,22 @@ header {
                 &:not(:last-child) {
                     margin-right: 15px;
                 }
+                &:last-child {
+                    margin-right: 7px;
+                }
                 a {
                     color: #444;
                 }
+            }
+            &::after {
+                content: "";
+                margin-top: -12px;
+                right: 18px;
+                position: absolute;
+                display: block;
+                height: 1px;
+                background: #ccc;
+                width: 30px;
             }
         }
     }

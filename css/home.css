@@ -145,9 +145,9 @@ main {
 
 main {
   top: 0;
-  width: calc(75% - 90px);
+  width: calc(75% - 103px);
   margin-left: calc(25% + 30px);
-  padding: 0 40px 50px 0; }
+  padding: 0 53px 50px 0; }
   main section#list-of-projects {
     margin-top: 20px; }
     main section#list-of-projects .projects-heading {

@@ -9,7 +9,10 @@
     </ul>
     
     <nav>
-        <ul class="navi">
+    	<button id="menu">
+        	<i class="fa fa-cog"></i>
+        </button>
+        <ul id="navigation">
             <li><a href="about.php">about</a></li>
             <li><a href="projects.php">work</a></li>
         </ul>

@@ -104,14 +104,25 @@ header {
         color: #848484; }
   header nav {
     top: 62px;
-    right: 50px;
-    padding: 3px 7px;
+    right: 25px;
     position: fixed;
-    background: white;
     z-index: 2; }
-    header nav ul {
-      margin: 0;
+    header nav button#menu {
+      top: 68px;
+      right: 30px;
       padding: 0;
+      position: fixed;
+      color: #ccc;
+      border: none;
+      font-size: 1.05em; }
+    header nav .menu-on-scroll {
+      color: #222 !important; }
+      header nav .menu-on-scroll:hover {
+        cursor: pointer; }
+    header nav ul {
+      margin: 0 40px 0 0;
+      padding: 3px 7px;
+      background: white;
       font-size: 1.25em;
       line-height: 1.3em;
       list-style: none; }
@@ -120,8 +131,19 @@ header {
         display: inline-block; }
         header nav ul li:not(:last-child) {
           margin-right: 15px; }
+        header nav ul li:last-child {
+          margin-right: 7px; }
         header nav ul li a {
           color: #444; }
+      header nav ul::after {
+        content: "";
+        margin-top: -12px;
+        right: 18px;
+        position: absolute;
+        display: block;
+        height: 1px;
+        background: #ccc;
+        width: 30px; }
 
 footer {
   width: calc(25% - 80px);
@@ -274,9 +296,9 @@ main {
 
 main {
   top: 0;
-  width: calc(75% - 90px);
+  width: calc(75% - 103px);
   margin-left: calc(25% + 30px);
-  padding: 0 40px 50px 0; }
+  padding: 0 53px 50px 0; }
   main section#list-of-projects {
     margin-top: 20px; }
     main section#list-of-projects .projects-heading {
