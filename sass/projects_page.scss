@@ -14,6 +14,18 @@ main {
     width: calc(100% - 110px);
     padding: 0 70px 0 40px;
     section#list-of-projects {
+    	.projects-heading {
+    		ul.projects-nav {
+    			margin: 0;
+    			padding: 0;
+    			list-style: none;
+    			display: inline-block;
+    			li {
+    				margin: 0 4px;
+    				display: inline-block;
+    			}
+    		}
+    	}
         .project-container {
             width: 100%;
             margin: 0 auto;
