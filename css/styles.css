@@ -202,18 +202,18 @@ header {
         cursor: pointer; }
     header nav ul {
       margin: 0 40px 0 0;
-      padding: 3px 7px;
+      padding: 2px 7px;
       background: white;
       font-size: 1.25em;
       line-height: 1.3em;
-      list-style: none; }
+      list-style: none;
+      border-radius: 5px;
+      border: 1px solid transparent; }
       header nav ul li {
         line-height: 24px;
         display: inline-block; }
         header nav ul li:not(:last-child) {
           margin-right: 15px; }
-        header nav ul li:last-child {
-          margin-right: 7px; }
         header nav ul li a {
           margin: 0;
           color: #444; }
@@ -226,8 +226,10 @@ header {
         position: absolute;
         display: block;
         height: 1px;
-        background: #ccc;
-        width: 30px; }
+        background: #eee;
+        width: 23px; }
+    header nav .nav-on-click {
+      border: 1px solid #eee; }
 
 footer {
   width: calc(100% - 80px);

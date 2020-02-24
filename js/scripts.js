@@ -6,6 +6,7 @@ $(document).ready(function () {
     // })(); 
 
 	$("#menu").click(function() {
+        $("#navigation").toggleClass("nav-on-click");
 		$("#navigation").fadeToggle();
 		hideNav = false;
 	});
@@ -18,11 +19,13 @@ $(document).scroll(function() {
     if (scrollLoc > 20) {
         $("#menu").addClass("menu-on-scroll");
         if (hideNav) {
+            $("#navigation").removeClass("nav-on-click");
         	$("#navigation").fadeOut();
         }
     } else {
         $("#menu").removeClass("menu-on-scroll");
         $("#navigation").fadeIn();
+        $("#navigation").removeClass("nav-on-click");
         hideNav = true;
     }
 });
