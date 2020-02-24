@@ -1,7 +1,24 @@
 footer {
-  width: calc(25% - 80px);
+  width: calc(100% - 80px);
   bottom: 0;
   left: 0;
-  padding: 30px 40px; }
+  padding: 0 40px 30px 40px; }
+  footer .footer-content {
+    display: flex;
+    flex-wrap: wrap; }
+    footer .footer-content .footer-copyright {
+      width: calc(25% + 10px); }
+    footer .footer-content .footer-on-scroll ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      footer .footer-content .footer-on-scroll ul li {
+        margin: 0 5px;
+        margin-block-start: 1.0em;
+        margin-block-end: 1.0em;
+        line-height: 20px;
+        display: inline-block; }
+        footer .footer-content .footer-on-scroll ul li:first-child {
+          margin: 0 5px 0 0; }
 
 /*# sourceMappingURL=footer.css.map */

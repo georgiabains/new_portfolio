@@ -115,6 +115,10 @@ main section#list-of-projects .project-container {
         line-height: 20px; }
         main section#list-of-projects .project-container .project.project-web .project-details ul li {
           display: inline-block; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li {
+          margin: 0 2px; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li:first-child {
+            margin: 0 2px 0 0; }
         main section#list-of-projects .project-container .project.project-web .project-details ul.role {
           margin-bottom: 7px; }
           main section#list-of-projects .project-container .project.project-web .project-details ul.role::before {

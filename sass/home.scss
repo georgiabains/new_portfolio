@@ -4,15 +4,29 @@ main {
     top: 0;
     width: calc(75% - 103px);
     margin-left: calc(25% + 30px);
-    padding: 0 53px 50px 0;
+    padding: 0 53px 0 0;
     section#list-of-projects {
         margin-top: 20px;
         .projects-heading {
             padding: 0 0 20px 0;
-        }    
+        }  
+        .project-container {
+            .project {
+                &:last-child {
+                    margin: 120px 0 60px 0;
+                }
+            }
+        }  
     }
 }
 
 footer {
-    position: fixed;
+    .footer-content {
+        .footer-copyright {
+            p {
+                bottom: 30px;
+                position: fixed;
+            }
+        }
+    }
 }

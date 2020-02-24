@@ -64,6 +64,14 @@ main {
                             li {
                                 display: inline-block;
                             }
+                            &.project-links {
+                                li {
+                                    margin: 0 2px;
+                                    &:first-child {
+                                        margin: 0 2px 0 0;
+                                    }
+                                }
+                            }
                             &.role {
                                 margin-bottom: 7px;
                                 &::before {
