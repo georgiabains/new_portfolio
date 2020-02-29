@@ -1,4 +1,15 @@
-section {
+section.project-page-details {
 	margin-top: 20px;
 	min-height: calc(100vh - 219px);
+
+	h3 {
+		margin: 0.7em 0;
+		font-family: $body;
+		font-size: 1.15em;
+		letter-spacing: 1px;
+	}
+
+	img {
+		margin: 40px 0;
+	}
 }
