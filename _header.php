@@ -2,11 +2,15 @@
 
     <h1 class="main-title"><a href="/portfolio_new/">Georgia Bains.</a></h1>
 
-    <ul class="roles">
-        <!-- <li><h2>Web Developer.</h2></li>
-        <li><h2>Game Developer.</h2></li> -->
-        <li><h2>Software Developer.</h2></li>
-    </ul>
+    <!-- <ul id="roles">
+        <li><h2>Web Developer</h2></li>
+        <li><h2>Software Developer</h2></li>
+        <li><h2>Game Developer</h2></li>
+    </ul> -->
+
+    <div class="roles">
+        <h2>Web Developer</h2>
+    </div>
     
     <nav>
     	<button id="menu">

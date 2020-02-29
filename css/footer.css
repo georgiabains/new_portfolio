@@ -8,17 +8,21 @@ footer {
     flex-wrap: wrap; }
     footer .footer-content .footer-copyright {
       width: calc(25% + 10px); }
-    footer .footer-content .footer-on-scroll ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      footer .footer-content .footer-on-scroll ul li {
-        margin: 0 5px;
-        margin-block-start: 1.0em;
-        margin-block-end: 1.0em;
-        line-height: 20px;
-        display: inline-block; }
-        footer .footer-content .footer-on-scroll ul li:first-child {
-          margin: 0 5px 0 0; }
+    footer .footer-content .footer-on-scroll {
+      width: calc(75% - 33px);
+      text-align: right; }
+      footer .footer-content .footer-on-scroll ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: right; }
+        footer .footer-content .footer-on-scroll ul li {
+          margin: 0 5px;
+          margin-block-start: 1.0em;
+          margin-block-end: 1.0em;
+          line-height: 20px;
+          display: inline-block; }
+          footer .footer-content .footer-on-scroll ul li:first-child {
+            margin: 0 5px 0 0; }
 
 /*# sourceMappingURL=footer.css.map */

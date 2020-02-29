@@ -10,6 +10,9 @@ body {
   background: #fff;
   overflow-x: hidden; }
 
+img {
+  max-width: 100%; }
+
 p {
   margin-block-start: 1.0em;
   margin-block-end: 1.0em;
@@ -172,17 +175,13 @@ header {
         text-decoration: none; }
       header h1.main-title a::before, header h1.main-title a::after {
         content: ""; }
-  header ul.roles {
+  header .roles {
     margin: 25px 0 0 calc(25% + 6px);
     padding: 0;
     position: relative; }
-    header ul.roles li {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      header ul.roles li h2 {
-        font-size: 1.5em;
-        color: #848484; }
+    header .roles h2 {
+      font-size: 1.5em;
+      color: #848484; }
   header nav {
     top: 62px;
     right: 25px;
@@ -201,7 +200,7 @@ header {
       header nav .menu-on-scroll:hover {
         cursor: pointer; }
     header nav ul {
-      margin: 0 40px 0 0;
+      margin: 0 47px 0 0;
       padding: 2px 7px;
       background: white;
       font-size: 1.25em;
@@ -227,7 +226,7 @@ header {
         display: block;
         height: 1px;
         background: #eee;
-        width: 23px; }
+        width: 30px; }
     header nav .nav-on-click {
       border: 1px solid #eee; }
 
@@ -241,20 +240,28 @@ footer {
     flex-wrap: wrap; }
     footer .footer-content .footer-copyright {
       width: calc(25% + 10px); }
-    footer .footer-content .footer-on-scroll ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      footer .footer-content .footer-on-scroll ul li {
-        margin: 0 5px;
-        margin-block-start: 1.0em;
-        margin-block-end: 1.0em;
-        line-height: 20px;
-        display: inline-block; }
-        footer .footer-content .footer-on-scroll ul li:first-child {
-          margin: 0 5px 0 0; }
+    footer .footer-content .footer-on-scroll {
+      width: calc(75% - 33px);
+      text-align: right; }
+      footer .footer-content .footer-on-scroll ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: right; }
+        footer .footer-content .footer-on-scroll ul li {
+          margin: 0 5px;
+          margin-block-start: 1.0em;
+          margin-block-end: 1.0em;
+          line-height: 20px;
+          display: inline-block; }
+          footer .footer-content .footer-on-scroll ul li:first-child {
+            margin: 0 5px 0 0; }
 
 main section.about {
+  margin-top: 20px;
+  min-height: calc(100vh - 219px); }
+
+section {
   margin-top: 20px;
   min-height: calc(100vh - 219px); }
 

@@ -1,15 +1,20 @@
-var hideNav = true;
+/* jQuery */
+var hideNav = false;
 
 $(document).ready(function () {
-    // (function blink() { 
-    //   $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
-    // })(); 
+    (function blink() { 
+      $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
+    })(); 
 
 	$("#menu").click(function() {
         $("#navigation").toggleClass("nav-on-click");
-		$("#navigation").fadeToggle();
-		hideNav = false;
-	});
+        $("#navigation").fadeToggle();
+        hideNav = false;
+    });
+
+    // test();
+
+    typeWriter("test");
 
 });
 

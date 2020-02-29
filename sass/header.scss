@@ -18,18 +18,13 @@ header {
             }
         }
     }
-    ul.roles {
+    .roles {
         margin: 25px 0 0 calc(25% + 6px);
         padding: 0;
         position: relative;
-        li {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            h2 {
-                font-size: 1.5em;
-                color: #848484;
-            }
+        h2 {
+            font-size: 1.5em;
+            color: #848484;
         }
     }
     nav {
@@ -53,7 +48,7 @@ header {
             }
         }
         ul {
-            margin: 0 40px 0 0;
+            margin: 0 47px 0 0;
             padding: 2px 7px;
             background: white;
             font-size: 1.25em;
@@ -84,7 +79,7 @@ header {
                 display: block;
                 height: 1px;
                 background: #eee;
-                width: 23px;
+                width: 30px;
             }
         }
         .nav-on-click {

@@ -10,10 +10,13 @@ footer {
     		width: calc(25% + 10px);
     	}
     	.footer-on-scroll {
+            width: calc(75% - 33px);
+            text-align: right;
     		ul {
     			margin: 0;
     			padding: 0;
     			list-style: none;
+                text-align: right;
     			li {
     				margin: 0 5px;
     				margin-block-start: 1.0em;
