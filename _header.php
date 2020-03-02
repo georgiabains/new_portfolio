@@ -22,4 +22,10 @@
         </ul>
     </nav>
 
+    <div id="roles-on-scroll">
+        <ul>
+            <li>I make websites, games & software</li>
+        </ul>
+    </div>
+
 </header>

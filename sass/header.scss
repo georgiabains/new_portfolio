@@ -1,3 +1,5 @@
+@import "_base";
+
 header {
     top: 0;
     left: 0;
@@ -24,6 +26,7 @@ header {
         position: relative;
         h2 {
             font-size: 1.5em;
+            text-transform: lowercase;
             color: #848484;
         }
     }
@@ -86,5 +89,27 @@ header {
             border: 1px solid #eee;
         }
     }
-    
+    #roles-on-scroll {
+        width: 210px;
+        top: calc(50% - 50px);
+        left: calc(25% - 276px);
+        position: fixed;
+        padding: 10px 10px 10px 30px;
+        border-right: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        border-bottom-right-radius: 10px;
+        display: none;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: right;
+            li {
+                font-size: 1.5em;
+                font-family: $heading;
+                text-transform: lowercase;
+                color: #848484;
+            }
+        }
+    }
 }

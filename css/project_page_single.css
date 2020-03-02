@@ -2,7 +2,7 @@
 Error: Undefined variable: "$body".
         on line 7 of /Users/georgiabains/Sites/portfolio_new/sass/project_page_single.scss
 
-2: 	margin-top: 20px;
+2: 	margin: 20px 0 60px;
 3: 	min-height: calc(100vh - 219px);
 4: 
 5: 	h3 {
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body\".\A         on line 7 of /Users/georgiabains/Sites/portfolio_new/sass/project_page_single.scss\A \A 2: 	margin-top: 20px;\A 3: 	min-height: calc(100vh - 219px);\A 4: \A 5: 	h3 {\A 6: 		margin: 0.7em 0;\A 7: 		font-family: $body;\A 8: 		font-size: 1.15em;\A 9: 		letter-spacing: 1px;\A 10: 	}\A 11: \A 12: 	img {"; }
+  content: "Error: Undefined variable: \"$body\".\A         on line 7 of /Users/georgiabains/Sites/portfolio_new/sass/project_page_single.scss\A \A 2: 	margin: 20px 0 60px;\A 3: 	min-height: calc(100vh - 219px);\A 4: \A 5: 	h3 {\A 6: 		margin: 0.7em 0;\A 7: 		font-family: $body;\A 8: 		font-size: 1.15em;\A 9: 		letter-spacing: 1px;\A 10: 	}\A 11: \A 12: 	img {"; }

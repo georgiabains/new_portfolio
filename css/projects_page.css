@@ -1,101 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro|Quicksand:400,700&display=swap");
-header {
-  top: 0;
-  left: 0;
-  width: calc(100% - 70px);
-  padding: 35px 30px 30px 40px; }
-  header h1.main-title {
-    position: fixed;
-    margin: 0.1em 0; }
-    header h1.main-title a {
-      margin: 0;
-      color: #222; }
-      header h1.main-title a:hover {
-        text-decoration: none; }
-      header h1.main-title a::before, header h1.main-title a::after {
-        content: ""; }
-  header .roles {
-    margin: 25px 0 0 calc(25% + 6px);
-    padding: 0;
-    position: relative; }
-    header .roles h2 {
-      font-size: 1.5em;
-      color: #848484; }
-  header nav {
-    top: 62px;
-    right: 25px;
-    position: fixed;
-    z-index: 2; }
-    header nav button#menu {
-      top: 68px;
-      right: 30px;
-      padding: 0;
-      position: fixed;
-      color: #ccc;
-      border: none;
-      font-size: 1.05em; }
-    header nav .menu-on-scroll {
-      color: #222 !important; }
-      header nav .menu-on-scroll:hover {
-        cursor: pointer; }
-    header nav ul {
-      margin: 0 47px 0 0;
-      padding: 2px 7px;
-      background: white;
-      font-size: 1.25em;
-      line-height: 1.3em;
-      list-style: none;
-      border-radius: 5px;
-      border: 1px solid transparent; }
-      header nav ul li {
-        line-height: 24px;
-        display: inline-block; }
-        header nav ul li:not(:last-child) {
-          margin-right: 15px; }
-        header nav ul li a {
-          margin: 0;
-          color: #444; }
-          header nav ul li a::before, header nav ul li a::after {
-            content: ""; }
-      header nav ul::after {
-        content: "";
-        margin-top: -12px;
-        right: 18px;
-        position: absolute;
-        display: block;
-        height: 1px;
-        background: #eee;
-        width: 30px; }
-    header nav .nav-on-click {
-      border: 1px solid #eee; }
-
-footer {
-  width: calc(100% - 80px);
-  bottom: 0;
-  left: 0;
-  padding: 0 40px 30px 40px; }
-  footer .footer-content {
-    display: flex;
-    flex-wrap: wrap; }
-    footer .footer-content .footer-copyright {
-      width: calc(25% + 10px); }
-    footer .footer-content .footer-on-scroll {
-      width: calc(75% - 33px);
-      text-align: right; }
-      footer .footer-content .footer-on-scroll ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        text-align: right; }
-        footer .footer-content .footer-on-scroll ul li {
-          margin: 0 5px;
-          margin-block-start: 1.0em;
-          margin-block-end: 1.0em;
-          line-height: 20px;
-          display: inline-block; }
-          footer .footer-content .footer-on-scroll ul li:first-child {
-            margin: 0 5px 0 0; }
-
+@import url("https://fonts.googleapis.com/css?family=Anonymous Pro|Quicksand:400,700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -154,7 +58,7 @@ h1 {
   font-size: 3.0em; }
 
 h2 {
-  font-size: 2.5em; }
+  font-size: 2.25em; }
 
 h3 {
   font-size: 1.7em; }
@@ -240,6 +144,194 @@ main section#list-of-projects .project-container {
         height: 1px;
         width: 90px;
         background: #eee; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #222;
+  background: #fff;
+  overflow-x: hidden; }
+
+img {
+  max-width: 100%; }
+
+p {
+  margin-block-start: 1.0em;
+  margin-block-end: 1.0em;
+  line-height: 20px; }
+
+a {
+  margin: 0 6px 0 8px;
+  color: #328D7C;
+  text-decoration: underline transparent; }
+  a:hover {
+    text-decoration: underline; }
+    a:hover::before, a:hover::after {
+      -moz-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s; }
+    a:hover::before {
+      -webkit-transform: translateX(-14px);
+      -moz-transform: translateX(-14px);
+      transform: translateX(-14px); }
+    a:hover::after {
+      -webkit-transform: translateX(4px);
+      -moz-transform: translateX(4px);
+      transform: translateX(4px); }
+  a::before, a::after {
+    position: absolute;
+    display: inline-block;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s; }
+  a::before {
+    content: "[";
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    transform: translateX(-10px); }
+  a::after {
+    content: "]";
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px); }
+
+h1 {
+  font-size: 3.0em; }
+
+h2 {
+  font-size: 2.25em; }
+
+h3 {
+  font-size: 1.7em; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0; }
+
+header {
+  top: 0;
+  left: 0;
+  width: calc(100% - 70px);
+  padding: 35px 30px 30px 40px; }
+  header h1.main-title {
+    position: fixed;
+    margin: 0.1em 0; }
+    header h1.main-title a {
+      margin: 0;
+      color: #222; }
+      header h1.main-title a:hover {
+        text-decoration: none; }
+      header h1.main-title a::before, header h1.main-title a::after {
+        content: ""; }
+  header .roles {
+    margin: 25px 0 0 calc(25% + 6px);
+    padding: 0;
+    position: relative; }
+    header .roles h2 {
+      font-size: 1.5em;
+      text-transform: lowercase;
+      color: #848484; }
+  header nav {
+    top: 62px;
+    right: 25px;
+    position: fixed;
+    z-index: 2; }
+    header nav button#menu {
+      top: 68px;
+      right: 30px;
+      padding: 0;
+      position: fixed;
+      color: #ccc;
+      border: none;
+      font-size: 1.05em; }
+    header nav .menu-on-scroll {
+      color: #222 !important; }
+      header nav .menu-on-scroll:hover {
+        cursor: pointer; }
+    header nav ul {
+      margin: 0 47px 0 0;
+      padding: 2px 7px;
+      background: white;
+      font-size: 1.25em;
+      line-height: 1.3em;
+      list-style: none;
+      border-radius: 5px;
+      border: 1px solid transparent; }
+      header nav ul li {
+        line-height: 24px;
+        display: inline-block; }
+        header nav ul li:not(:last-child) {
+          margin-right: 15px; }
+        header nav ul li a {
+          margin: 0;
+          color: #444; }
+          header nav ul li a::before, header nav ul li a::after {
+            content: ""; }
+      header nav ul::after {
+        content: "";
+        margin-top: -12px;
+        right: 18px;
+        position: absolute;
+        display: block;
+        height: 1px;
+        background: #eee;
+        width: 30px; }
+    header nav .nav-on-click {
+      border: 1px solid #eee; }
+  header #roles-on-scroll {
+    width: 210px;
+    top: calc(50% - 50px);
+    left: calc(25% - 276px);
+    position: fixed;
+    padding: 10px 10px 10px 30px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-bottom-right-radius: 10px;
+    display: none; }
+    header #roles-on-scroll ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: right; }
+      header #roles-on-scroll ul li {
+        font-size: 1.5em;
+        font-family: "Quicksand", sans-serif;
+        text-transform: lowercase;
+        color: #848484; }
+
+footer {
+  width: calc(100% - 80px);
+  bottom: 0;
+  left: 0;
+  padding: 0 40px 30px 40px; }
+  footer .footer-content {
+    display: flex;
+    flex-wrap: wrap; }
+    footer .footer-content .footer-copyright {
+      width: calc(25% + 10px); }
+    footer .footer-content .footer-on-scroll {
+      width: calc(75% - 33px);
+      text-align: right; }
+      footer .footer-content .footer-on-scroll ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: right; }
+        footer .footer-content .footer-on-scroll ul li {
+          margin: 0 5px;
+          margin-block-start: 1.0em;
+          margin-block-end: 1.0em;
+          line-height: 20px;
+          display: inline-block; }
+          footer .footer-content .footer-on-scroll ul li:first-child {
+            margin: 0 5px 0 0; }
 
 header h1.main-title {
   position: absolute; }

@@ -22,10 +22,17 @@ $(document).scroll(function() {
             $("#navigation").removeClass("nav-on-click");
         	$("#navigation").fadeOut();
         }
+        
     } else {
         $("#menu").removeClass("menu-on-scroll");
         $("#navigation").fadeIn();
         $("#navigation").removeClass("nav-on-click");
         hideNav = true;
+    }
+
+    if (scrollLoc > 200) {
+        $("#roles-on-scroll").fadeIn();
+    } else {
+        $("#roles-on-scroll").fadeOut();
     }
 });
