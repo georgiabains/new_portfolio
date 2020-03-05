@@ -11,6 +11,11 @@ $(document).ready(function () {
         $("#navigation").fadeToggle();
         hideNav = false;
     });
+
+    $("#hamburger-menu").click(function() {
+        $("#navigation-menu").toggleClass("navigation-menu-on-click");
+        $("#hamburger-menu").toggleClass("hamburger-on-click");
+    })
 });
 
 $(document).scroll(function() {
