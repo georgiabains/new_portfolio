@@ -15,6 +15,7 @@ $(document).ready(function () {
     $("#hamburger-menu").click(function() {
         $("#navigation-menu").toggleClass("navigation-menu-on-click");
         $("#hamburger-menu").toggleClass("hamburger-on-click");
+        $("#hamburger-menu").toggleClass("open");
     });
 });
 
