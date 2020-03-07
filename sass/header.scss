@@ -35,7 +35,7 @@ header {
         right: 0;
         position: absolute;
         button#hamburger-menu {
-            top: 52px;
+            top: 57px;
             right: 28px;
             padding: 0;
             border: none;
@@ -184,87 +184,5 @@ header {
             }
         }
         
-    }
-    // nav {
-    //     top: 62px;
-    //     right: 25px;
-    //     position: fixed;
-    //     z-index: 2;
-    //     button#menu {
-    //         top: 68px;
-    //         right: 30px;
-    //         padding: 0;
-    //         position: fixed;
-    //         color: #ccc;
-    //         border: none;
-    //         font-size: 1.05em;
-    //     }
-    //     .menu-on-scroll {
-    //         color: #222 !important;
-    //         &:hover {
-    //             cursor: pointer;
-    //         }
-    //     }
-    //     ul {
-    //         margin: 0 47px 0 0;
-    //         padding: 2px 7px;
-    //         background: white;
-    //         font-size: 1.25em;
-    //         line-height: 1.3em;
-    //         list-style: none;
-    //         border-radius: 5px;
-    //         border: 1px solid transparent;
-    //         li {
-    //             line-height: 24px;
-    //             display: inline-block;
-    //             &:not(:last-child) {
-    //                 margin-right: 15px;
-    //             }
-    //             a {
-    //                 margin: 0;
-    //                 color: #444;
-    //                 &::before,
-    //                 &::after {
-    //                     content: "";
-    //                 }
-    //             }
-    //         }
-    //         &::after {
-    //             content: "";
-    //             margin-top: -12px;
-    //             right: 18px;
-    //             position: absolute;
-    //             display: block;
-    //             height: 1px;
-    //             background: #eee;
-    //             width: 30px;
-    //         }
-    //     }
-    //     .nav-on-click {
-    //         border: 1px solid #eee;
-    //     }
-    // }
-    #roles-on-scroll {
-        width: 210px;
-        top: calc(50% - 50px);
-        left: calc(25% - 276px);
-        position: fixed;
-        padding: 10px 10px 10px 30px;
-        border-right: 1px solid #eee;
-        border-bottom: 1px solid #eee;
-        border-bottom-right-radius: 10px;
-        display: none;
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            text-align: right;
-            li {
-                font-size: 1.5em;
-                font-family: $heading;
-                text-transform: lowercase;
-                color: #848484;
-            }
-        }
     }
 }

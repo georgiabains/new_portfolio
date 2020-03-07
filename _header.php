@@ -2,14 +2,13 @@
 
     <h1 class="main-title"><a href="/portfolio_new/">Georgia Bains.</a></h1>
 
-    <!-- <ul id="roles">
-        <li><h2>Web Developer</h2></li>
-        <li><h2>Software Developer</h2></li>
-        <li><h2>Game Developer</h2></li>
-    </ul> -->
-
     <div class="roles">
-        <h2>Web Developer</h2>
+        <h2>
+            <span
+                class="txt-rotate"
+                data-period="3750"
+                data-rotate='[ "Web", "Game", "Software" ]'></span><span class="blinking-underscore">_</span> Developer
+        </h2>
     </div>
 
     <div class="hamburger-container">
@@ -37,26 +36,10 @@
                 <li><a href="projects.php">software</a></li>
             </ul>
             <ul class="social">
-                <li><a href="https://github.com/georgiabains" target="_blank"><i class="fa fa-github-square"></i></a></li>
+                <li><a href="https://github.com/georgiabains" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/georgia-bains/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
         </div>
     </div>
-    
-    <!-- <nav>
-    	<button id="menu">
-        	<i class="fa fa-cog"></i>
-        </button>
-        <ul id="navigation">
-            <li><a href="about.php">about</a></li>
-            <li><a href="projects.php">projects</a></li>
-        </ul>
-    </nav>
-
-    <div id="roles-on-scroll">
-        <ul>
-            <li>I make websites, games & software</li>
-        </ul>
-    </div> -->
 
 </header>

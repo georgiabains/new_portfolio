@@ -243,7 +243,7 @@ header {
     right: 0;
     position: absolute; }
     header .hamburger-container button#hamburger-menu {
-      top: 52px;
+      top: 57px;
       right: 28px;
       padding: 0;
       border: none;
@@ -362,26 +362,6 @@ header {
         -moz-transition-duration: 0.4s;
         -webkit-transition-duration: 0.4s;
         -o-transition-duration: 0.4s; }
-  header #roles-on-scroll {
-    width: 210px;
-    top: calc(50% - 50px);
-    left: calc(25% - 276px);
-    position: fixed;
-    padding: 10px 10px 10px 30px;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-bottom-right-radius: 10px;
-    display: none; }
-    header #roles-on-scroll ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-align: right; }
-      header #roles-on-scroll ul li {
-        font-size: 1.5em;
-        font-family: "Quicksand", sans-serif;
-        text-transform: lowercase;
-        color: #848484; }
 
 footer {
   width: calc(100% - 80px);
