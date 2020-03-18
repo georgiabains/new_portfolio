@@ -35,7 +35,7 @@ header {
         right: 0;
         position: absolute;
         button#hamburger-menu {
-            top: 57px;
+            top: 47px;
             right: 28px;
             width: 18px;
             padding: 0;
@@ -176,6 +176,11 @@ header {
                         display: inline-block;
                         &:not(:first-child) {
                             padding-left: 5px;
+                        }
+                        a {
+                            &:hover {
+                                color: $blue;
+                            }
                         }
                     }
                 }

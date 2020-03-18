@@ -11,15 +11,15 @@
 		<img src="img/projects/volaris/volaris_mockup_one.png">
 
 		<div class="project-snippets">
-			<p>> description<span class="blinking-underscore">_</span></p>
+			<p>> description_</p>
 			<p>This website was created in collaboration with the Senior Web Developer and Senior Graphic Designer at Volaris Group. Duis lacinia massa ipsum, id scelerisque elit tincidunt at. Vivamus at tellus vel massa convallis luctus a nec libero. Vivamus vitae erat ultricies, accumsan tellus eget, placerat turpis. Aliquam id enim nec turpis vestibulum ullamcorper et id lacus. Nulla facilisi. Sed placerat odio rutrum, molestie mi at, eleifend nisi. Mauris euismod erat quis urna iaculis accumsan.</p>
 		</div>
 		<div class="project-snippets">
-			<p>> role<span class="blinking-underscore">_</span></p>
+			<p>> role_</p>
 			<p>Web Development</p>
 		</div>
 		<div class="project-snippets">
-			<p>> languages used<span class="blinking-underscore">_</span></p>
+			<p>> languages used_</p>
 			<p>CSS, (SCSS), HTML, JavaScript, jQuery & PHP</p>
 		</div>
 

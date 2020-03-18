@@ -16,7 +16,6 @@
             <span></span>
             <span></span>
             <span></span>
-
             <span></span>
         </button>
         <div id="navigation-menu">
