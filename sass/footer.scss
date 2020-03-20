@@ -1,16 +1,16 @@
 footer {
-    width: calc(100% - 80px);
+    width: 100%;
     bottom: 0;
     left: 0;
-    padding: 0 40px 30px 40px;
+    padding: 0 40px 20px 40px;
     .footer-content {
     	display: flex;
     	flex-wrap: wrap;
     	.footer-copyright {
-    		width: calc(25% + 10px);
+    		width: calc(25% - 23px);
     	}
     	.footer-on-scroll {
-            width: calc(75% - 33px);
+            width: calc(75% + 23px);
             text-align: right;
     		ul {
     			margin: 0;

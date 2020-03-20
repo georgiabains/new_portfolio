@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+  *::before, *::after {
+    box-sizing: inherit; }
+
 body {
   margin: 0;
   padding: 0;
@@ -154,14 +162,14 @@ main section#list-of-projects .project-container {
 
 main {
   top: 0;
-  width: calc(75% - 103px);
-  margin-left: calc(25% + 30px);
-  padding: 0 53px 0 0; }
+  width: 75%;
+  margin-left: 25%;
+  padding: 0 100px 0 23px; }
   main section#list-of-projects .project-container .project:last-child {
     margin: 120px 0 60px 0; }
 
 footer .footer-content .footer-copyright p {
-  bottom: 30px;
+  bottom: 20px;
   position: fixed; }
 
 /*# sourceMappingURL=home.css.map */

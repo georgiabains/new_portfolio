@@ -11,8 +11,8 @@ header {
 main {
     top: 0;
     left: 0;
-    width: calc(100% - 110px);
-    padding: 0 70px 0 40px;
+    width: 100%;
+    padding: 0 100px 0 40px;
     section#list-of-projects {
     	.projects-heading {
     		ul.projects-nav {
@@ -52,7 +52,7 @@ main {
 	                        }
 	                    }
 	                    .project-details {
-	                    	width: 67%;
+	                    	width: 83%;
 	                    	padding: 20px 80px 20px 20px;
 	                    	h4 {
 	                    		font-size: 1.15em;

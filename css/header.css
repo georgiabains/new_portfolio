@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+  *::before, *::after {
+    box-sizing: inherit; }
+
 body {
   margin: 0;
   padding: 0;
@@ -72,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   top: 0;
   left: 0;
-  width: calc(100% - 70px);
+  width: 100%;
   padding: 30px 30px 30px 40px; }
   header h1.main-title {
     position: fixed;
@@ -85,7 +93,7 @@ header {
       header h1.main-title a::before, header h1.main-title a::after {
         content: ""; }
   header .roles {
-    margin: 25px 0 0 calc(25% + 6px);
+    margin: 25px 0 0 calc(25% - 0px);
     padding: 0;
     position: relative; }
     header .roles h2 {
@@ -98,8 +106,8 @@ header {
     right: 0;
     position: absolute; }
     header .hamburger-container button#hamburger-menu {
-      top: 47px;
-      right: 28px;
+      top: 53px;
+      right: 42px;
       width: 18px;
       padding: 0;
       border: none;
@@ -159,8 +167,8 @@ header {
     header .hamburger-container #navigation-menu {
       top: 0;
       right: -280px;
-      width: 200px;
-      height: calc(100vh - 80px);
+      width: 280px;
+      height: 100vh;
       padding: 40px;
       position: fixed;
       background: #fbfbfb;

@@ -3,7 +3,7 @@
 header {
     top: 0;
     left: 0;
-    width: calc(100% - 70px);
+    width: 100%;
     padding: 30px 30px 30px 40px;
     h1.main-title {
         position: fixed;
@@ -21,7 +21,7 @@ header {
         }
     }
     .roles {
-        margin: 25px 0 0 calc(25% + 6px);
+        margin: 25px 0 0 calc(25% - 0px);
         padding: 0;
         position: relative;
         h2 {
@@ -36,8 +36,8 @@ header {
         right: 0;
         position: absolute;
         button#hamburger-menu {
-            top: 47px;
-            right: 28px;
+            top: 53px;
+            right: 42px;
             width: 18px;
             padding: 0;
             border: none;
@@ -114,8 +114,8 @@ header {
         #navigation-menu {
             top: 0;
             right: -280px;
-            width: 200px;
-            height: calc(100vh - 80px);
+            width: 280px;
+            height: 100vh;
             padding: 40px;
             position: fixed;
             background: #fbfbfb;

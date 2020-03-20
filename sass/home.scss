@@ -2,9 +2,9 @@
 
 main {
     top: 0;
-    width: calc(75% - 103px);
-    margin-left: calc(25% + 30px);
-    padding: 0 53px 0 0;
+    width: 75%;
+    margin-left: 25%;
+    padding: 0 100px 0 23px;
     section#list-of-projects {
         .project-container {
             .project {
@@ -20,7 +20,7 @@ footer {
     .footer-content {
         .footer-copyright {
             p {
-                bottom: 30px;
+                bottom: 20px;
                 position: fixed;
             }
         }
