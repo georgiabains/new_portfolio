@@ -6,10 +6,6 @@ main {
     margin-left: calc(25% + 30px);
     padding: 0 53px 0 0;
     section#list-of-projects {
-        margin-top: 20px;
-        .projects-heading {
-            padding: 0 0 20px 0;
-        }  
         .project-container {
             .project {
                 &:last-child {

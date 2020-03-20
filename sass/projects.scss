@@ -3,7 +3,7 @@
 main {
     section#list-of-projects {
         .projects-heading {
-            padding: 20px 0;
+            padding: 20px 0 10px;
             h3 {
                 font-family: $body;
                 font-size: 1.0em;
@@ -101,6 +101,15 @@ main {
                             }
                         }
                         p.description {
+                            &::before {
+                                content: "";
+                                display: block;
+                                margin: 20px 0;
+                                position: relative;
+                                height: 1px;
+                                width: 90px;
+                                background: #eee;
+                            }
                             &::after {
                                 content: "";
                                 display: block;

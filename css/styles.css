@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
 body {
   margin: 0;
   padding: 0;
   font-family: "Anonymous Pro", monospace;
   font-weight: 400;
   font-size: 15px;
+  line-height: 21px;
   letter-spacing: 1px;
   color: #222;
   background: #fff;
@@ -16,8 +18,7 @@ img {
 
 p {
   margin-block-start: 1.0em;
-  margin-block-end: 1.0em;
-  line-height: 20px; }
+  margin-block-end: 1.0em; }
 
 a {
   margin: 0 6px 0 8px;
@@ -55,23 +56,23 @@ a {
     transform: translateX(0px); }
 
 h1 {
-  font-size: 3.0em; }
+  font-size: 45px; }
 
 h2 {
-  font-size: 2.25em; }
+  margin: 10px 0;
+  font-size: 33.75px; }
 
 h3 {
-  font-size: 1.7em; }
+  margin: 0 0 10px 0;
+  font-size: 22.5px; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-block-end: 0;
-  margin-block-start: 0;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   letter-spacing: 0; }
 
 main section#list-of-projects .projects-heading {
-  padding: 20px 0; }
+  padding: 20px 0 10px; }
   main section#list-of-projects .projects-heading h3 {
     font-family: "Anonymous Pro", monospace;
     font-size: 1.0em;
@@ -136,6 +137,14 @@ main section#list-of-projects .project-container {
           display: inline-block; }
         main section#list-of-projects .project-container .project.project-web .project-details ul.role li:not(:last-child)::after, main section#list-of-projects .project-container .project.project-web .project-details ul.languages li:not(:last-child)::after {
           content: ","; }
+      main section#list-of-projects .project-container .project.project-web .project-details p.description::before {
+        content: "";
+        display: block;
+        margin: 20px 0;
+        position: relative;
+        height: 1px;
+        width: 90px;
+        background: #eee; }
       main section#list-of-projects .project-container .project.project-web .project-details p.description::after {
         content: "";
         display: block;
@@ -150,12 +159,8 @@ main {
   width: calc(75% - 103px);
   margin-left: calc(25% + 30px);
   padding: 0 53px 0 0; }
-  main section#list-of-projects {
-    margin-top: 20px; }
-    main section#list-of-projects .projects-heading {
-      padding: 0 0 20px 0; }
-    main section#list-of-projects .project-container .project:last-child {
-      margin: 120px 0 60px 0; }
+  main section#list-of-projects .project-container .project:last-child {
+    margin: 120px 0 60px 0; }
 
 footer .footer-content .footer-copyright p {
   bottom: 30px;
@@ -167,6 +172,7 @@ body {
   font-family: "Anonymous Pro", monospace;
   font-weight: 400;
   font-size: 15px;
+  line-height: 21px;
   letter-spacing: 1px;
   color: #222;
   background: #fff;
@@ -177,8 +183,7 @@ img {
 
 p {
   margin-block-start: 1.0em;
-  margin-block-end: 1.0em;
-  line-height: 20px; }
+  margin-block-end: 1.0em; }
 
 a {
   margin: 0 6px 0 8px;
@@ -216,17 +221,17 @@ a {
     transform: translateX(0px); }
 
 h1 {
-  font-size: 3.0em; }
+  font-size: 45px; }
 
 h2 {
-  font-size: 2.25em; }
+  margin: 10px 0;
+  font-size: 33.75px; }
 
 h3 {
-  font-size: 1.7em; }
+  margin: 0 0 10px 0;
+  font-size: 22.5px; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-block-end: 0;
-  margin-block-start: 0;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   letter-spacing: 0; }
@@ -238,7 +243,7 @@ header {
   padding: 30px 30px 30px 40px; }
   header h1.main-title {
     position: fixed;
-    margin: 0.1em 0; }
+    margin: 22px 0; }
     header h1.main-title a {
       margin: 0;
       color: #222; }
@@ -251,6 +256,7 @@ header {
     padding: 0;
     position: relative; }
     header .roles h2 {
+      margin: 0;
       font-size: 1.5em;
       text-transform: lowercase;
       color: #848484; }
@@ -375,6 +381,8 @@ header {
             display: inline-block; }
             header .hamburger-container #navigation-menu ul.social li:not(:first-child) {
               padding-left: 5px; }
+            header .hamburger-container #navigation-menu ul.social li a:hover {
+              color: #006ab5; }
       header .hamburger-container #navigation-menu nav {
         flex-basis: 100%;
         align-self: flex-end; }
@@ -433,7 +441,6 @@ footer {
           margin: 0 5px;
           margin-block-start: 1.0em;
           margin-block-end: 1.0em;
-          line-height: 20px;
           display: inline-block; }
           footer .footer-content .footer-on-scroll ul li:first-child {
             margin: 0 5px 0 0; }

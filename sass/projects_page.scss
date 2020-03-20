@@ -68,6 +68,10 @@ main {
 	                    		}
 	                    	}
 	                    	p.description {
+	                    		&::before {
+	                    			margin: 15px 0;
+	                    			width: 70px;
+	                    		}
 	                    		&::after {
 	                    			margin: 15px 0;
 	                    			width: 70px;
