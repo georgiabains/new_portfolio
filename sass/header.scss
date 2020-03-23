@@ -139,26 +139,53 @@ header {
                 margin: 0;
                 padding: 0;
                 list-style: none;
+                li {
+                    display: flex;
+                    a {
+                        margin: 0;
+                        text-decoration: none;
+                        -moz-transition-duration:0.3s;
+                        -webkit-transition-duration:0.3s;
+                        -o-transition-duration:0.3s;
+                        &:hover {
+                            text-decoration: none;
+                            -moz-transition-duration:0.3s;
+                            -webkit-transition-duration:0.3s;
+                            -o-transition-duration:0.3s;
+                            &::after {
+                                width: 100%;
+                                -webkit-transform: translateX(0px);
+                                -moz-transform: translateX(0px);
+                                transform: translateX(0px);
+                            }
+                        }
+                        &::after {
+                            content: "";
+                            display: block;
+                            position: relative;
+                            height: 1px;
+                            width: 0;
+                            background: #222;
+                        }
+                    }
+                }
                 &.project-tags {
                     flex-basis: 100%;
                     align-self: center;
                     &::before {
-                        content: "";
-                        display: block;
                         margin: 0 0 40px 0;
-                        position: relative;
-                        height: 1px;
-                        width: 90px;
-                        background: #cecece;
                     }
+                    &::after {
+                        margin: 40px 0 0 0;
+                    }
+                    &::before,
                     &::after {
                         content: "";
                         display: block;
-                        margin: 40px 0 0 0;
                         position: relative;
                         height: 1px;
                         width: 90px;
-                        background: #cecece;
+                        background: $purple-light;
                     }
                     p {
                         font-size: 0.8em;
@@ -180,7 +207,7 @@ header {
                         }
                         a {
                             &:hover {
-                                color: $blue;
+                                color: $purple;
                             }
                         }
                     }
@@ -193,34 +220,6 @@ header {
                     li {
                         font-size: 1.35em;
                         line-height: 29px;
-                        display: flex;
-                        a {
-                            margin: 0;
-                            text-decoration: none;
-                            -moz-transition-duration:0.3s;
-                            -webkit-transition-duration:0.3s;
-                            -o-transition-duration:0.3s;
-                            &:hover {
-                                text-decoration: none;
-                                -moz-transition-duration:0.3s;
-                                -webkit-transition-duration:0.3s;
-                                -o-transition-duration:0.3s;
-                                &::after {
-                                    width: 100%;
-                                    -webkit-transform: translateX(0px);
-                                    -moz-transform: translateX(0px);
-                                    transform: translateX(0px);
-                                }
-                            }
-                            &::after {
-                                content: "";
-                                display: block;
-                                position: relative;
-                                height: 1px;
-                                width: 0;
-                                background: #222;
-                            }
-                        }
                     }
                 }
             }

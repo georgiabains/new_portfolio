@@ -3,7 +3,7 @@
 main {
     section#list-of-projects {
         .projects-heading {
-            padding: 20px 0 10px;
+            padding: 25px 0 10px;
             h3 {
                 font-family: $body;
                 font-size: 1.0em;
@@ -23,7 +23,7 @@ main {
                     .project-thumbnail {
                         display: block;
                         img {
-                            border: 1px solid #eee;
+                            border: 1px solid $purple-light;
                             border-radius: 10px;
                         }
                         .desktop {
@@ -43,12 +43,12 @@ main {
                         }
                     }
                     .project-details {
-                        width: 55%;
+                        width: 73%;
                         margin: 20px 0;
                         padding: 20px 80px 20px 20px;
                         background: #fff;
-                        border-bottom: 1px solid #eee;
-                        border-left: 1px solid #eee;
+                        border-bottom: 1px solid $purple-light;
+                        border-left: 1px solid $purple-light;
                         border-bottom-left-radius: 7px;
                         h4 {
                             margin: 0.25em 0 0.75em 0;

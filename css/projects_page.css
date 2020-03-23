@@ -29,7 +29,7 @@ p {
 
 a {
   margin: 0 6px 0 8px;
-  color: #006ab5;
+  color: #7434E6;
   text-decoration: underline transparent; }
   a:hover {
     text-decoration: underline; }
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0; }
 
 main section#list-of-projects .projects-heading {
-  padding: 20px 0 10px; }
+  padding: 25px 0 10px; }
   main section#list-of-projects .projects-heading h3 {
     font-family: "Anonymous Pro", monospace;
     font-size: 1.0em;
@@ -95,7 +95,7 @@ main section#list-of-projects .project-container {
     main section#list-of-projects .project-container .project.project-web .project-thumbnail {
       display: block; }
       main section#list-of-projects .project-container .project.project-web .project-thumbnail img {
-        border: 1px solid #eee;
+        border: 1px solid #ded0fb;
         border-radius: 10px; }
       main section#list-of-projects .project-container .project.project-web .project-thumbnail .desktop img {
         width: 90%;
@@ -108,12 +108,12 @@ main section#list-of-projects .project-container {
           height: 420px;
           display: inline-block; }
     main section#list-of-projects .project-container .project.project-web .project-details {
-      width: 55%;
+      width: 73%;
       margin: 20px 0;
       padding: 20px 80px 20px 20px;
       background: #fff;
-      border-bottom: 1px solid #eee;
-      border-left: 1px solid #eee;
+      border-bottom: 1px solid #ded0fb;
+      border-left: 1px solid #ded0fb;
       border-bottom-left-radius: 7px; }
       main section#list-of-projects .project-container .project.project-web .project-details h4 {
         margin: 0.25em 0 0.75em 0;
@@ -190,7 +190,7 @@ p {
 
 a {
   margin: 0 6px 0 8px;
-  color: #006ab5;
+  color: #7434E6;
   text-decoration: underline transparent; }
   a:hover {
     text-decoration: underline; }
@@ -351,25 +351,45 @@ header {
         margin: 0;
         padding: 0;
         list-style: none; }
+        header .hamburger-container #navigation-menu ul li {
+          display: flex; }
+          header .hamburger-container #navigation-menu ul li a {
+            margin: 0;
+            text-decoration: none;
+            -moz-transition-duration: 0.3s;
+            -webkit-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s; }
+            header .hamburger-container #navigation-menu ul li a:hover {
+              text-decoration: none;
+              -moz-transition-duration: 0.3s;
+              -webkit-transition-duration: 0.3s;
+              -o-transition-duration: 0.3s; }
+              header .hamburger-container #navigation-menu ul li a:hover::after {
+                width: 100%;
+                -webkit-transform: translateX(0px);
+                -moz-transform: translateX(0px);
+                transform: translateX(0px); }
+            header .hamburger-container #navigation-menu ul li a::after {
+              content: "";
+              display: block;
+              position: relative;
+              height: 1px;
+              width: 0;
+              background: #222; }
         header .hamburger-container #navigation-menu ul.project-tags {
           flex-basis: 100%;
           align-self: center; }
           header .hamburger-container #navigation-menu ul.project-tags::before {
-            content: "";
-            display: block;
-            margin: 0 0 40px 0;
-            position: relative;
-            height: 1px;
-            width: 90px;
-            background: #cecece; }
+            margin: 0 0 40px 0; }
           header .hamburger-container #navigation-menu ul.project-tags::after {
+            margin: 40px 0 0 0; }
+          header .hamburger-container #navigation-menu ul.project-tags::before, header .hamburger-container #navigation-menu ul.project-tags::after {
             content: "";
             display: block;
-            margin: 40px 0 0 0;
             position: relative;
             height: 1px;
             width: 90px;
-            background: #cecece; }
+            background: #ded0fb; }
           header .hamburger-container #navigation-menu ul.project-tags p {
             font-size: 0.8em;
             text-transform: uppercase;
@@ -385,37 +405,13 @@ header {
             header .hamburger-container #navigation-menu ul.social li:not(:first-child) {
               padding-left: 5px; }
             header .hamburger-container #navigation-menu ul.social li a:hover {
-              color: #006ab5; }
+              color: #7434E6; }
       header .hamburger-container #navigation-menu nav {
         flex-basis: 100%;
         align-self: flex-end; }
         header .hamburger-container #navigation-menu nav ul li {
           font-size: 1.35em;
-          line-height: 29px;
-          display: flex; }
-          header .hamburger-container #navigation-menu nav ul li a {
-            margin: 0;
-            text-decoration: none;
-            -moz-transition-duration: 0.3s;
-            -webkit-transition-duration: 0.3s;
-            -o-transition-duration: 0.3s; }
-            header .hamburger-container #navigation-menu nav ul li a:hover {
-              text-decoration: none;
-              -moz-transition-duration: 0.3s;
-              -webkit-transition-duration: 0.3s;
-              -o-transition-duration: 0.3s; }
-              header .hamburger-container #navigation-menu nav ul li a:hover::after {
-                width: 100%;
-                -webkit-transform: translateX(0px);
-                -moz-transform: translateX(0px);
-                transform: translateX(0px); }
-            header .hamburger-container #navigation-menu nav ul li a::after {
-              content: "";
-              display: block;
-              position: relative;
-              height: 1px;
-              width: 0;
-              background: #222; }
+          line-height: 29px; }
       header .hamburger-container #navigation-menu.navigation-menu-on-click {
         right: 0;
         -moz-transition-duration: 0.4s;
