@@ -67,11 +67,13 @@ h1 {
 
 h2 {
   margin: 10px 0;
-  font-size: 33.75px; }
+  font-size: 33.75px;
+  line-height: 35px; }
 
 h3 {
   margin: 0 0 10px 0;
-  font-size: 22.5px; }
+  font-size: 22.5px;
+  line-height: 24px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Quicksand", sans-serif;
@@ -228,11 +230,13 @@ h1 {
 
 h2 {
   margin: 10px 0;
-  font-size: 33.75px; }
+  font-size: 33.75px;
+  line-height: 35px; }
 
 h3 {
   margin: 0 0 10px 0;
-  font-size: 22.5px; }
+  font-size: 22.5px;
+  line-height: 24px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Quicksand", sans-serif;
@@ -406,12 +410,14 @@ header {
               padding-left: 5px; }
             header .hamburger-container #navigation-menu ul.social li a:hover {
               color: #7434E6; }
+              header .hamburger-container #navigation-menu ul.social li a:hover::after {
+                width: 0; }
       header .hamburger-container #navigation-menu nav {
         flex-basis: 100%;
         align-self: flex-end; }
         header .hamburger-container #navigation-menu nav ul li {
           font-size: 1.35em;
-          line-height: 29px; }
+          line-height: 31px; }
       header .hamburger-container #navigation-menu.navigation-menu-on-click {
         right: 0;
         -moz-transition-duration: 0.4s;

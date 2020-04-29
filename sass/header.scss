@@ -208,6 +208,9 @@ header {
                         a {
                             &:hover {
                                 color: $purple;
+                                &::after {
+                                    width: 0;
+                                }
                             }
                         }
                     }
@@ -219,7 +222,7 @@ header {
                 ul {
                     li {
                         font-size: 1.35em;
-                        line-height: 29px;
+                        line-height: 31px;
                     }
                 }
             }

@@ -1,5 +1,7 @@
 main section.about {
-  margin-top: 20px;
   min-height: calc(100vh - 200px); }
+  main section.about .about-content {
+    margin-top: 20px;
+    max-width: 600px; }
 
 /*# sourceMappingURL=about.css.map */
