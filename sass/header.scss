@@ -236,3 +236,45 @@ header {
         
     }
 }
+
+/** Media Queries **/
+@media screen and (max-width: 1400px) {
+    header {
+        .roles {
+            margin: 25px 0 0 327px;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+        h1.main-title {
+            position: absolute;
+            a {
+                margin: 0 0 0 -3px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        h1.main-title {
+            position: relative;
+        }
+        .roles {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        padding: 20px 20px 20px 30px;
+        .hamburger-container {
+            button#hamburger-menu {
+                right: 32px;
+            }
+        }
+    }
+}

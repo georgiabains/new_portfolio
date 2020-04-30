@@ -22,6 +22,7 @@ main {
                 &.project-web {
                     .project-thumbnail {
                         display: block;
+                        position: relative;
                         img {
                             border: 1px solid $purple-light;
                             border-radius: 10px;
@@ -118,6 +119,101 @@ main {
                                 height: 1px;
                                 width: 90px;
                                 background: #eee;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Media Queries **/
+@media screen and (max-width: 1300px) {
+    main {
+        section#list-of-projects {
+            .project-container {
+                .project {
+                    &.project-web {
+                        display: flex;
+                        .project-thumbnail {
+                            flex-basis: 65%;
+                            .desktop {
+                                img {
+                                    width: 95%;
+                                }
+                            }
+                            .mobile {
+                                top: 60px;
+                                width: 100%;
+                                text-align: right;
+                                img {
+                                    width: 22%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                        .project-details {
+                            flex-basis: 35%;
+                            align-self: center;
+                            margin: 0 0 0 50px;
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        section#list-of-projects {
+            .project-container {
+                .project {
+                    &.project-web {
+                        display: block;
+                        .project-details {
+                            margin: 20px 0;
+                            padding: 20px 80px 20px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        section#list-of-projects {
+            .project-container {
+                .project {
+                    &.project-web {
+                        .project-details {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    main {
+        section#list-of-projects {
+            .project-container {
+                .project {
+                    &.project-web {
+                        .project-details {
+                            ul {
+                                &.project-links {
+                                    li {
+                                        display: block;
+                                        margin: 5px 0;
+                                    }
+                                }
                             }
                         }
                     }
