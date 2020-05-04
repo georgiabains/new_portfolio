@@ -12,12 +12,14 @@
     </div>
 
     <div class="hamburger-container">
-        <button id="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+        <div id="hamburger-menu" class="button-wrap">
+            <button id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
         <div id="navigation-menu">
             <nav>
                 <ul>

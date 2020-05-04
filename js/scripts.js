@@ -3,7 +3,7 @@ var hideNav = false;
 
 $(document).ready(function () {
     (function blink() { 
-      $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
+        $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
     })(); 
 
 	$("#menu").click(function() {
@@ -15,7 +15,7 @@ $(document).ready(function () {
     $("#hamburger-menu").click(function() {
         $("#navigation-menu").toggleClass("navigation-menu-on-click");
         $("#hamburger-menu").toggleClass("hamburger-on-click");
-        $("#hamburger-menu").toggleClass("open");
+        $("#hamburger").toggleClass("open");
     });
 });
 

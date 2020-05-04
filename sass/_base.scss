@@ -37,9 +37,8 @@ p {
 a {
     margin: 0 6px 0 8px;
     color: $purple;
-    text-decoration: underline transparent;
+    text-decoration: none;
     &:hover {
-        text-decoration: underline;
         &::before,
         &::after {
             -moz-transition-duration:0.3s;

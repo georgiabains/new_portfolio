@@ -6,7 +6,7 @@
     <section id="list-of-projects">
 
         <div class="projects-heading">
-            <h3>> now viewing selected projects<span class="blinking-underscore">_</span> <a href="projects.php">view all</a></h3>
+            <h3>> now viewing selected projects<span class="blinking-underscore">_</span> <a href="projects.php" class="project-link">view all</a></h3>
         </div>
         
         <div class="project-container">

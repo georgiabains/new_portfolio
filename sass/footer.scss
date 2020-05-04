@@ -8,7 +8,7 @@ footer {
     	flex-wrap: wrap;
         justify-content: space-between;
         .footer-copyright {
-            padding-right: 48px;
+            padding-right: 128px;
         }
     	.footer-on-scroll {
     		ul {
@@ -56,8 +56,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     footer {
+        padding: 0 22px 20px;
         .footer-content {
             .footer-on-scroll {
                 ul {

@@ -144,7 +144,7 @@ main {
                                 }
                             }
                             .mobile {
-                                top: 60px;
+                                top: 17%;
                                 width: 100%;
                                 text-align: right;
                                 img {
@@ -200,13 +200,22 @@ main {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     main {
         section#list-of-projects {
+            .projects-heading {
+                h3 {
+                    .project-link {
+                        margin-left: 26px;
+                        display: block;
+                    }
+                }
+            }
             .project-container {
                 .project {
                     &.project-web {
                         .project-details {
+                            padding: 20px;
                             ul {
                                 &.project-links {
                                     li {
