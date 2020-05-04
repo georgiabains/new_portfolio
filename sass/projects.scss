@@ -5,7 +5,8 @@ main {
         .projects-heading {
             padding: 25px 0 10px;
             h3 {
-                font-family: $body;
+                width: 100%; // safari
+                font-family: $secondary;
                 font-size: 1.0em;
                 letter-spacing: 1px;
                 display: inline-block;
@@ -18,6 +19,23 @@ main {
                 position: relative;
                 &:first-child {
                     margin: 20px 0 120px 0;
+                }
+                .project-details {
+                    a.project-type {
+                        margin: 10px 0;
+                        padding: 3px 7px;
+                        font-family: $secondary;
+                        font-size: 0.8em;
+                        letter-spacing: 1px;
+                        text-transform: lowercase;
+                        color: black;
+                        background: $purple-light;
+                        border-radius: 5px;
+                        &::before,
+                        &::after {
+                            width: 0;
+                        }
+                    }
                 }
                 &.project-web {
                     .project-thumbnail {
@@ -52,8 +70,8 @@ main {
                         border-left: 1px solid $purple-light;
                         border-bottom-left-radius: 7px;
                         h4 {
-                            margin: 0.25em 0 0.75em 0;
-                            font-family: $body;
+                            margin: 1.0em 0 0.3em;
+                            // font-family: $body;
                             font-size: 1.25em;
                             line-height: 23px;
                         }
@@ -86,6 +104,9 @@ main {
                             }
                             &.role, 
                             &.languages {
+                                font-family: $secondary;
+                                font-size: 0.9em;
+                                line-height: 1.0em;
                                 &::before {
                                     width: 20px;
                                     margin-right: 2px;
@@ -216,14 +237,6 @@ main {
                     &.project-web {
                         .project-details {
                             padding: 20px;
-                            ul {
-                                &.project-links {
-                                    li {
-                                        display: block;
-                                        margin: 5px 0;
-                                    }
-                                }
-                            }
                         }
                     }
                 }

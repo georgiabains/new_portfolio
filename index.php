@@ -22,7 +22,9 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <h4>Volaris Group &mdash; Core Website</h4>
+                    <a href="/projects.php" class="project-type">Core Website</a>
+                    <h4>Volaris Group </h4>
+
                     <ul class="project-links">
                         <li><a href="https://www.volarisgroup.com/" target="_blank">site</a></li>
                         <li><a href="/portfolio_new/projects-page.php">project details</a></li>
@@ -52,7 +54,8 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <h4>Experiential Learning Modules &mdash; Website</h4>
+                    <a href="/projects.php" class="project-type">Website</a>
+                    <h4>Experiential Learning Modules</h4>
                     <ul class="project-links">
                         <li><a href="https://www.experientialmodules.utoronto.ca/" target="_blank">site</a></li>
                         <li><a href="/portfolio_new/projects-page.php">project details</a></li>
@@ -84,7 +87,8 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <h4>Open UToronto &mdash; Website</h4>
+                    <a href="/projects.php" class="project-type">Website</a>
+                    <h4>Open UToronto</h4>
                     <ul class="project-links">
                         <li><a href="https://www.ocw.utoronto.ca/" target="_blank">site</a></li>
                         <li><a href="/portfolio_new/projects-page.php">project details</a></li>
@@ -114,7 +118,8 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <h4>Pomegranate &mdash; Tumblr Theme</h4>
+                    <a href="/projects.php" class="project-type">Tumblr Theme</a>
+                    <h4>Pomegranate</h4>
                     <ul class="project-links">
                         <li><a href="https://pomegranate-theme.tumblr.com/" target="_blank">site</a></li>
                         <li><a href="/portfolio_new/projects-page.php">project details</a></li>
@@ -144,7 +149,8 @@
                     </div>
                 </div>
                 <div class="project-details">
-                    <h4>Spotlight &mdash; Tumblr Theme</h4>
+                    <a href="/projects.php" class="project-type">Tumblr Theme</a>
+                    <h4>Spotlight</h4>
                     <ul class="project-links">
                         <li><a href="https://spotlight-theme.tumblr.com/" target="_blank">site</a></li>
                         <li><a href="/portfolio_new/projects-page.php">project details</a></li>

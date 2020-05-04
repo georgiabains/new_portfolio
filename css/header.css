@@ -10,7 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Anonymous Pro", monospace;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 21px;
@@ -27,37 +27,39 @@ p {
   margin-block-end: 1.0em; }
 
 a {
-  margin: 0 6px 0 8px;
   color: #7434E6;
-  text-decoration: none; }
-  a:hover::before, a:hover::after {
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s; }
-  a:hover::before {
-    -webkit-transform: translateX(-14px);
-    -moz-transform: translateX(-14px);
-    transform: translateX(-14px); }
-  a:hover::after {
-    -webkit-transform: translateX(4px);
-    -moz-transform: translateX(4px);
-    transform: translateX(4px); }
-  a::before, a::after {
-    position: absolute;
-    display: inline-block;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s; }
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s; }
   a::before {
-    content: "[";
-    -webkit-transform: translateX(-10px);
-    -moz-transform: translateX(-10px);
-    transform: translateX(-10px); }
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #7434E6;
+    position: absolute; }
   a::after {
-    content: "]";
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    transform: translateX(0px); }
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #fbfbfb;
+    position: absolute;
+    opacity: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s; }
+  a:hover::after {
+    width: 100%;
+    opacity: 1;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s; }
 
 h1 {
   font-size: 45px; }
@@ -88,16 +90,16 @@ header {
     header h1.main-title a {
       margin: 0;
       color: #222; }
-      header h1.main-title a:hover {
-        text-decoration: none; }
       header h1.main-title a::before, header h1.main-title a::after {
-        content: ""; }
+        content: "";
+        width: 0; }
   header .roles {
     margin: 25px 0 0 calc(25% - 0px);
     padding: 0;
     position: relative; }
     header .roles h2 {
       margin: 0;
+      font-family: "Anonymous Pro", monospace;
       font-size: 1.5em;
       text-transform: lowercase;
       color: #848484; }
@@ -193,7 +195,8 @@ header {
         margin: 0;
         color: #222; }
         header .hamburger-container #navigation-menu a::before, header .hamburger-container #navigation-menu a::after {
-          content: ""; }
+          content: "";
+          width: 0; }
       header .hamburger-container #navigation-menu ul {
         margin: 0;
         padding: 0;

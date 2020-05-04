@@ -15,7 +15,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: $body;
+    font-family: $primary;
     font-weight: 400;
     font-size: 15px;
     line-height: 21px;
@@ -35,46 +35,43 @@ p {
 }
 
 a {
-    margin: 0 6px 0 8px;
     color: $purple;
     text-decoration: none;
-    &:hover {
-        &::before,
-        &::after {
-            -moz-transition-duration:0.3s;
-            -webkit-transition-duration:0.3s;
-            -o-transition-duration:0.3s;
-        }
-        &::before {
-            -webkit-transform: translateX(-14px);
-            -moz-transform: translateX(-14px);
-            transform: translateX(-14px);
-        }
-        &::after {
-            -webkit-transform: translateX(4px);
-            -moz-transform: translateX(4px);
-            transform: translateX(4px);
-        }
-    }
-    &::before,
-    &::after {
+    position: relative;
+    display: inline-block;
+    -moz-transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    &::before {
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: $purple;
         position: absolute;
-        display: inline-block;
+    }
+    &::after {
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: #fbfbfb;
+        position: absolute;
+        opacity: 0;
         -moz-transition-duration:0.3s;
         -webkit-transition-duration:0.3s;
         -o-transition-duration:0.3s;
     }
-    &::before {
-        content: "[";
-        -webkit-transform: translateX(-10px);
-        -moz-transform: translateX(-10px);
-        transform: translateX(-10px);
-    }
-    &::after {
-        content: "]";
-        -webkit-transform: translateX(0px);
-        -moz-transform: translateX(0px);
-        transform: translateX(0px);
+    &:hover {
+        &::after {
+            width: 100%;
+            opacity: 1;
+            -moz-transition-duration:0.3s;
+            -webkit-transition-duration:0.3s;
+            -o-transition-duration:0.3s;
+        }
     }
 }
 
@@ -95,7 +92,7 @@ h3 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $heading;
+    font-family: $primary;
     font-weight: 300;
     letter-spacing: 0;
 }

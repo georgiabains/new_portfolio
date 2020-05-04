@@ -10,7 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Anonymous Pro", monospace;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 21px;
@@ -27,37 +27,39 @@ p {
   margin-block-end: 1.0em; }
 
 a {
-  margin: 0 6px 0 8px;
   color: #7434E6;
-  text-decoration: none; }
-  a:hover::before, a:hover::after {
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s; }
-  a:hover::before {
-    -webkit-transform: translateX(-14px);
-    -moz-transform: translateX(-14px);
-    transform: translateX(-14px); }
-  a:hover::after {
-    -webkit-transform: translateX(4px);
-    -moz-transform: translateX(4px);
-    transform: translateX(4px); }
-  a::before, a::after {
-    position: absolute;
-    display: inline-block;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s; }
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s; }
   a::before {
-    content: "[";
-    -webkit-transform: translateX(-10px);
-    -moz-transform: translateX(-10px);
-    transform: translateX(-10px); }
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #7434E6;
+    position: absolute; }
   a::after {
-    content: "]";
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    transform: translateX(0px); }
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #fbfbfb;
+    position: absolute;
+    opacity: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s; }
+  a:hover::after {
+    width: 100%;
+    opacity: 1;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s; }
 
 h1 {
   font-size: 45px; }
@@ -80,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 main section#list-of-projects .projects-heading {
   padding: 25px 0 10px; }
   main section#list-of-projects .projects-heading h3 {
+    width: 100%;
     font-family: "Anonymous Pro", monospace;
     font-size: 1.0em;
     letter-spacing: 1px;
@@ -91,6 +94,18 @@ main section#list-of-projects .project-container {
     position: relative; }
     main section#list-of-projects .project-container .project:first-child {
       margin: 20px 0 120px 0; }
+    main section#list-of-projects .project-container .project .project-details a.project-type {
+      margin: 10px 0;
+      padding: 3px 7px;
+      font-family: "Anonymous Pro", monospace;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      text-transform: lowercase;
+      color: black;
+      background: #ded0fb;
+      border-radius: 5px; }
+      main section#list-of-projects .project-container .project .project-details a.project-type::before, main section#list-of-projects .project-container .project .project-details a.project-type::after {
+        width: 0; }
     main section#list-of-projects .project-container .project.project-web .project-thumbnail {
       display: block;
       position: relative; }
@@ -116,8 +131,7 @@ main section#list-of-projects .project-container {
       border-left: 1px solid #ded0fb;
       border-bottom-left-radius: 7px; }
       main section#list-of-projects .project-container .project.project-web .project-details h4 {
-        margin: 0.25em 0 0.75em 0;
-        font-family: "Anonymous Pro", monospace;
+        margin: 1.0em 0 0.3em;
         font-size: 1.25em;
         line-height: 23px; }
       main section#list-of-projects .project-container .project.project-web .project-details ul {
@@ -137,13 +151,17 @@ main section#list-of-projects .project-container {
             content: "\f0ad"; }
         main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
           content: "\f120"; }
-        main section#list-of-projects .project-container .project.project-web .project-details ul.role::before, main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
-          width: 20px;
-          margin-right: 2px;
-          font-family: FontAwesome;
-          display: inline-block; }
-        main section#list-of-projects .project-container .project.project-web .project-details ul.role li:not(:last-child)::after, main section#list-of-projects .project-container .project.project-web .project-details ul.languages li:not(:last-child)::after {
-          content: ","; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.role, main section#list-of-projects .project-container .project.project-web .project-details ul.languages {
+          font-family: "Anonymous Pro", monospace;
+          font-size: 0.9em;
+          line-height: 1.0em; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.role::before, main section#list-of-projects .project-container .project.project-web .project-details ul.languages::before {
+            width: 20px;
+            margin-right: 2px;
+            font-family: FontAwesome;
+            display: inline-block; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.role li:not(:last-child)::after, main section#list-of-projects .project-container .project.project-web .project-details ul.languages li:not(:last-child)::after {
+            content: ","; }
       main section#list-of-projects .project-container .project.project-web .project-details p.description::before {
         content: "";
         display: block;
@@ -195,10 +213,7 @@ main section#list-of-projects .project-container {
     margin-left: 26px;
     display: block; }
   main section#list-of-projects .project-container .project.project-web .project-details {
-    padding: 20px; }
-    main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li {
-      display: block;
-      margin: 5px 0; } }
+    padding: 20px; } }
 main {
   top: 0;
   width: 75%;

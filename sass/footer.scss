@@ -3,13 +3,11 @@ footer {
     bottom: 0;
     left: 0;
     padding: 0 40px 20px 40px;
+    font-family: $secondary;
     .footer-content {
     	display: flex;
     	flex-wrap: wrap;
         justify-content: space-between;
-        .footer-copyright {
-            padding-right: 128px;
-        }
     	.footer-on-scroll {
     		ul {
     			margin: 0;
@@ -36,12 +34,14 @@ footer {
         .footer-content {
             justify-content: unset;
             .footer-copyright {
+                flex-basis: 100%;
                 p {
                     margin-block-start: 0;
                     margin-block-end: 0;
                 }
             }
             .footer-on-scroll {
+                flex-basis: 100%;
                 ul {
                     text-align: left;
                     margin-block-start: 1.0em;
