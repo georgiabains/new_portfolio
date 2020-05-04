@@ -29,11 +29,33 @@ main {
                         letter-spacing: 1px;
                         text-transform: lowercase;
                         color: black;
-                        background: $purple-light;
-                        border-radius: 5px;
+                        position: relative;
+                        z-index: 2;
                         &::before,
                         &::after {
                             width: 0;
+                        }
+                        &::after {
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: $purple-light;
+                            border-radius: 5px;
+                            opacity: 1;
+                            position: absolute;
+                            display: block;
+                            z-index: -1;
+                        }
+                        &:hover,
+                        &:active {
+                            &::after {
+                                bottom: 1px;
+                                left: 22%;
+                                width: 55%;
+                                height: 90%;
+                                border-radius: 40% 60% 60% 120% / 70% 80% 70% 90%;
+                            }
                         }
                     }
                 }

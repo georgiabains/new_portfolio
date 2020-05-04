@@ -147,10 +147,27 @@ main section#list-of-projects .project-container {
       letter-spacing: 1px;
       text-transform: lowercase;
       color: black;
-      background: #ded0fb;
-      border-radius: 5px; }
+      position: relative;
+      z-index: 2; }
       main section#list-of-projects .project-container .project .project-details a.project-type::before, main section#list-of-projects .project-container .project .project-details a.project-type::after {
         width: 0; }
+      main section#list-of-projects .project-container .project .project-details a.project-type::after {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ded0fb;
+        border-radius: 5px;
+        opacity: 1;
+        position: absolute;
+        display: block;
+        z-index: -1; }
+      main section#list-of-projects .project-container .project .project-details a.project-type:hover::after, main section#list-of-projects .project-container .project .project-details a.project-type:active::after {
+        bottom: 1px;
+        left: 22%;
+        width: 55%;
+        height: 90%;
+        border-radius: 40% 60% 60% 120% / 70% 80% 70% 90%; }
     main section#list-of-projects .project-container .project.project-web .project-thumbnail {
       display: block;
       position: relative; }
