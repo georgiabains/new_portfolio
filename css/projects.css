@@ -12,8 +12,8 @@ body {
   padding: 0;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 23px;
   letter-spacing: 1px;
   color: #222;
   background: #fff;
@@ -31,9 +31,11 @@ a {
   text-decoration: none;
   position: relative;
   display: inline-block;
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s; }
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   a::before {
     content: "";
     bottom: 0;
@@ -51,15 +53,57 @@ a {
     background: #fbfbfb;
     position: absolute;
     opacity: 0;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s; }
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
   a:hover::after {
     width: 100%;
     opacity: 1;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s; }
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  a.bracket-link {
+    display: inline-block; }
+    a.bracket-link::before {
+      content: "[";
+      -webkit-transform: translateX(-1px);
+      -moz-transform: translateX(-1px);
+      transform: translateX(-1px); }
+    a.bracket-link::after {
+      content: "]";
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      transform: translateX(0px); }
+    a.bracket-link::before, a.bracket-link::after {
+      width: unset;
+      height: unset;
+      position: relative;
+      background: none;
+      display: inline-block;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    a.bracket-link:hover::before, a.bracket-link:hover::after {
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    a.bracket-link:hover::before {
+      -webkit-transform: translateX(-5px);
+      -moz-transform: translateX(-5px);
+      transform: translateX(-5px); }
+    a.bracket-link:hover::after {
+      -webkit-transform: translateX(4px);
+      -moz-transform: translateX(4px);
+      transform: translateX(4px); }
 
 h1 {
   font-size: 45px; }
@@ -84,7 +128,7 @@ main section#list-of-projects .projects-heading {
   main section#list-of-projects .projects-heading h3 {
     width: 100%;
     font-family: "Anonymous Pro", monospace;
-    font-size: 1.0em;
+    font-size: 15px;
     letter-spacing: 1px;
     display: inline-block; }
 main section#list-of-projects .project-container {
@@ -96,7 +140,7 @@ main section#list-of-projects .project-container {
       margin: 20px 0 120px 0; }
     main section#list-of-projects .project-container .project .project-details a.project-type {
       margin: 10px 0;
-      padding: 3px 7px;
+      padding: 0px 7px;
       font-family: "Anonymous Pro", monospace;
       font-size: 0.8em;
       letter-spacing: 1px;
@@ -141,10 +185,13 @@ main section#list-of-projects .project-container {
         line-height: 20px; }
         main section#list-of-projects .project-container .project.project-web .project-details ul li {
           display: inline-block; }
-        main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li {
-          margin: 0 2px; }
-          main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li:first-child {
-            margin: 0 2px 0 0; }
+        main section#list-of-projects .project-container .project.project-web .project-details ul.project-links {
+          font-family: "Anonymous Pro", monospace;
+          font-size: 15px; }
+          main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li {
+            margin: 0 2px; }
+            main section#list-of-projects .project-container .project.project-web .project-details ul.project-links li:first-child {
+              margin: 0 2px 0 0; }
         main section#list-of-projects .project-container .project.project-web .project-details ul.role {
           margin-bottom: 7px; }
           main section#list-of-projects .project-container .project.project-web .project-details ul.role::before {

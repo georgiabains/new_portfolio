@@ -8,11 +8,11 @@ Error: Undefined variable: "$secondary".
 4:     left: 0;
 5:     padding: 0 40px 20px 40px;
 6:     font-family: $secondary;
-7:     .footer-content {
-8:     	display: flex;
-9:     	flex-wrap: wrap;
-10:         justify-content: space-between;
-11:     	.footer-on-scroll {
+7:     font-size: 15px;
+8:     .footer-content {
+9:     	display: flex;
+10:     	flex-wrap: wrap;
+11:         justify-content: space-between;
 
 Backtrace:
 /Users/georgiabains/Sites/portfolio_new/sass/footer.scss:6
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 6 of /Users/georgiabains/Sites/portfolio_new/sass/footer.scss\A \A 1: footer {\A 2:     width: 100%;\A 3:     bottom: 0;\A 4:     left: 0;\A 5:     padding: 0 40px 20px 40px;\A 6:     font-family: $secondary;\A 7:     .footer-content {\A 8:     	display: flex;\A 9:     	flex-wrap: wrap;\A 10:         justify-content: space-between;\A 11:     	.footer-on-scroll {"; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 6 of /Users/georgiabains/Sites/portfolio_new/sass/footer.scss\A \A 1: footer {\A 2:     width: 100%;\A 3:     bottom: 0;\A 4:     left: 0;\A 5:     padding: 0 40px 20px 40px;\A 6:     font-family: $secondary;\A 7:     font-size: 15px;\A 8:     .footer-content {\A 9:     	display: flex;\A 10:     	flex-wrap: wrap;\A 11:         justify-content: space-between;"; }

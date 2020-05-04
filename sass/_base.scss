@@ -17,8 +17,8 @@ body {
     padding: 0;
     font-family: $primary;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 23px;
     letter-spacing: 1px;
     color: #222;
     background: #fff;
@@ -39,9 +39,7 @@ a {
     text-decoration: none;
     position: relative;
     display: inline-block;
-    -moz-transition-duration:0.3s;
-    -webkit-transition-duration:0.3s;
-    -o-transition-duration:0.3s;
+    @include animate(0.3s);
     &::before {
         content: "";
         bottom: 0;
@@ -60,17 +58,54 @@ a {
         background: #fbfbfb;
         position: absolute;
         opacity: 0;
-        -moz-transition-duration:0.3s;
-        -webkit-transition-duration:0.3s;
-        -o-transition-duration:0.3s;
+        @include animate(0.3s);
     }
     &:hover {
         &::after {
             width: 100%;
             opacity: 1;
-            -moz-transition-duration:0.3s;
-            -webkit-transition-duration:0.3s;
-            -o-transition-duration:0.3s;
+            @include animate(0.3s);
+        }
+    }
+    &.bracket-link {
+        display: inline-block;
+        &::before {
+            content: "[";
+            -webkit-transform: translateX(-1px);
+            -moz-transform: translateX(-1px);
+            transform: translateX(-1px);
+        }
+        &::after {
+            content: "]";
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            transform: translateX(0px);
+        }
+        &::before,
+        &::after {
+            width: unset;
+            height: unset;
+            position: relative;
+            background: none;
+            display: inline-block;
+            @include animate(0.3s);
+        }
+        &:hover {
+            &::before,
+            &::after {
+                @include animate(0.3s);
+            }
+            &::before {
+                -webkit-transform: translateX(-5px);
+                -moz-transform: translateX(-5px);
+                transform: translateX(-5px);
+            }
+            &::after {
+                -webkit-transform: translateX(4px);
+                -moz-transform: translateX(4px);
+                transform: translateX(4px);
+            }
         }
     }
 }

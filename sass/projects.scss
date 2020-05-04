@@ -7,7 +7,7 @@ main {
             h3 {
                 width: 100%; // safari
                 font-family: $secondary;
-                font-size: 1.0em;
+                font-size: 15px;
                 letter-spacing: 1px;
                 display: inline-block;
             }
@@ -23,7 +23,7 @@ main {
                 .project-details {
                     a.project-type {
                         margin: 10px 0;
-                        padding: 3px 7px;
+                        padding: 0px 7px;
                         font-family: $secondary;
                         font-size: 0.8em;
                         letter-spacing: 1px;
@@ -84,6 +84,8 @@ main {
                                 display: inline-block;
                             }
                             &.project-links {
+                                font-family: $secondary;
+                                font-size: 15px;
                                 li {
                                     margin: 0 2px;
                                     &:first-child {
