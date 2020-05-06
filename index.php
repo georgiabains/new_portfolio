@@ -13,7 +13,7 @@
         
             <!-- Volaris Group Core -->
             <div class="project project-web">
-                <div class="project-thumbnail">
+                <div id="hvr-bob" class="project-thumbnail">
                     <div class="desktop">
                         <img src="img/projects/volaris/volaris_desktop_one.png">
                     </div>

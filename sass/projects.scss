@@ -71,6 +71,7 @@ main {
                             img {
                                 width: 90%;
                                 display: inline-block;
+                                @include animate(0.3s);
                             }
                         }
                         .mobile {
@@ -80,6 +81,15 @@ main {
                             img {
                                 height: 420px;
                                 display: inline-block;
+                            }
+                        }
+                        &:hover {
+                            .desktop {
+                                img {
+                                    border-radius: 50% 125% 120% 60% / 80% 70% 120% 140%;
+                                    animation: move 5s ease-in-out infinite;
+                                    @include animate(0.4s);
+                                }
                             }
                         }
                     }

@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.3.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.3.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
+@keyframes move {
+  0% {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); }
+  25% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  50% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  75% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); } }
 html {
   box-sizing: border-box; }
 
@@ -176,7 +208,12 @@ main section#list-of-projects .project-container {
         border-radius: 10px; }
       main section#list-of-projects .project-container .project.project-web .project-thumbnail .desktop img {
         width: 90%;
-        display: inline-block; }
+        display: inline-block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
       main section#list-of-projects .project-container .project.project-web .project-thumbnail .mobile {
         position: absolute;
         top: 80px;
@@ -184,6 +221,14 @@ main section#list-of-projects .project-container {
         main section#list-of-projects .project-container .project.project-web .project-thumbnail .mobile img {
           height: 420px;
           display: inline-block; }
+      main section#list-of-projects .project-container .project.project-web .project-thumbnail:hover .desktop img {
+        border-radius: 50% 125% 120% 60% / 80% 70% 120% 140%;
+        animation: move 0.7s ease-in-out infinite;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; }
     main section#list-of-projects .project-container .project.project-web .project-details {
       width: 73%;
       margin: 20px 0 0 1px;
@@ -295,6 +340,38 @@ main section#list-of-projects .project-container {
     display: block; }
   main section#list-of-projects .project-container .project.project-web .project-details {
     padding: 20px; } }
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.3.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.3.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
+@keyframes move {
+  0% {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); }
+  25% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  50% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  75% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); } }
 html {
   box-sizing: border-box; }
 
