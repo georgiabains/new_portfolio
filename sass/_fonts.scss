@@ -38,7 +38,7 @@ $purple-light: #ded0fb;
  */
 @keyframes move {
 	0% {
-		@include prefixed(transform, translateY(-7px));
+		@include prefixed(transform, translateY(0px));
 	}
 	50% {
 		@include prefixed(transform, translateY(7px));
