@@ -23,12 +23,12 @@
 
         <div class="projects-heading">
             <h3>
-                > now viewing all projects<span class="blinking-underscore">_</span> 
+                > now viewing all <span class="project-type-display">projects</span><span class="blinking-underscore">_</span> 
                 <ul class="projects-nav">
-                    <li><a class="bracket-link" href="projects.php">view all</a></li>
-                    <li><a class="bracket-link">websites</a></li>
-                    <li><a class="bracket-link">microsites</a></li>
-                    <li><a class="bracket-link">mobile games</a></li>
+                    <li class="show-all"><a class="bracket-link show-all">view all</a></li>
+                    <li class="show-websites"><a class="bracket-link show-websites">websites</a></li>
+                    <li class="show-microsites"><a class="bracket-link show-microsites">microsites</a></li>
+                    <li class="show-themes"><a class="bracket-link show-themes">tumblr themes</a></li>
                 </ul>
             </h3>
         </div>
@@ -37,7 +37,7 @@
             <div class="project-flex">
         
                 <!-- Trapeze JoinUs -->
-                <div class="project project-web">
+                <div class="project project-web microsite">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/joinus/joinus_desktop_one.png">
@@ -68,7 +68,7 @@
                 </div>
 
                 <!-- Trapeze AV -->
-                <div class="project project-web">
+                <div class="project project-web microsite">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/trapeze_av/trapeze_av_desktop_one.png">
@@ -99,7 +99,7 @@
                 </div>
 
                 <!-- Volaris Group Core -->
-                <div class="project project-web">
+                <div class="project project-web website">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/volaris/volaris_desktop_one.png">
@@ -130,7 +130,7 @@
                 </div>
 
                 <!-- Experiential Learning -->
-                <div class="project project-web">
+                <div class="project project-web website">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/el/el_desktop_one.png">
@@ -163,7 +163,7 @@
                 </div>
                 
                 <!-- Open UToronto -->
-                <div class="project project-web">
+                <div class="project project-web website">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/ocw/ocw_desktop_one.png">
@@ -194,7 +194,7 @@
                 </div>
                 
                 <!-- Pomegranate Tumblr -->
-                <div class="project project-web">
+                <div class="project project-web tumblr-theme">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/pom/pom_desktop_one.png">
@@ -225,7 +225,7 @@
                 </div>
                 
                 <!-- Spotlight Tumblr -->
-                <div class="project project-web">
+                <div class="project project-web tumblr-theme">
                     <div class="project-thumbnail">
                         <div class="desktop">
                             <img src="img/projects/spotlight/spotlight_desktop_one.png">

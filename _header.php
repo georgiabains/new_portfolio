@@ -7,7 +7,7 @@
             <span
                 class="txt-rotate"
                 data-period="3750"
-                data-rotate='[ "Web", "Game", "Software" ]'></span><span class="blinking-underscore">_</span> Developer
+                data-rotate='[ "Web Developer", "UX/UI Designer" ]'></span><span class="blinking-underscore">_</span>
         </h2>
     </div>
 

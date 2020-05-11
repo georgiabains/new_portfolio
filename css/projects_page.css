@@ -839,13 +839,16 @@ main {
   width: 100%;
   padding: 0 100px 0 40px; }
   main section#list-of-projects .projects-heading ul.projects-nav {
-    margin: 0;
+    margin: 10px 0 0 -4px;
     padding: 0;
-    list-style: none;
-    display: inline-block; }
+    list-style: none; }
     main section#list-of-projects .projects-heading ul.projects-nav li {
       margin: 0 4px;
       display: inline-block; }
+      main section#list-of-projects .projects-heading ul.projects-nav li a:hover {
+        cursor: pointer; }
+      main section#list-of-projects .projects-heading ul.projects-nav li.show-all {
+        display: none; }
   main section#list-of-projects .project-container {
     width: 100%;
     margin: 0 auto; }

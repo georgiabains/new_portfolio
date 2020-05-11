@@ -16,13 +16,20 @@ main {
     section#list-of-projects {
     	.projects-heading {
     		ul.projects-nav {
-    			margin: 0;
+    			margin: 10px 0 0 -4px;
     			padding: 0;
     			list-style: none;
-    			display: inline-block;
     			li {
     				margin: 0 4px;
     				display: inline-block;
+    				a {
+    					&:hover {
+    						cursor: pointer;
+    					}
+    				}
+    				&.show-all {
+    					display: none;
+    				}
     			}
     		}
     	}
