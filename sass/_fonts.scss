@@ -9,6 +9,7 @@ $secondary: "Anonymous Pro", monospace;
 
 $purple: #7434E6;
 $purple-light: #ded0fb;
+$grey-light: #f4f4f4;
 
 @mixin animate($time) {
     -webkit-transition: all $time ease-in-out;

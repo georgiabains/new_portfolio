@@ -113,7 +113,7 @@ header {
                 }
             }
             &.hamburger-on-click {
-                background: #fbfbfb;
+                background: $grey-light;
                 border: 1px solid transparent;
                 -moz-transition-duration: 0.4s;
                 -webkit-transition-duration: 0.4s;
@@ -127,7 +127,7 @@ header {
             height: 100vh;
             padding: 40px;
             position: fixed;
-            background: #f4f4f4;
+            background: $grey-light;
             font-family: $primary;
             overflow-y: scroll;
             display: flex;
