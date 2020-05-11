@@ -64,7 +64,7 @@ main {
 	                    	ul,
 	                    	p {
 	                    		font-size: 0.9em;
-	                    		line-height: 18px;
+	                    		line-height: 1.45em;
 	                    	}
 	                    	ul {
 	                    		&.role {
@@ -90,6 +90,12 @@ main {
 }
 
 /** Media Queries **/
+@media screen and (min-width: 1600px) {
+	main {
+		padding: 0 100px 0 50px;
+	}
+}
+
 @media screen and (max-width: 1300px) {
 	main {
 		section#list-of-projects {
