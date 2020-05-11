@@ -1,98 +1,76 @@
 /* jQuery */
 
-$("a.show-all").click(function() {
-    $(".project").show();
-    $(".project-type-display").html("projects");
-
-    $(".show-all").hide();
-    $(".show-websites").show();
-    $(".show-microsites").show();
-    $(".show-themes").show();
-});
-
-$("a.show-websites").click(function() {
-    $(".website").show();
-    $(".microsite").hide();
-    $(".tumblr-theme").hide();
-
-    $(".show-websites").hide();
-    $(".show-all").show();
-    $(".show-all").css("display", "inline-block");
-    $(".show-microsites").show();
-    $(".show-themes").show();
-
-    $(".project-type-display").html("websites");
-});
-
-$("a.show-microsites").click(function() {
-    $(".microsite").show();
-    $(".website").hide();
-    $(".tumblr-theme").hide();
-
-    $(".show-microsites").hide();
-    $(".show-all").show();
-    $(".show-all").css("display", "inline-block");
-    $(".show-websites").show();
-    $(".show-themes").show();
-
-    $(".project-type-display").html("microsites");
-});
-
-$("a.show-themes").click(function() {
-    $(".tumblr-theme").show();
-    $(".website").hide();
-    $(".microsite").hide();
-
-    $(".show-themes").hide();
-    $(".show-all").show();
-    $(".show-all").css("display", "inline-block");
-    $(".show-websites").show();
-    $(".show-microsites").show();
-
-    $(".project-type-display").html("tumblr themes");
-});
-
-
-// TODO: add comments below
-var hideNav = false;
 
 $(document).ready(function () {
+
+    // Blinking Underscore
     (function blink() { 
         $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 
     })(); 
 
-	$("#menu").click(function() {
-        $("#navigation").toggleClass("nav-on-click");
-        $("#navigation").fadeToggle();
-        hideNav = false;
-    });
-
+    // Hamburger Menu
     $("#hamburger-menu").click(function() {
         $("#navigation-menu").toggleClass("navigation-menu-on-click");
         $("#hamburger-menu").toggleClass("hamburger-on-click");
         $("#hamburger").toggleClass("open");
     });
+
+    // Filters for Projects page
+    $("a.show-all").click(function() {
+        $(".project").show();
+        $(".project-type-display").html("projects");
+
+        $(".show-all").hide();
+        $(".show-websites").show();
+        $(".show-microsites").show();
+        $(".show-themes").show();
+    });
+
+    $("a.show-websites").click(function() {
+        $(".website").show();
+        $(".microsite").hide();
+        $(".tumblr-theme").hide();
+
+        $(".show-websites").hide();
+        $(".show-all").show();
+        $(".show-all").css("display", "inline-block");
+        $(".show-microsites").show();
+        $(".show-themes").show();
+
+        $(".project-type-display").html("websites");
+    });
+
+    $("a.show-microsites").click(function() {
+        $(".microsite").show();
+        $(".website").hide();
+        $(".tumblr-theme").hide();
+
+        $(".show-microsites").hide();
+        $(".show-all").show();
+        $(".show-all").css("display", "inline-block");
+        $(".show-websites").show();
+        $(".show-themes").show();
+
+        $(".project-type-display").html("microsites");
+    });
+
+    $("a.show-themes").click(function() {
+        $(".tumblr-theme").show();
+        $(".website").hide();
+        $(".microsite").hide();
+
+        $(".show-themes").hide();
+        $(".show-all").show();
+        $(".show-all").css("display", "inline-block");
+        $(".show-websites").show();
+        $(".show-microsites").show();
+
+        $(".project-type-display").html("tumblr themes");
+    });
 });
 
-$(document).scroll(function() {
-	var scrollLoc = $(this).scrollTop();
-	
-    if (scrollLoc > 20) {
-        $("#menu").addClass("menu-on-scroll");
-        if (hideNav) {
-            $("#navigation").removeClass("nav-on-click");
-        	$("#navigation").fadeOut();
-        }
-        
-    } else {
-        $("#menu").removeClass("menu-on-scroll");
-        $("#navigation").fadeIn();
-        $("#navigation").removeClass("nav-on-click");
-        hideNav = true;
-    }
-});
-
-/* code below is from: https://codepen.io/gschier/pen/jkivt */
+// code below is from: https://codepen.io/gschier/pen/jkivt
+// Typewriter effect in header
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
