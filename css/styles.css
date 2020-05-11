@@ -623,7 +623,7 @@ header {
         header .hamburger-container .button-wrap button#hamburger:focus, header .hamburger-container .button-wrap button#hamburger:active {
           outline: none; }
       header .hamburger-container .button-wrap.hamburger-on-click {
-        background: #fbfbfb;
+        background: #f4f4f4;
         border: 1px solid transparent;
         -moz-transition-duration: 0.4s;
         -webkit-transition-duration: 0.4s;
@@ -635,7 +635,7 @@ header {
       height: 100vh;
       padding: 40px;
       position: fixed;
-      background: #fbfbfb;
+      background: #f4f4f4;
       font-family: "Quicksand", sans-serif;
       overflow-y: scroll;
       display: flex;
