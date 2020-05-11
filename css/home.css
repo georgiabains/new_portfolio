@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 25px; } }
 main section#list-of-projects .projects-heading {
-  padding: 25px 0 10px; }
+  padding: 25px 0 0; }
   main section#list-of-projects .projects-heading h3 {
     width: 100%;
     font-family: "Anonymous Pro", monospace;
@@ -359,8 +359,7 @@ main {
   top: 0;
   width: 75%;
   margin-left: 25%;
-  padding: 0 100px 0 23px;
-  background: #fff; }
+  padding: 0 100px 0 23px; }
   main section#list-of-projects .project-container .project:last-child {
     margin: 120px 0 60px 0; }
 

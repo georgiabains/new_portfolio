@@ -3,6 +3,8 @@
 
     <head>
 
+        <title>Georgia Bains</title>
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <link rel="stylesheet" href="css/projects_page.css?<?php echo time(); ?>">
