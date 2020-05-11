@@ -197,12 +197,14 @@ main section#list-of-projects .project-container {
         position: absolute;
         display: block;
         z-index: -1; }
-      main section#list-of-projects .project-container .project .project-details a.project-type:hover::after, main section#list-of-projects .project-container .project .project-details a.project-type:active::after {
-        bottom: 1px;
-        left: 22%;
-        width: 55%;
-        height: 90%;
-        border-radius: 40% 60% 60% 120% / 70% 80% 70% 90%; }
+      main section#list-of-projects .project-container .project .project-details a.project-type:hover {
+        cursor: initial; }
+    main section#list-of-projects .project-container .project .project-details:hover a.project-type::after {
+      bottom: 1px;
+      left: 22%;
+      width: 55%;
+      height: 90%;
+      border-radius: 40% 60% 60% 120% / 70% 80% 70% 90%; }
     main section#list-of-projects .project-container .project.project-web .project-thumbnail {
       display: block;
       position: relative; }
