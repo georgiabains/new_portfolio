@@ -13,18 +13,17 @@
         
             <!-- Volaris Group Core -->
             <div class="project project-web">
-                <div id="hvr-bob" class="project-thumbnail">
-                    <div class="desktop">
+                <div class="project-thumbnail">
+                    <div class="desktop desktop-blob">
                         <img src="img/projects/volaris/volaris_desktop_one.png">
                     </div>
-                    <div class="mobile">
+                    <div class="mobile mobile-blob">
                         <img src="img/projects/volaris/volaris_mobile_one.png">
                     </div>
                 </div>
                 <div class="project-details">
-                    <a href="/projects.php" class="project-type">Core Website</a>
+                    <a href="/projects.php" class="project-type">Website</a>
                     <h4>Volaris Group </h4>
-
                     <ul class="project-links">
                         <li><a class="bracket-link" href="https://www.volarisgroup.com/" target="_blank">site</a></li>
                         <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
@@ -46,10 +45,10 @@
             <!-- Experiential Learning -->
             <div class="project project-web">
                 <div class="project-thumbnail">
-                    <div class="desktop">
+                    <div class="desktop desktop-blob">
                         <img src="img/projects/el/el_desktop_one.png">
                     </div>
-                    <div class="mobile">
+                    <div class="mobile mobile-blob">
                         <img src="img/projects/el/el_mobile_one.png">
                     </div>
                 </div>
@@ -79,10 +78,10 @@
             <!-- Open UToronto -->
             <div class="project project-web">
                 <div class="project-thumbnail">
-                    <div class="desktop">
+                    <div class="desktop desktop-blob">
                         <img src="img/projects/ocw/ocw_desktop_one.png">
                     </div>
-                    <div class="mobile">
+                    <div class="mobile mobile-blob">
                         <img src="img/projects/ocw/ocw_mobile_one.png">
                     </div>
                 </div>
@@ -110,10 +109,10 @@
             <!-- Pomegranate Tumblr -->
             <div class="project project-web">
                 <div class="project-thumbnail">
-                    <div class="desktop">
+                    <div class="desktop desktop-blob">
                         <img src="img/projects/pom/pom_desktop_one.png">
                     </div>
-                    <div class="mobile">
+                    <div class="mobile mobile-blob">
                         <img src="img/projects/pom/pom_mobile_one.png">
                     </div>
                 </div>
@@ -141,10 +140,10 @@
             <!-- Spotlight Tumblr -->
             <div class="project project-web">
                 <div class="project-thumbnail">
-                    <div class="desktop">
+                    <div class="desktop desktop-blob">
                         <img src="img/projects/spotlight/spotlight_desktop_one.png">
                     </div>
-                    <div class="mobile">
+                    <div class="mobile mobile-blob">
                         <img src="img/projects/spotlight/spotlight_mobile_one.png">
                     </div>
                 </div>

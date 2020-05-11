@@ -38,16 +38,20 @@ main {
 	                margin: 20px 0 60px 0;
 	                &.project-web {
 	                    .project-thumbnail {
+	                    	position: relative;
 	                        .desktop {
 	                            img {
 	                                width: 92.5%;
 	                            }
 	                        }
 	                        .mobile {
-	                            top: 65px;
-	                            right: 0px;
+	                            top: 17%;
+	                            text-align: right;
+	                            width: 100%;
+	                            z-index: 3;
 	                            img {
-	                                height: 280px;
+	                                width: 22%;
+	                                height: auto;
 	                            }
 	                        }
 	                    }
@@ -83,4 +87,19 @@ main {
             }
         }
     }
+}
+
+/** Media Queries **/
+@media screen and (max-width: 1300px) {
+	main {
+		section#list-of-projects {
+			.project-container {
+				.project-flex {
+					.project {
+						flex-basis: 100%;
+					}
+				}
+			}
+		}
+	}
 }

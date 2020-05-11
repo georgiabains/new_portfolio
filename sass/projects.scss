@@ -75,28 +75,30 @@ main {
                             }
                         }
                         .mobile {
+                            top: 18%;
+                            width: 100%;
                             position: absolute;
-                            top: 80px;
-                            right: 0px;
+                            text-align: right;
                             img {
-                                height: 420px;
+                                width: 20%;
+                                height: auto;
                                 display: inline-block;
                                 @include animate(0.5s);
                             }
                         }
                         &:hover {
-                            .desktop {
+                            .desktop-blob {
                                 img {
                                     border-radius: 50% 125% 120% 60% / 80% 70% 120% 140%;
                                 }
                             }
-                            .mobile {
+                            .mobile-blob {
                                 img {
                                     border-radius: 250% 225% 270% 210% / 90% 230% 290% 220%;
                                 }
                             }
-                            .desktop,
-                            .mobile {
+                            .desktop-blob,
+                            .mobile-blob {
                                 img {
                                     animation: move 4s ease-in-out infinite alternate;
                                     animation-delay: 0.5s;
