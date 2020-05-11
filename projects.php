@@ -51,7 +51,7 @@
                         <h4>Trapeze JoinUs</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://joinus.trapezegroup.com/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/trapeze-joinus.php">project details</a></li>
                         </ul>
                         <p class="description">A landing page directed towards transit software companies detailing the opportunies present within Trapeze Group.</p>
                         <ul class="role">
@@ -82,7 +82,7 @@
                         <h4>Trapeze Autonomous Vehicles</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://joinus.trapezegroup.com/av/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/trapeze-av.php">project details</a></li>
                         </ul>
                         <p class="description">A landing page detailing the history and develepmental concerns of autonomous vehicles from an industry standpoint.</p>
                         <ul class="role">
@@ -113,7 +113,7 @@
                         <h4>Volaris Group</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://www.volarisgroup.com/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/volaris-group.php">project details</a></li>
                         </ul>
                         <p class="description">The core website for the company Volaris Group, a company dedicated to acquiring and supporting its child companies.</p>
                         <ul class="role">
@@ -144,7 +144,7 @@
                         <h4>Experiential Learning Modules</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://www.experientialmodules.utoronto.ca/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/experiential-modules.php">project details</a></li>
                             <li><a class="bracket-link" href="https://github.com/georgiabains/experiential-learning" target="_blank">code</a></li>
                         </ul>
                         <p class="description">The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
@@ -177,7 +177,7 @@
                         <h4>Open UToronto</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://www.ocw.utoronto.ca/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/open-utoronto.php">project details</a></li>
                         </ul>
                         <p class="description">The core website for Open Projects at the University of Toronto.</p>
                         <ul class="role">
@@ -208,7 +208,7 @@
                         <h4>Pomegranate</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://pomegranate-theme.tumblr.com/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/pomegranate.php">project details</a></li>
                             <li><a class="bracket-link" href="https://pastebin.com/Cd1eyVLB" target="_blank">code</a></li>
                         </ul>
                         <p class="description">Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
@@ -239,7 +239,7 @@
                         <h4>Spotlight</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://spotlight-theme.tumblr.com/" target="_blank">site</a></li>
-                            <li><a class="bracket-link" href="/portfolio_new/projects-page.php">project details</a></li>
+                            <li><a class="bracket-link" href="project/spotlight.php">project details</a></li>
                             <li><a class="bracket-link" href="https://pastebin.com/PjTDvVmU" target="_blank">code</a></li>
                         </ul>
                         <p class="description">Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
