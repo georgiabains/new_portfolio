@@ -5,6 +5,7 @@ header {
     left: 0;
     width: 100%;
     padding: 30px 30px 30px 40px;
+    background: #fff;
     h1.main-title {
         position: fixed;
         margin: 22px 0;
@@ -122,8 +123,8 @@ header {
         }
         #navigation-menu {
             top: 0;
-            right: -280px;
-            width: 280px;
+            right: -300px;
+            width: 300px;
             height: 100vh;
             padding: 40px;
             position: fixed;
@@ -248,6 +249,44 @@ header {
 }
 
 /** Media Queries **/
+@media screen and (min-width: 1920px) {
+    header {
+        position: relative;
+        .hamburger-container {
+            .button-wrap {
+                right: unset;
+                left: calc(50% + 884px);
+            }
+            #navigation-menu {
+                right: unset;
+                left: calc(50% + 960px);
+                visibility: hidden;
+                opacity: 0;
+                &.navigation-menu-on-click {
+                    left: calc(50% + 660px);
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    header {
+        padding: 40px 40px 40px 50px;
+        h1.main-title {
+            font-size: 55px;
+        }
+        .hamburger-container {
+            .button-wrap {
+                top: 46px;
+                right: 42px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1400px) {
     header {
         .roles {

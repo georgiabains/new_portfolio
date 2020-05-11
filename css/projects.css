@@ -34,6 +34,7 @@ html {
     box-sizing: inherit; }
 
 body {
+  max-width: 1920px;
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
@@ -149,6 +150,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: 0; }
 
+/** Media Queries **/
+@media screen and (min-width: 1920px) {
+  body {
+    margin: 0 auto; } }
+@media screen and (min-width: 1600px) {
+  body {
+    font-size: 18px;
+    line-height: 25px; } }
 main section#list-of-projects .projects-heading {
   padding: 25px 0 10px; }
   main section#list-of-projects .projects-heading h3 {

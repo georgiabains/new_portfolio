@@ -5,6 +5,7 @@ main {
     width: 75%;
     margin-left: 25%;
     padding: 0 100px 0 23px;
+    background: #fff;
     section#list-of-projects {
         .project-container {
             .project {
@@ -28,6 +29,11 @@ footer {
 }
 
 /** Media Queries **/
+@media screen and (min-width: 1600px) {
+    main {
+        padding: 0 110px 0 23px;
+    }
+}
 @media screen and (max-width: 1400px) {
     main {
         margin-left: 346px;
