@@ -910,17 +910,48 @@ section.project-page-details {
     font-family: "Anonymous Pro", monospace;
     font-size: 1.15em;
     letter-spacing: 1px; }
-  section.project-page-details img {
-    margin: 40px 0; }
-  section.project-page-details .project-snippets {
-    display: flex;
-    flex-wrap: wrap; }
-    section.project-page-details .project-snippets p {
-      margin: 0.75em 0; }
-      section.project-page-details .project-snippets p:first-child {
-        flex-basis: 20%; }
-      section.project-page-details .project-snippets p:last-child {
-        flex-basis: 80%; }
+  section.project-page-details p.description {
+    margin: 5.0em auto;
+    width: 75%;
+    font-size: 1.2em;
+    line-height: 1.6em; }
+  section.project-page-details figure {
+    margin: 40px 0;
+    padding: 0; }
+    section.project-page-details figure img {
+      margin: 0; }
+    section.project-page-details figure figcaption {
+      padding: 10px 10px 0;
+      text-align: center;
+      font-family: "Anonymous Pro", monospace;
+      font-size: 0.9em;
+      line-height: 1.45em; }
+      section.project-page-details figure figcaption::after {
+        content: "";
+        margin: 5px auto;
+        width: 40%;
+        height: 1px;
+        background: #ded0fb;
+        display: block; }
+  section.project-page-details .project-basic-info {
+    margin: 40px 0 0;
+    display: flex; }
+    section.project-page-details .project-basic-info .info-column:first-child {
+      flex-basis: 15%; }
+    section.project-page-details .project-basic-info .info-column:nth-child(2) {
+      flex-basis: 25%; }
+    section.project-page-details .project-basic-info .info-column:last-child {
+      flex-basis: 60%; }
+    section.project-page-details .project-basic-info .info-column h4 {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      padding: 0px 7px;
+      font-family: "Anonymous Pro", monospace;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      background: #ded0fb;
+      border-radius: 5px;
+      display: inline-block; }
   section.project-page-details .project-column {
     display: flex;
     flex-wrap: wrap;
@@ -931,5 +962,8 @@ section.project-page-details {
       margin: calc(40px - 0.5em) 0;
       padding: 0 40px;
       flex-basis: calc(60% - 80px); }
+      section.project-page-details .project-column .column-two p {
+        font-size: 1.2em;
+        line-height: 1.6em; }
 
 /*# sourceMappingURL=styles.css.map */

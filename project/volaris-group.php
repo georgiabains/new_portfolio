@@ -23,39 +23,41 @@
 		<h2>Volaris Group</h2>
 		<h3>> core website<span class="blinking-underscore">_</span></h3>
 
+		<div class="project-basic-info">
+			<div class="info-column">
+				<h4>year</h4>
+				<p>2019</p>
+			</div>
+			<div class="info-column">
+				<h4>role</h4>
+				<p>Web Development</p>
+			</div>
+			<div class="info-column">
+				<h4>languages</h4>
+				<p>CSS (SCSS), HTML, JavaScript, jQuery</p>
+			</div>
+		</div>
+
 		<figure>
 			<img src="../img/projects/volaris/volaris_mockup_one.png">
 			<figcaption>A screenshot of the landing page on a MacBook, iPad, and iPhone.</figcaption>
 		</figure>
 
-		<div class="project-snippets">
-			<p>> role_</p>
-			<p>Web Development</p>
-		</div>
-		<div class="project-snippets">
-			<p>> languages used_</p>
-			<p>CSS, (SCSS), HTML, JavaScript, jQuery</p>
-		</div>
-		<div class="project-snippets">
-			<p>> year_</p>
-			<p>2019</p>
-		</div>
-
-		<p>Volaris Group's core website was created in collaboration with the Senior Web Developer and Senior Graphic Designer at Volaris Group. The project involved a sizeable redesign using Volaris Group's new branding and company-specific banners.</p>
+		<p class="description">Working as a web developer for Volaris Group's marketing department, I helped implement the redesign for the company's core website. My primary objective was to ensure the site was fully responsive and met Web Content Accessiblity Guidelines (<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0</a>).</p>
 
 		<figure>
 			<img src="../img/projects/volaris/volaris_mockup_four.png">
 			<figcaption>A screenshot of the Owner/Operator page. The banner features an employee of Volaris Group.</figcaption>
 		</figure>
 
-		<p>My contribution to this project was primarily in making the site responsive and accessible. I took great care in ensuring that any button or link that could be clicked by a mouse, could also be accessed by a keyboard. This included navigation menus and pop-up boxes.</p>
-
-		<p>I designed the responsive breakpoints based on natural breaks in the site's content, to allow for any unsual or non-standard browser resolutions, and to create a cohesive "tablet" view, as well as the provided "mobile" view.</p>
+			<p class="description">I developed the site locally using MAMP (Mac, Apache, MySQL, PHP), in collaboration with Volaris Group's Senior Web Developer. We used Git to ensure that any updates to the code were reflected in each other's work and published the site using ExpressionEngine.</p> 
 
 		<figure>
 			<img src="../img/projects/volaris/volaris_mockup_two.png">
 			<figcaption>Two screenshots of the site's landing page, displayed on iPhones.</figcaption>
 		</figure>
+
+			<p class="description">Accessibility was a vital component of Volaris Group's website, as the site used a myriad of embedded content to demonstrate its message. This included carousels with embedded videos and pop-up boxes for email lists. In order to ensure that this information was available to anyone with disabilties, I coded JavaScript functions that allowed for navigating the site with a keyboard (e.g. using the 'tab' and 'enter' keys) to pause the carousel, and enter and exit from any pop-up box.</p>
 
 		<div class="project-column">
 			<div class="column-one">
@@ -65,7 +67,7 @@
 				</figure>
 			</div>
 			<div class="column-two">
-				<p>This screenshot demonstrates the hamburger menu in it's extended form.</p>
+				<p>As new devices are constanty being introduced, i designed the responsive breakpoints based on natural breaks in the site's content, to ensure that this website stands the test of time and can be accessed from any device.</p>
 			</div>
 		</div>
 

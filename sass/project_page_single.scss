@@ -10,21 +10,61 @@ section.project-page-details {
 		font-size: 1.15em;
 		letter-spacing: 1px;
 	}
-
-	img {
-		margin: 40px 0;
+	p {
+		&.description {
+			margin: 5.0em auto;
+			width: 75%;
+			font-size: 1.2em;
+			line-height: 1.6em;
+		}
 	}
 
-	.project-snippets {
+	figure {
+		margin: 40px 0;
+		padding: 0;
+		img {
+			margin: 0;
+		}
+		figcaption {
+			padding: 10px 10px 0;
+			text-align: center;
+			font-family: $secondary;
+			font-size: 0.9em;
+			line-height: 1.45em;
+			&::after {
+				content: "";
+				margin: 5px auto;
+				width: 40%;
+				height: 1px;
+				background: $purple-light;
+				display: block;
+			}
+		}
+	}
+
+	.project-basic-info {
+		margin: 40px 0 0;
 		display: flex;
-		flex-wrap: wrap;
-		p {
-			margin: 0.75em 0;
+		.info-column {
 			&:first-child {
-				flex-basis: 20%;
+				flex-basis: 15%;
+			}
+			&:nth-child(2) {
+				flex-basis: 25%;
 			}
 			&:last-child {
-				flex-basis: 80%;
+				flex-basis: 60%;
+			}
+			h4 {
+				margin-block-start: 0;
+				margin-block-end: 0;
+				padding: 0px 7px;
+				font-family: $secondary;
+				font-size: 0.8em;
+				letter-spacing: 1px;
+				background: $purple-light;
+				border-radius: 5px;
+				display: inline-block;
 			}
 		}
 	}
@@ -40,6 +80,10 @@ section.project-page-details {
 			margin: calc(40px - 0.5em) 0;
 			padding: 0 40px;
 			flex-basis: calc(60% - 80px);
+			p {
+				font-size: 1.2em;
+				line-height: 1.6em;
+			}
 		}
 	}
 }
