@@ -53,7 +53,7 @@
                             <li><a class="bracket-link" href="https://joinus.trapezegroup.com/" target="_blank">site</a></li>
                             <li><a class="bracket-link" href="project/trapeze-joinus.php">project details</a></li>
                         </ul>
-                        <p class="description">A landing page directed towards transit software companies detailing the opportunies present within Trapeze Group.</p>
+                        <p class="description">Trapeze JoinUs is a microsite that details the opportunities for transit software companies within Trapeze Group. This is a static microsite that was developed from a mockup.</p>
                         <ul class="role">
                             <li>Web Development</li>
                         </ul>
@@ -62,7 +62,6 @@
                             <li>HTML</li>
                             <li>JavaScript</li>
                             <li>jQuery</li>
-                            <li>PHP</li>
                         </ul>
                     </div>
                 </div>
@@ -84,7 +83,7 @@
                             <li><a class="bracket-link" href="https://joinus.trapezegroup.com/av/" target="_blank">site</a></li>
                             <li><a class="bracket-link" href="project/trapeze-av.php">project details</a></li>
                         </ul>
-                        <p class="description">A landing page detailing the history and develepmental concerns of autonomous vehicles from an industry standpoint.</p>
+                        <p class="description">Trapeze AV is a microsite that outlines the history and developmental concerns of autonomous vehicles from an industry standponit. It is a static microsite that was developed from a mockup.</p>
                         <ul class="role">
                             <li>Web Development</li>
                         </ul>
@@ -93,7 +92,6 @@
                             <li>HTML</li>
                             <li>JavaScript</li>
                             <li>jQuery</li>
-                            <li>PHP</li>
                         </ul>
                     </div>
                 </div>
@@ -115,7 +113,7 @@
                             <li><a class="bracket-link" href="https://www.volarisgroup.com/" target="_blank">site</a></li>
                             <li><a class="bracket-link" href="project/volaris-group.php">project details</a></li>
                         </ul>
-                        <p class="description">The core website for the company Volaris Group, a company dedicated to acquiring and supporting its child companies.</p>
+                        <p class="description">The core website for Volaris Group, a company dedicated to acquiring and supporting their child companies. I contributed to the devleopment of this ExpressionEngine powered site, using the Senior Graphics Designer's mockup.</p>
                         <ul class="role">
                             <li>Web Development</li>
                         </ul>
@@ -124,7 +122,6 @@
                             <li>HTML</li>
                             <li>JavaScript</li>
                             <li>jQuery</li>
-                            <li>PHP</li>
                         </ul>
                     </div>
                 </div>
@@ -147,7 +144,7 @@
                             <li><a class="bracket-link" href="project/experiential-modules.php">project details</a></li>
                             <li><a class="bracket-link" href="https://github.com/georgiabains/experiential-learning" target="_blank">code</a></li>
                         </ul>
-                        <p class="description">The website for the Experiential Learning Modules project. It contains materials for use in developing curricular and co-curricular activities that incorporate experiential learning.</p>
+                        <p class="description">The Experiential Learning Modules website was a novel project headed by the University of Toronto. This website contains materials for use in devleoping curricular and co-curricular activities that incorporate experiential learning. I designed and developed this WordPress theme based on the project's requirements.</p>
                         <ul class="role">
                             <li>Web Design</li>
                             <li>Web Development</li>
@@ -179,7 +176,7 @@
                             <li><a class="bracket-link" href="https://www.ocw.utoronto.ca/" target="_blank">site</a></li>
                             <li><a class="bracket-link" href="project/open-utoronto.php">project details</a></li>
                         </ul>
-                        <p class="description">The core website for Open Projects at the University of Toronto.</p>
+                        <p class="description">Open UToronto hosts resources for Open Projects at the University of Toronto. This project was a complete re-design of its WordPress theme.</p>
                         <ul class="role">
                             <li>Web Design</li>
                             <li>Web Development</li>
@@ -211,7 +208,7 @@
                             <li><a class="bracket-link" href="project/pomegranate.php">project details</a></li>
                             <li><a class="bracket-link" href="https://pastebin.com/Cd1eyVLB" target="_blank">code</a></li>
                         </ul>
-                        <p class="description">Pomegranate is a one-columned responsive theme, optimized for text-heavy blogs.</p>
+                        <p class="description">Pomegranate is a free-to-use Tumblr Theme that was optimized for text-based blogs, with its one-columned layout.</p>
                         <ul class="role">
                             <li>Web Design</li>
                             <li>Web Development</li>
@@ -242,7 +239,7 @@
                             <li><a class="bracket-link" href="project/spotlight.php">project details</a></li>
                             <li><a class="bracket-link" href="https://pastebin.com/PjTDvVmU" target="_blank">code</a></li>
                         </ul>
-                        <p class="description">Spotlight is a responsive theme that puts the 'Spotlight' on your posts with a pared back customization selection.</p>
+                        <p class="description">Spotlight is a free-to-use Tumblr Theme that puts the 'spotlight' on its user's posts, with its multi-columned, fully responsive display.</p>
                         <ul class="role">
                             <li>Web Design</li>
                             <li>Web Development</li>
