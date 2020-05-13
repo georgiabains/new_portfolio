@@ -95,6 +95,7 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   a.bracket-link {
+    font-family: "Anonymous Pro", monospace;
     display: inline-block; }
     a.bracket-link::before {
       content: "[";
@@ -453,6 +454,7 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   a.bracket-link {
+    font-family: "Anonymous Pro", monospace;
     display: inline-block; }
     a.bracket-link::before {
       content: "[";

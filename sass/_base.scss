@@ -69,6 +69,7 @@ a {
         }
     }
     &.bracket-link {
+        font-family: $secondary;
         display: inline-block;
         &::before {
             content: "[";

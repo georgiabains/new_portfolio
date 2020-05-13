@@ -96,6 +96,7 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   a.bracket-link {
+    font-family: "Anonymous Pro", monospace;
     display: inline-block; }
     a.bracket-link::before {
       content: "[";
@@ -491,6 +492,7 @@ a {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   a.bracket-link {
+    font-family: "Anonymous Pro", monospace;
     display: inline-block; }
     a.bracket-link::before {
       content: "[";
@@ -935,7 +937,8 @@ section.project-page-details {
         display: block; }
   section.project-page-details .project-basic-info {
     margin: 40px 0 0;
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
     section.project-page-details .project-basic-info .info-column:first-child {
       flex-basis: 15%; }
     section.project-page-details .project-basic-info .info-column:nth-child(2) {
@@ -965,5 +968,30 @@ section.project-page-details {
       section.project-page-details .project-column .column-two p {
         font-size: 1.2em;
         line-height: 1.6em; }
+
+/** Media Queries **/
+@media screen and (max-width: 900px) {
+  section.project-page-details p.description {
+    font-size: 1.0em;
+    line-height: 23px; }
+  section.project-page-details .project-basic-info .info-column {
+    margin: 5px 0; }
+    section.project-page-details .project-basic-info .info-column:first-child, section.project-page-details .project-basic-info .info-column:nth-child(2), section.project-page-details .project-basic-info .info-column:last-child {
+      flex-basis: 100%; }
+    section.project-page-details .project-basic-info .info-column p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      display: inline-block; }
+  section.project-page-details .project-column .column-two p {
+    font-size: 1.0em;
+    line-height: 23px; } }
+@media screen and (max-width: 750px) {
+  section.project-page-details .project-column .column-one,
+  section.project-page-details .project-column .column-two {
+    flex-basis: 100%;
+    padding: 0; } }
+@media screen and (max-width: 550px) {
+  section.project-page-details p.description {
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -71,6 +71,8 @@
 			</div>
 		</div>
 
+		<a href="../projects.php" class="bracket-link">view all projects</a>
+
 	</section>
 
 </main>
