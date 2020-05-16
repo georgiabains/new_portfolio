@@ -115,6 +115,25 @@ section.project-page-details {
       position: absolute; }
 
 /** Media Queries **/
+@media screen and (max-width: 1000px) {
+  section.project-page-details .image-collage {
+    width: 100%;
+    height: unset;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between; }
+    section.project-page-details .image-collage img {
+      width: 30%;
+      height: auto;
+      position: relative; }
+      section.project-page-details .image-collage img.main-image, section.project-page-details .image-collage img.top-left, section.project-page-details .image-collage img.bottom-right {
+        top: unset;
+        bottom: unset;
+        left: unset; }
+    section.project-page-details .image-collage figcaption {
+      bottom: unset;
+      position: relative; } }
 @media screen and (max-width: 900px) {
   section.project-page-details p.description {
     font-size: 1.0em;
@@ -134,9 +153,16 @@ section.project-page-details {
   section.project-page-details .project-column .column-one,
   section.project-page-details .project-column .column-two {
     flex-basis: 100%;
-    padding: 0; } }
+    padding: 0; }
+  section.project-page-details .image-collage {
+    flex-direction: column; }
+    section.project-page-details .image-collage img {
+      margin: 20px auto;
+      width: 40%; } }
 @media screen and (max-width: 550px) {
   section.project-page-details p.description {
-    width: 100%; } }
+    width: 100%; }
+  section.project-page-details .image-collage img {
+    width: 70%; } }
 
 /*# sourceMappingURL=project_page_single.css.map */

@@ -46,10 +46,9 @@
 		<p class="description">Working as a web developer for Volaris Group's marketing department, I helped implement the redesign for the company's core website. My primary objective was to ensure the site was fully responsive and met Web Content Accessiblity Guidelines (<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0</a>).</p>
 
 		<figure class="image-collage">
-			<img class="main-image" src="../img/projects/volaris/volaris_mobile_two.gif">
+			
 			<img class="top-left" src="../img/projects/volaris/volaris_mobile_four.PNG">
-			<!-- <img class="top-right" src="../img/projects/volaris/volaris_mobile_three.PNG">
-			<img class="bottom-left" src="../img/projects/volaris/volaris_mobile_six.PNG"> -->
+			<img class="main-image" src="../img/projects/volaris/volaris_mobile_two.gif">
 			<img class="bottom-right" src="../img/projects/volaris/volaris_mobile_seven.PNG">
 			<figcaption>Two screenshots of the About and Home page, and one GIF showing the hamburger menu. iPhone X (375 x 812px) resolution.</figcaption>
 		</figure>

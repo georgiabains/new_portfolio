@@ -69,10 +69,13 @@ $(document).ready(function () {
     });
 });
 
-// trigger functions on scroll
+// trigger scroll functions
 $(window).scroll(function() {
-    moveImagesToRow(".main-image");
-})
+    if ($(window).width() > 1000) { // limit to desktop resolution
+        moveImagesToRow(".main-image");
+    }
+    
+});
 
 // animate images from offset position behind .main-image, to inline with .main-image
 function moveImagesToRow(el) {
