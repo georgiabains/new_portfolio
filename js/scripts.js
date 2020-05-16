@@ -69,6 +69,54 @@ $(document).ready(function () {
     });
 });
 
+$(window).scroll(function() {
+    moveImagesToRow(".main-image");
+})
+
+function moveImagesToRow(el) {
+    var windowHeight = jQuery(window).height();
+
+    $(el).each(function() {
+        var thisPos = $(this).offset().top;
+        var thisPosBottom = thisPos + 570;
+        var topOfWindow = $(window).scrollTop();
+
+        if ((topOfWindow + windowHeight - 300 > thisPos) && (topOfWindow + windowHeight - 300 < thisPosBottom)){
+            $(this).parent().children("img.top-left").clearQueue();
+            $(this).parent().children("img.bottom-right").clearQueue();
+            $(this).parent().children("figcaption").clearQueue();
+            $(this).parent().children("img.top-left").animate({top: "108px", left: "-40px"}, "slow");
+            $(this).parent().children("img.bottom-right").animate({top: "108px", left: "540px"}, "slow");
+            $(this).parent().children("figcaption").animate({bottom: "40px"});
+        } else {
+            $(this).parent().children("img.top-left").clearQueue();
+            $(this).parent().children("img.bottom-right").clearQueue();
+            $(this).parent().children("figcaption").clearQueue();
+            $(this).parent().children("img.top-left").animate({top: "0", left: "130px"}, "slow");
+            $(this).parent().children("img.bottom-right").animate({top: "210px", left: "340px"}, "slow");
+            $(this).parent().children("figcaption").animate({bottom: "-60px"});
+        }
+    });
+}
+
+function moveImagesToCollage(el) {
+    var windowHeight = jQuery(window).height();
+
+    $(el).each(function() {
+        var thisPos = $(this).offset().top;
+
+        console.log(thisPos);
+
+        var topOfWindow = $(window).scrollTop();
+        if (topOfWindow + windowHeight - 300 < thisPos) {
+            $(this).parent().children("img.top-left").animate({top: "108px", left: "-40px"}, "slow");
+            $(this).parent().children("img.bottom-right").animate({top: "108px", left: "540px"}, "slow");
+        }
+    });
+}
+
+
+
 // code below is from: https://codepen.io/gschier/pen/jkivt
 // Typewriter effect in header
 var TxtRotate = function(el, toRotate, period) {
