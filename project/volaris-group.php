@@ -33,8 +33,8 @@
 				<p>Web Development</p>
 			</div>
 			<div class="info-column">
-				<h4>languages</h4>
-				<p>CSS (SCSS), HTML, JavaScript, jQuery</p>
+				<h4>company</h4>
+				<p>Volaris Group</p>
 			</div>
 		</div>
 
