@@ -66,7 +66,6 @@ section.project-page-details {
 			}
 		}
 	}
-
 	.project-column {
 		display: flex;
 		flex-wrap: wrap;
@@ -81,6 +80,35 @@ section.project-page-details {
 			p {
 				font-size: 1.2em;
 				line-height: 1.6em;
+			}
+		}
+	}
+	.image-collage {
+		margin: 0 auto;
+		width: 630px;
+		height: 960px;
+		position: relative;
+		img {
+			width: 300px;
+			position: absolute;
+			display: inline-block;
+			&:nth-child(2) {
+				transform: translate(0, 0);
+				z-index: 4;
+			}
+			&:nth-child(3) {
+				transform: translate(330px, 10px);
+			}
+			&:nth-child(4) {
+				transform: translate(-60px, 280px);
+			}
+			&:nth-child(5) {
+				transform: translate(280px, 300px);
+				z-index: 3;
+			}
+			&.main-image {
+				z-index: 5;
+				transform: translate(calc(50% - 12px), calc(50% - 175px));
 			}
 		}
 	}

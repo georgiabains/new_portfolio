@@ -45,11 +45,16 @@
 
 		<p class="description">Working as a web developer for Volaris Group's marketing department, I helped implement the redesign for the company's core website. My primary objective was to ensure the site was fully responsive and met Web Content Accessiblity Guidelines (<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0</a>).</p>
 
-		<!-- <figure>
-			<video autoplay loop>
-				<source src="../img/projects/volaris/volaris_mobile_two.mov">
-			</video>
-		</figure> -->
+		<div class="image-collage">
+			<img class="main-image" src="../img/projects/volaris/volaris_mobile_two.gif">
+			<img src="../img/projects/volaris/volaris_mobile_four.PNG">
+			<img src="../img/projects/volaris/volaris_mobile_three.PNG">
+			
+			
+			<img src="../img/projects/volaris/volaris_mobile_six.PNG">
+			<img src="../img/projects/volaris/volaris_mobile_seven.PNG">
+			
+		</div>
 
 		<figure>
 			<img src="../img/projects/volaris/volaris_mockup_four.png">
