@@ -45,6 +45,12 @@
 
 		<p class="description">Working as a web developer for Volaris Group's marketing department, I helped implement the redesign for the company's core website. My primary objective was to ensure the site was fully responsive and met Web Content Accessiblity Guidelines (<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0</a>).</p>
 
+		<!-- <figure>
+			<video autoplay loop>
+				<source src="../img/projects/volaris/volaris_mobile_two.mov">
+			</video>
+		</figure> -->
+
 		<figure>
 			<img src="../img/projects/volaris/volaris_mockup_four.png">
 			<figcaption>A screenshot of the Owner/Operator page. The banner features an employee of Volaris Group.</figcaption>
