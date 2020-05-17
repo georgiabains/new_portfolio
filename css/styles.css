@@ -1061,6 +1061,13 @@ section.project-page-details {
 @media screen and (max-width: 550px) {
   section.project-page-details p.description {
     width: 100%; }
+  section.project-page-details figure figcaption.video-caption {
+    margin: 0 0 60px;
+    flex-basis: 100%;
+    text-align: center; }
+  section.project-page-details figure .video-controls {
+    flex-basis: 100%;
+    text-align: center; }
   section.project-page-details .image-collage img {
     width: 70%; } }
 

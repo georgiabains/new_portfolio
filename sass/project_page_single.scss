@@ -244,6 +244,19 @@ section.project-page-details {
 				width: 100%;
 			}
 		}
+		figure {
+			figcaption {
+				&.video-caption {
+					margin: 0 0 60px;
+					flex-basis: 100%;
+					text-align: center;
+				}
+			}
+			.video-controls {
+				flex-basis: 100%;
+				text-align: center;
+			}
+		}
 		.image-collage {
 			img {
 				width: 70%;
