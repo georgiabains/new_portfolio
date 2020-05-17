@@ -54,8 +54,9 @@
 		</figure>
 
 		<figure>
-			<img src="../img/projects/volaris/volaris_mockup_four.png">
-			<figcaption>A screenshot of the Owner/Operator page. The banner features an employee of Volaris Group.</figcaption>
+			<!-- <img src="../img/projects/volaris/volaris_mockup_four.png">
+			<figcaption>A screenshot of the Owner/Operator page. The banner features an employee of Volaris Group.</figcaption> -->
+			<img src="../img/projects/volaris/volaris_desktop_two.png">
 		</figure>
 
 			<p class="description">I developed the site locally using MAMP (Mac, Apache, MySQL, PHP), in collaboration with Volaris Group's Senior Web Developer. We used Git to ensure that any updates to the code were reflected in each other's work and published the site using ExpressionEngine.</p> 
