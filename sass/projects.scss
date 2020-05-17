@@ -90,26 +90,6 @@ main {
                                 @include animate(0.5s);
                             }
                         }
-                        &:hover {
-                            .desktop-blob {
-                                img {
-                                    border-radius: 50% 125% 120% 60% / 80% 70% 120% 140%;
-                                }
-                            }
-                            .mobile-blob {
-                                img {
-                                    border-radius: 250% 225% 270% 210% / 90% 230% 290% 220%;
-                                }
-                            }
-                            .desktop-blob,
-                            .mobile-blob {
-                                img {
-                                    animation: move 4s ease-in-out infinite alternate;
-                                    animation-delay: 0.5s;
-                                    @include animate(0.5s);
-                                }
-                            }
-                        }
                     }
                     .project-details {
                         width: 73%;

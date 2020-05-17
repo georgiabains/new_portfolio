@@ -234,19 +234,6 @@ main section#list-of-projects .project-container {
           -ms-transition: all 0.5s ease-in-out;
           -o-transition: all 0.5s ease-in-out;
           transition: all 0.5s ease-in-out; }
-      main section#list-of-projects .project-container .project.project-web .project-thumbnail:hover .desktop-blob img {
-        border-radius: 50% 125% 120% 60% / 80% 70% 120% 140%; }
-      main section#list-of-projects .project-container .project.project-web .project-thumbnail:hover .mobile-blob img {
-        border-radius: 250% 225% 270% 210% / 90% 230% 290% 220%; }
-      main section#list-of-projects .project-container .project.project-web .project-thumbnail:hover .desktop-blob img,
-      main section#list-of-projects .project-container .project.project-web .project-thumbnail:hover .mobile-blob img {
-        animation: move 4s ease-in-out infinite alternate;
-        animation-delay: 0.5s;
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -ms-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out; }
     main section#list-of-projects .project-container .project.project-web .project-details {
       width: 73%;
       margin: 20px 0 0 1px;
