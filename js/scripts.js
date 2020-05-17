@@ -1,7 +1,35 @@
+// Javascript
+
 /* jQuery */
-
-
 $(document).ready(function () {
+
+    var video = $("video.play-on-hover");
+    video.hover(hoverVideo, hideVideo);
+
+    $(".video-controls button.pause").hide();
+
+    $(".video-controls button.play").on("click",function(){
+        var thisVideo = $(this).parent().parent().children().get(0);
+        var thisPause = $(this).parent().children("button.pause");
+
+        thisVideo.play();
+        thisVideo.playbackRate = 1.5;
+
+        $(this).toggle();
+        thisPause.toggle();
+        thisPause.focus();                
+    });
+
+    $(".video-controls button.pause").on("click",function(){
+        var thisVideo = $(this).parent().parent().children().get(0);
+        var thisPlay = $(this).parent().children("button.play");
+        
+        thisVideo.pause();
+
+        $(this).toggle();
+        thisPlay.toggle();
+        thisPlay.focus(); 
+    });
 
     // Blinking Underscore
     (function blink() { 
@@ -94,8 +122,6 @@ function moveImagesToRow(el) {
 
         var allImages = [imageTopLeft, imageBottomRight, imageFigcaption];
 
-        console.log(allImages);
-
         if ((topOfWindow + windowHeight - 300 > thisPos) && (topOfWindow + windowHeight - 300 < thisPosBottom)){
             clearArrQueue(allImages);
             imageTopLeft.animate({top: "108px", left: "-40px"}, "slow");
@@ -115,6 +141,26 @@ function clearArrQueue(queueArray) {
     $(queueArray).each(function(i) {
         this.clearQueue();
     });
+}
+
+// play video on mouseover
+function hoverVideo(e) { 
+    $(this).get(0).play(); 
+    this.playbackRate = 1.5;
+    var thisPlay = $(this).parent().children(".video-controls").children("button.play");
+    var thisPause = $(this).parent().children(".video-controls").children("button.pause");
+    
+    thisPlay.toggle();
+    thisPause.toggle(); 
+}
+
+// pause video when not on mouseover
+function hideVideo(e) { 
+    $(this).get(0).pause(); 
+    var thisPlay = $(this).parent().children(".video-controls").children("button.play");
+    var thisPause = $(this).parent().children(".video-controls").children("button.pause");
+    thisPause.toggle();
+    thisPlay.toggle();
 }
 
 // code below is from: https://codepen.io/gschier/pen/jkivt

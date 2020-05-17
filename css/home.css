@@ -46,7 +46,8 @@ body {
   background: #fff;
   overflow-x: hidden; }
 
-img {
+img,
+video {
   max-width: 100%; }
 
 p {
