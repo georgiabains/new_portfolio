@@ -59,7 +59,7 @@
 			<figcaption>Two screenshots of the site's landing page, displayed on iPhones.</figcaption>
 		</figure>
 
-			<p class="description">Accessibility was a vital component of Volaris Group's website, as the site used a myriad of embedded content to demonstrate its message. This included carousels with embedded videos and pop-up boxes for email lists. In order to ensure that this information was available to anyone with disabilties, I coded JavaScript functions that allowed for navigating the site with a keyboard (e.g. using the 'tab' and 'enter' keys) to pause the carousel, and enter and exit from any pop-up box.</p>
+		<p class="description">Accessibility was a vital component of Volaris Group's website, as the site used a myriad of embedded content to demonstrate its message. This included carousels with embedded videos and pop-up boxes for email lists. In order to ensure that this information was available to anyone with disabilties, I coded JavaScript functions that allowed for navigating the site with a keyboard (e.g. using the 'tab' and 'enter' keys) to pause the carousel, and enter and exit from any pop-up box.</p>
 
 		<div class="project-column">
 			<div class="column-small">
