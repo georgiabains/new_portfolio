@@ -125,17 +125,21 @@ section.project-page-details {
     width: 760px;
     height: 780px;
     position: relative; }
-    section.project-page-details .image-collage img {
+    section.project-page-details .image-collage img,
+    section.project-page-details .image-collage video {
       width: 260px;
       position: absolute;
       display: inline-block; }
-      section.project-page-details .image-collage img.top-left {
+      section.project-page-details .image-collage img.top-left,
+      section.project-page-details .image-collage video.top-left {
         left: 130px;
         z-index: 4; }
-      section.project-page-details .image-collage img.bottom-right {
+      section.project-page-details .image-collage img.bottom-right,
+      section.project-page-details .image-collage video.bottom-right {
         top: 210px;
         left: 340px; }
-      section.project-page-details .image-collage img.main-image {
+      section.project-page-details .image-collage img.main-image,
+      section.project-page-details .image-collage video.main-image {
         z-index: 5;
         left: calc(50% - 130px);
         top: calc(50% - 281px); }

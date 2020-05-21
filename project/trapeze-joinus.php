@@ -34,42 +34,38 @@
             </div>
             <div class="info-column">
                 <h4>languages</h4>
-                <p>CSS (SCSS), HTML, JavaScript, jQuery</p>
+                <p>CSS (SCSS), HTML, jQuery</p>
             </div>
         </div>
 
-        <figure>
-            <img src="../img/projects/volaris/volaris_mockup_one.png">
-            <figcaption>A screenshot of the landing page on a MacBook, iPad, and iPhone.</figcaption>
+        <figure class="image-collage">
+            <img class="top-left" src="../img/projects/joinus/joinus_mobile_three.png">
+            <video autoplay loop class="main-image">
+                <source src="../img/projects/joinus/joinus_mobile_two.mov">
+            </video>
+            <img class="bottom-right" src="../img/projects/joinus/joinus_mobile_four.png">
         </figure>
 
-        <p class="description">Working as a web developer for Volaris Group's marketing department, I helped implement the redesign for the company's core website. My primary objective was to ensure the site was fully responsive and met Web Content Accessiblity Guidelines (<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0</a>).</p>
-
         <figure>
-            <img src="../img/projects/volaris/volaris_mockup_four.png">
-            <figcaption>A screenshot of the Owner/Operator page. The banner features an employee of Volaris Group.</figcaption>
-        </figure>
-
-            <p class="description">I developed the site locally using MAMP (Mac, Apache, MySQL, PHP), in collaboration with Volaris Group's Senior Web Developer. We used Git to ensure that any updates to the code were reflected in each other's work and published the site using ExpressionEngine.</p> 
-
-        <figure>
-            <img src="../img/projects/volaris/volaris_mockup_two.png">
-            <figcaption>Two screenshots of the site's landing page, displayed on iPhones.</figcaption>
-        </figure>
-
-            <p class="description">Accessibility was a vital component of Volaris Group's website, as the site used a myriad of embedded content to demonstrate its message. This included carousels with embedded videos and pop-up boxes for email lists. In order to ensure that this information was available to anyone with disabilties, I coded JavaScript functions that allowed for navigating the site with a keyboard (e.g. using the 'tab' and 'enter' keys) to pause the carousel, and enter and exit from any pop-up box.</p>
-
-        <div class="project-column">
-            <div class="column-one">
-                <figure>
-                    <img src="../img/projects/volaris/volaris_mockup_five.png">
-                    <figcaption>A screenshot of the site's landing page displayed on an iPhone, with the menu expanded.</figcaption>
-                </figure>
+            <video loop muted class="play-on-hover">
+                <source src="../img/projects/joinus/joinus_desktop_two.mov">
+            </video>
+            <div class="video-controls">
+                <button class="play"><i class="fa fa-play"></i> Play</button>
+                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
             </div>
-            <div class="column-two">
-                <p>As new devices are constanty being introduced, i designed the responsive breakpoints based on natural breaks in the site's content, to ensure that this website stands the test of time and can be accessed from any device.</p>
+        </figure>
+
+        <figure>
+            <video loop muted class="play-on-hover">
+                <source src="../img/projects/joinus/joinus_desktop_three.mov">
+            </video>
+            <div class="video-controls">
+                <button class="play"><i class="fa fa-play"></i> Play</button>
+                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
             </div>
-        </div>
+        </figure>
+
 
         <a href="../projects.php" class="bracket-link">view all projects</a>
 
