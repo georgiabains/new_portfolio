@@ -13,7 +13,6 @@ $(document).ready(function () {
         var thisPause = $(this).parent().children("button.pause");
 
         thisVideo.play();
-        thisVideo.playbackRate = 1.5;
 
         $(this).toggle();
         thisPause.toggle();
@@ -146,7 +145,6 @@ function clearArrQueue(queueArray) {
 // play video on mouseover
 function hoverVideo(e) { 
     $(this).get(0).play(); 
-    this.playbackRate = 1.5;
     var thisPlay = $(this).parent().children(".video-controls").children("button.play");
     var thisPause = $(this).parent().children(".video-controls").children("button.pause");
     

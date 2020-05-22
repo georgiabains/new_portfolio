@@ -41,7 +41,7 @@ section.project-page-details {
 				display: block;
 			}
 			&.video-caption {
-				margin: 10px 0 80px;
+				margin: 10px 0;
 				flex-basis: 70%;
 				text-align: left;
 				&::after {
@@ -165,7 +165,8 @@ section.project-page-details {
 			flex-wrap: wrap;
 			align-items: end;
 			justify-content: space-between;
-			img {
+			img,
+			video {
 				width: 30%;
 				height: auto;
 				position: relative;
@@ -230,7 +231,8 @@ section.project-page-details {
 		}
 		.image-collage {
 			flex-direction: column;
-			img {
+			img,
+			video {
 				margin: 20px auto;
 				width: 40%;
 			}
@@ -259,7 +261,8 @@ section.project-page-details {
 			}
 		}
 		.image-collage {
-			img {
+			img,
+			video {
 				width: 70%;
 			}
 		}

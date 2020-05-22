@@ -60,7 +60,7 @@ section.project-page-details {
         background: #ded0fb;
         display: block; }
       section.project-page-details figure figcaption.video-caption {
-        margin: 10px 0 80px;
+        margin: 10px 0;
         flex-basis: 70%;
         text-align: left; }
         section.project-page-details figure figcaption.video-caption::after {
@@ -158,11 +158,15 @@ section.project-page-details {
     flex-wrap: wrap;
     align-items: end;
     justify-content: space-between; }
-    section.project-page-details .image-collage img {
+    section.project-page-details .image-collage img,
+    section.project-page-details .image-collage video {
       width: 30%;
       height: auto;
       position: relative; }
-      section.project-page-details .image-collage img.main-image, section.project-page-details .image-collage img.top-left, section.project-page-details .image-collage img.bottom-right {
+      section.project-page-details .image-collage img.main-image, section.project-page-details .image-collage img.top-left, section.project-page-details .image-collage img.bottom-right,
+      section.project-page-details .image-collage video.main-image,
+      section.project-page-details .image-collage video.top-left,
+      section.project-page-details .image-collage video.bottom-right {
         top: unset;
         bottom: unset;
         left: unset; }
@@ -191,7 +195,8 @@ section.project-page-details {
     padding: 0; }
   section.project-page-details .image-collage {
     flex-direction: column; }
-    section.project-page-details .image-collage img {
+    section.project-page-details .image-collage img,
+    section.project-page-details .image-collage video {
       margin: 20px auto;
       width: 40%; } }
 @media screen and (max-width: 550px) {
@@ -204,7 +209,8 @@ section.project-page-details {
   section.project-page-details figure .video-controls {
     flex-basis: 100%;
     text-align: center; }
-  section.project-page-details .image-collage img {
+  section.project-page-details .image-collage img,
+  section.project-page-details .image-collage video {
     width: 70%; } }
 
 /*# sourceMappingURL=project_page_single.css.map */
