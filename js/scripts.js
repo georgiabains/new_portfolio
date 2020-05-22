@@ -124,8 +124,8 @@ function moveImagesToRow(el) {
 
         if ((topOfWindow + windowHeight - 300 > thisPos) && (topOfWindow + windowHeight - 300 < thisPosBottom)){
             clearArrQueue(allImages);
-            imageTopLeft.animate({top: "108px", left: "-40px"}, "slow");
-            imageBottomRight.animate({top: "108px", left: "540px"}, "slow");
+            imageTopLeft.animate({top: "109px", left: "-40px"}, "slow");
+            imageBottomRight.animate({top: "109px", left: "540px"}, "slow");
             imageFigcaption.animate({bottom: "40px"});
         } else {
             clearArrQueue(allImages);

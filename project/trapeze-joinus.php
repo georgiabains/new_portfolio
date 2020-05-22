@@ -40,7 +40,7 @@
 
         <figure class="image-collage">
             <img class="top-left" src="../img/projects/joinus/joinus_mobile_three.png">
-            <video autoplay loop class="main-image">
+            <video autoplay="true" loop class="main-image">
                 <source src="../img/projects/joinus/joinus_mobile_two.mov">
             </video>
             <img class="bottom-right" src="../img/projects/joinus/joinus_mobile_four.png">
