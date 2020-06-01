@@ -61,13 +61,13 @@ section.project-page-details {
         display: block; }
       section.project-page-details figure figcaption.video-caption {
         margin: 10px 0;
-        flex-basis: 70%;
+        flex-basis: 85%;
         text-align: left; }
         section.project-page-details figure figcaption.video-caption::after {
           width: 0; }
     section.project-page-details figure .video-controls {
       margin: 10px 0 0;
-      flex-basis: 30%;
+      flex-basis: 15%;
       padding: 6px 10px 0;
       text-align: right; }
       section.project-page-details figure .video-controls button {
@@ -189,6 +189,13 @@ section.project-page-details {
     font-size: 1.0em;
     line-height: 23px; } }
 @media screen and (max-width: 750px) {
+  section.project-page-details figure figcaption.video-caption {
+    margin: 0 0 60px;
+    flex-basis: 100%;
+    text-align: center; }
+  section.project-page-details figure .video-controls {
+    flex-basis: 100%;
+    text-align: center; }
   section.project-page-details .project-column .column-small,
   section.project-page-details .project-column .column-large {
     flex-basis: 100%;
@@ -202,13 +209,6 @@ section.project-page-details {
 @media screen and (max-width: 550px) {
   section.project-page-details p.description {
     width: 100%; }
-  section.project-page-details figure figcaption.video-caption {
-    margin: 0 0 60px;
-    flex-basis: 100%;
-    text-align: center; }
-  section.project-page-details figure .video-controls {
-    flex-basis: 100%;
-    text-align: center; }
   section.project-page-details .image-collage img,
   section.project-page-details .image-collage video {
     width: 70%; } }
