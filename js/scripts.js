@@ -3,6 +3,7 @@
 /* jQuery */
 $(document).ready(function () {
 
+    // Hover on video to play/pause
     var video = $("video.play-on-hover");
     video.hover(hoverVideo, hideVideo);
 
