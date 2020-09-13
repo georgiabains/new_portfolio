@@ -41,59 +41,6 @@ $(document).ready(function () {
         $("#hamburger-menu").toggleClass("hamburger-on-click");
         $("#hamburger").toggleClass("open");
     });
-
-    // Filters for Projects page
-    $("a.show-all").click(function() {
-        $(".project").show();
-        $(".project-type-display").html("projects");
-
-        $(".show-all").hide();
-        $(".show-websites").show();
-        $(".show-microsites").show();
-        $(".show-themes").show();
-    });
-
-    $("a.show-websites").click(function() {
-        $(".website").show();
-        $(".microsite").hide();
-        $(".tumblr-theme").hide();
-
-        $(".show-websites").hide();
-        $(".show-all").show();
-        $(".show-all").css("display", "inline-block");
-        $(".show-microsites").show();
-        $(".show-themes").show();
-
-        $(".project-type-display").html("websites");
-    });
-
-    $("a.show-microsites").click(function() {
-        $(".microsite").show();
-        $(".website").hide();
-        $(".tumblr-theme").hide();
-
-        $(".show-microsites").hide();
-        $(".show-all").show();
-        $(".show-all").css("display", "inline-block");
-        $(".show-websites").show();
-        $(".show-themes").show();
-
-        $(".project-type-display").html("microsites");
-    });
-
-    $("a.show-themes").click(function() {
-        $(".tumblr-theme").show();
-        $(".website").hide();
-        $(".microsite").hide();
-
-        $(".show-themes").hide();
-        $(".show-all").show();
-        $(".show-all").css("display", "inline-block");
-        $(".show-websites").show();
-        $(".show-microsites").show();
-
-        $(".project-type-display").html("tumblr themes");
-    });
 });
 
 // trigger scroll functions
