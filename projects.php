@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Microsite</a>
+                        <a class="project-type">Microsite</a>
                         <h4>Trapeze JoinUs</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://joinus.trapezegroup.com/" target="_blank">site</a></li>
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Microsite</a>
+                        <a class="project-type">Microsite</a>
                         <h4>Trapeze Autonomous Vehicles</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://joinus.trapezegroup.com/av/" target="_blank">site</a></li>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Website</a>
+                        <a class="project-type">Website</a>
                         <h4>Volaris Group</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://www.volarisgroup.com/" target="_blank">site</a></li>
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Website</a>
+                        <a class="project-type">Website</a>
                         <h4>Experiential Learning Modules</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://www.experientialmodules.utoronto.ca/" target="_blank">site</a></li>
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Website</a>
+                        <a class="project-type">Website</a>
                         <h4>Open UToronto</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://www.ocw.utoronto.ca/" target="_blank">site</a></li>
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Tumblr Theme</a>
+                        <a class="project-type">Tumblr Theme</a>
                         <h4>Pomegranate</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://pomegranate-theme.tumblr.com/" target="_blank">site</a></li>
@@ -256,7 +256,7 @@
                         </div>
                     </div>
                     <div class="project-details">
-                        <a class="project-type" tabindex="-1">Tumblr Theme</a>
+                        <a class="project-type">Tumblr Theme</a>
                         <h4>Spotlight</h4>
                         <ul class="project-links">
                             <li><a class="bracket-link" href="https://spotlight-theme.tumblr.com/" target="_blank">site</a></li>

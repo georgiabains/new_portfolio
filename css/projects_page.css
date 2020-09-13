@@ -199,8 +199,6 @@ main section#list-of-projects .project-container {
         position: absolute;
         display: block;
         z-index: -1; }
-      main section#list-of-projects .project-container .project .project-details a.project-type:hover {
-        cursor: initial; }
     main section#list-of-projects .project-container .project .project-details:hover a.project-type::after {
       bottom: 1px;
       left: 22%;
