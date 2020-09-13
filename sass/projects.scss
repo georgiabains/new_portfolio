@@ -140,19 +140,25 @@ main {
                                     }
                                 }
                             }
-                            &.role {
+                        }
+                        .role {
+                            ul {
                                 margin-bottom: 7px;
                                 &::before {
                                     content: "\f0ad";
                                 }
                             }
-                            &.languages {
+                        }
+                        .languages {
+                            ul {
                                 &::before {
-                                    content: "\f120";   
+                                    content: "\f120";
                                 }
                             }
-                            &.role, 
-                            &.languages {
+                        }
+                        .role,
+                        .languages {
+                            ul {
                                 margin-left: 29px;
                                 font-family: $secondary;
                                 font-size: 0.9em;
