@@ -55,7 +55,7 @@
         </figure>
 
         <p class="description">
-            This theme was designed with one column in mind, and maximizes negative space so the focal point is the blogger's post.
+            The theme's single column maximizes negative space so the focal point is the blogger's post.
         </p>
 
         <figure>
