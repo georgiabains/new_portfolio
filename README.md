@@ -1,3 +1,3 @@
 # Portfolio
 
-View my code and progress for constructing my current portfolio. Visit the final version here: (https://georgiabains.com/).
+View my code and progress for constructing my current portfolio. (https://georgiabains.com/ "Visit the final site here")
