@@ -632,6 +632,19 @@ header {
           header .hamburger-container #navigation-menu .navigation-menu-content a::before, header .hamburger-container #navigation-menu .navigation-menu-content a::after {
             content: "";
             width: 0; }
+        header .hamburger-container #navigation-menu .navigation-menu-content nav p {
+          font-size: 0.8em;
+          text-transform: uppercase;
+          letter-spacing: 2px; }
+        header .hamburger-container #navigation-menu .navigation-menu-content nav:not(:last-child)::after {
+          margin: 40px 0 0 0; }
+        header .hamburger-container #navigation-menu .navigation-menu-content nav:not(:last-child)::after {
+          content: "";
+          display: block;
+          position: relative;
+          height: 1px;
+          width: 90px;
+          background: #ded0fb; }
         header .hamburger-container #navigation-menu .navigation-menu-content ul {
           margin: 0;
           padding: 0;
@@ -666,25 +679,12 @@ header {
                 width: 0;
                 background: #222; }
           header .hamburger-container #navigation-menu .navigation-menu-content ul.links {
-            margin: 0 0 30px 0; }
+            margin: 0 0 30px 0;
+            font-size: 1.35em;
+            line-height: 31px; }
           header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags {
             flex-basis: 100%;
             align-self: center; }
-            header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags::before {
-              margin: 0 0 40px 0; }
-            header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags::after {
-              margin: 40px 0 0 0; }
-            header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags::before, header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags::after {
-              content: "";
-              display: block;
-              position: relative;
-              height: 1px;
-              width: 90px;
-              background: #ded0fb; }
-            header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags p {
-              font-size: 0.8em;
-              text-transform: uppercase;
-              letter-spacing: 2px; }
             header .hamburger-container #navigation-menu .navigation-menu-content ul.project-tags li {
               margin: 5px 0; }
           header .hamburger-container #navigation-menu .navigation-menu-content ul.social {
@@ -703,9 +703,6 @@ header {
         header .hamburger-container #navigation-menu .navigation-menu-content nav {
           flex-basis: 100%;
           align-self: flex-end; }
-          header .hamburger-container #navigation-menu .navigation-menu-content nav ul li {
-            font-size: 1.35em;
-            line-height: 31px; }
       header .hamburger-container #navigation-menu.navigation-menu-on-click {
         right: 0;
         -webkit-transition: all 0.4s ease-in-out;

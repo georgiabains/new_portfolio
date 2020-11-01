@@ -146,6 +146,26 @@ header {
                         width: 0;
                     }
                 }
+                nav {
+                    p {
+                        font-size: 0.8em;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+                    &:not(:last-child) {
+                        &::after {
+                            margin: 40px 0 0 0;
+                        }
+                        &::after {
+                            content: "";
+                            display: block;
+                            position: relative;
+                            height: 1px;
+                            width: 90px;
+                            background: $purple-light;
+                        }
+                    }
+                }
                 ul {
                     margin: 0;
                     padding: 0;
@@ -178,30 +198,12 @@ header {
                     }
                     &.links {
                         margin: 0 0 30px 0;
+                        font-size: 1.35em;
+                        line-height: 31px;
                     }
                     &.project-tags {
                         flex-basis: 100%;
                         align-self: center;
-                        &::before {
-                            margin: 0 0 40px 0;
-                        }
-                        &::after {
-                            margin: 40px 0 0 0;
-                        }
-                        &::before,
-                        &::after {
-                            content: "";
-                            display: block;
-                            position: relative;
-                            height: 1px;
-                            width: 90px;
-                            background: $purple-light;
-                        }
-                        p {
-                            font-size: 0.8em;
-                            text-transform: uppercase;
-                            letter-spacing: 2px;
-                        }
                         li {
                             margin: 5px 0;
                         }
@@ -232,8 +234,7 @@ header {
                     align-self: flex-end;
                     ul {
                         li {
-                            font-size: 1.35em;
-                            line-height: 31px;
+                            
                         }
                     }
                 }

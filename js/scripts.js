@@ -37,10 +37,22 @@ $(document).ready(function () {
     })(); 
 
     // Hamburger Menu
-    $("#hamburger-menu").click(function() {
+    var $hamburgerMenu = $("#hamburger");
+    var ariaExpanded = $hamburgerMenu[0];
+    var isAriaExpanded = ariaExpanded.getAttribute("aria-expanded");
+
+    $hamburgerMenu.click(function() {
         $("#navigation-menu").toggleClass("navigation-menu-on-click");
         $("#hamburger-menu").toggleClass("hamburger-on-click");
         $("#hamburger").toggleClass("open");
+
+        // set aria-expanded
+        if (isAriaExpanded == "false") {
+          isAriaExpanded = "true";
+        } else {
+          isAriaExpanded = "false";
+        }
+        ariaExpanded.setAttribute("aria-expanded", isAriaExpanded);
     });
 });
 
