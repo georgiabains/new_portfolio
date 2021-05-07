@@ -1,10 +1,8 @@
-@import "projects";
-
 main {
     top: 0;
     width: 75%;
     margin-left: 25%;
-    padding: 0 100px 0 23px;
+    padding: 0 40px 0 23px;
     section#list-of-projects {
         .project-container {
             .project {
@@ -30,9 +28,10 @@ footer {
 /** Media Queries **/
 @media screen and (min-width: 1600px) {
     main {
-        padding: 0 110px 0 23px;
+        padding: 0 50px 0 23px;
     }
 }
+
 @media screen and (max-width: 1400px) {
     main {
         margin-left: 346px;
@@ -43,7 +42,7 @@ footer {
     main {
         width: 100%;
         margin: 0;
-        padding: 0 100px 0 40px;
+        padding: 0 40px;
     }
 
     footer {

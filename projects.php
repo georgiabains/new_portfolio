@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "_top.php";?>
+<?php include "_header_projects.php";?>
 
-    <head>
-
-        <title>Georgia Bains</title>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <link rel="stylesheet" href="css/projects_page.css?<?php echo time(); ?>">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    
-    </head>
-
-    <body>
-
-
-<?php include "_header.php";?>
-
-<main>
+<main id="projectsPage">
 
     <section id="list-of-projects">
 

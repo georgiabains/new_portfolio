@@ -1,216 +1,76 @@
-@import url("https://fonts.googleapis.com/css?family=Anonymous Pro:400,700|Quicksand:400,700&display=swap");
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.3.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
- * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
- */
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.3.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
- * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
- */
-@keyframes move {
-  0% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px); }
-  50% {
-    -webkit-transform: translateY(7px);
-    transform: translateY(7px); }
-  100% {
-    -webkit-transform: translateY(-7px);
-    transform: translateY(-7px); } }
-section.project-page-details {
-  margin: 20px 0 60px;
-  min-height: calc(100vh - 219px); }
-  section.project-page-details h3 {
-    margin: 0.7em 0;
-    font-family: "Anonymous Pro", monospace;
-    font-size: 1.15em;
-    letter-spacing: 1px; }
-  section.project-page-details p.description {
-    margin: 5.0em auto;
-    width: 75%;
-    font-size: 1.2em;
-    line-height: 1.6em; }
-  section.project-page-details figure {
-    margin: 40px 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap; }
-    section.project-page-details figure img {
-      margin: 0; }
-    section.project-page-details figure figcaption {
-      flex-basis: 100%;
-      padding: 10px 10px 0;
-      text-align: center;
-      font-family: "Anonymous Pro", monospace;
-      font-size: 0.9em;
-      line-height: 1.45em; }
-      section.project-page-details figure figcaption::after {
-        content: "";
-        margin: 5px auto;
-        width: 40%;
-        height: 1px;
-        background: #ded0fb;
-        display: block; }
-      section.project-page-details figure figcaption.video-caption {
-        margin: 10px 0;
-        flex-basis: 85%;
-        text-align: left; }
-        section.project-page-details figure figcaption.video-caption::after {
-          width: 0; }
-    section.project-page-details figure .video-controls {
-      margin: 10px 0 0;
-      flex-basis: 15%;
-      padding: 6px 10px 0;
-      text-align: right; }
-      section.project-page-details figure .video-controls button {
-        padding: 3px 7px;
-        font-family: "Anonymous Pro", monospace;
-        font-size: 0.8em;
-        letter-spacing: 1px;
-        text-transform: lowercase;
-        color: black;
-        position: relative;
-        background: #ded0fb;
-        border-radius: 5px;
-        border: none; }
-        section.project-page-details figure .video-controls button i {
-          font-size: 0.8em; }
-        section.project-page-details figure .video-controls button:hover {
-          cursor: pointer; }
-  section.project-page-details .project-basic-info {
-    margin: 40px 0 0;
-    display: flex;
-    flex-wrap: wrap; }
-    section.project-page-details .project-basic-info .info-column:first-child {
-      flex-basis: 15%; }
-    section.project-page-details .project-basic-info .info-column:nth-child(2) {
-      flex-basis: 25%; }
-    section.project-page-details .project-basic-info .info-column:last-child {
-      flex-basis: 60%; }
-    section.project-page-details .project-basic-info .info-column h4 {
-      margin-block-start: 0;
-      margin-block-end: 0;
-      padding: 0px 7px;
-      font-family: "Anonymous Pro", monospace;
-      font-size: 0.8em;
-      letter-spacing: 1px;
-      background: #ded0fb;
-      border-radius: 5px;
-      display: inline-block; }
-  section.project-page-details .project-column {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-    section.project-page-details .project-column .column-small {
-      flex-basis: 40%; }
-    section.project-page-details .project-column .column-large {
-      margin: calc(40px - 0.5em) 0;
-      padding: 0 40px;
-      flex-basis: 60%; }
-      section.project-page-details .project-column .column-large p {
-        font-size: 1.2em;
-        line-height: 1.6em; }
-    section.project-page-details .project-column .column-even {
-      flex-basis: 50%; }
-  section.project-page-details .image-collage {
-    margin: 0 auto 120px;
-    width: 760px;
-    height: 780px;
-    position: relative; }
-    section.project-page-details .image-collage img,
-    section.project-page-details .image-collage video {
-      width: 260px;
-      position: absolute;
-      display: inline-block; }
-      section.project-page-details .image-collage img.top-left,
-      section.project-page-details .image-collage video.top-left {
-        left: 130px;
-        z-index: 4; }
-      section.project-page-details .image-collage img.bottom-right,
-      section.project-page-details .image-collage video.bottom-right {
-        top: 210px;
-        left: 340px; }
-      section.project-page-details .image-collage img.main-image,
-      section.project-page-details .image-collage video.main-image {
-        z-index: 5;
-        left: calc(50% - 130px);
-        top: calc(50% - 281px); }
-    section.project-page-details .image-collage figcaption {
-      bottom: -60px;
-      width: 100%;
-      text-align: center;
-      position: absolute; }
+/*
+Error: Undefined variable: "$secondary".
+        on line 6 of /Users/georgiabains/Sites/portfolio_new/sass/project_page_single.scss
 
-/** Media Queries **/
-@media screen and (max-width: 1000px) {
-  section.project-page-details .image-collage {
-    width: 100%;
-    height: unset;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    justify-content: space-between; }
-    section.project-page-details .image-collage img,
-    section.project-page-details .image-collage video {
-      width: 30%;
-      height: auto;
-      position: relative; }
-      section.project-page-details .image-collage img.main-image, section.project-page-details .image-collage img.top-left, section.project-page-details .image-collage img.bottom-right,
-      section.project-page-details .image-collage video.main-image,
-      section.project-page-details .image-collage video.top-left,
-      section.project-page-details .image-collage video.bottom-right {
-        top: unset;
-        bottom: unset;
-        left: unset; }
-    section.project-page-details .image-collage figcaption {
-      bottom: unset;
-      position: relative; } }
-@media screen and (max-width: 900px) {
-  section.project-page-details p.description {
-    font-size: 1.0em;
-    line-height: 23px; }
-  section.project-page-details .project-basic-info .info-column {
-    margin: 5px 0; }
-    section.project-page-details .project-basic-info .info-column:first-child, section.project-page-details .project-basic-info .info-column:nth-child(2), section.project-page-details .project-basic-info .info-column:last-child {
-      flex-basis: 100%; }
-    section.project-page-details .project-basic-info .info-column p {
-      margin-block-start: 0;
-      margin-block-end: 0;
-      display: inline-block; }
-  section.project-page-details .project-column .column-large p {
-    font-size: 1.0em;
-    line-height: 23px; } }
-@media screen and (max-width: 750px) {
-  section.project-page-details figure figcaption.video-caption {
-    margin: 0 0 60px;
-    flex-basis: 100%;
-    text-align: center; }
-  section.project-page-details figure .video-controls {
-    flex-basis: 100%;
-    text-align: center; }
-  section.project-page-details .project-column .column-small,
-  section.project-page-details .project-column .column-large {
-    flex-basis: 100%;
-    padding: 0; }
-  section.project-page-details .image-collage {
-    flex-direction: column; }
-    section.project-page-details .image-collage img,
-    section.project-page-details .image-collage video {
-      margin: 20px auto;
-      width: 40%; } }
-@media screen and (max-width: 550px) {
-  section.project-page-details p.description {
-    width: 100%; }
-  section.project-page-details .image-collage img,
-  section.project-page-details .image-collage video {
-    width: 70%; } }
+1: section.project-page-details {
+2: 	margin: 20px 0 60px;
+3: 	min-height: calc(100vh - 219px);
+4: 	h3 {
+5: 		margin: 0.7em 0;
+6: 		font-family: $secondary;
+7: 		font-size: 1.15em;
+8: 		letter-spacing: 1px;
+9: 	}
+10: 	p {
+11: 		&.description {
 
-/*# sourceMappingURL=project_page_single.css.map */
+Backtrace:
+/Users/georgiabains/Sites/portfolio_new/sass/project_page_single.scss:6
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 6 of /Users/georgiabains/Sites/portfolio_new/sass/project_page_single.scss\A \A 1: section.project-page-details {\A 2: 	margin: 20px 0 60px;\A 3: 	min-height: calc(100vh - 219px);\A 4: 	h3 {\A 5: 		margin: 0.7em 0;\A 6: 		font-family: $secondary;\A 7: 		font-size: 1.15em;\A 8: 		letter-spacing: 1px;\A 9: 	}\A 10: 	p {\A 11: 		&.description {"; }

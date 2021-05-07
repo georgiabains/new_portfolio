@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$purple-light".
-        on line 93 of /Users/georgiabains/Sites/portfolio_new/sass/blog.scss
+        on line 86 of /Users/georgiabains/Sites/portfolio_new/sass/blog.scss
 
-88:             }
-89:         }
-90:         .blog-info {
-91:             margin: 40px 0;
-92:             padding: 0 0 20px;
-93:             border-bottom: 1px solid $purple-light;
-94:             .date {
-95:                 margin: 0;
-96:                 font-size: 0.9em;
-97:             }
-98:         }
+81:             }
+82:         }
+83:         .blog-info {
+84:             margin: 40px 0;
+85:             padding: 0 0 20px;
+86:             border-bottom: 1px solid $purple-light;
+87:             .date {
+88:                 margin: 0;
+89:                 font-size: 0.9em;
+90:             }
+91:         }
 
 Backtrace:
-/Users/georgiabains/Sites/portfolio_new/sass/blog.scss:93
+/Users/georgiabains/Sites/portfolio_new/sass/blog.scss:86
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -88,4 +88,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$purple-light\".\A         on line 93 of /Users/georgiabains/Sites/portfolio_new/sass/blog.scss\A \A 88:             }\A 89:         }\A 90:         .blog-info {\A 91:             margin: 40px 0;\A 92:             padding: 0 0 20px;\A 93:             border-bottom: 1px solid $purple-light;\A 94:             .date {\A 95:                 margin: 0;\A 96:                 font-size: 0.9em;\A 97:             }\A 98:         }"; }
+  content: "Error: Undefined variable: \"$purple-light\".\A         on line 86 of /Users/georgiabains/Sites/portfolio_new/sass/blog.scss\A \A 81:             }\A 82:         }\A 83:         .blog-info {\A 84:             margin: 40px 0;\A 85:             padding: 0 0 20px;\A 86:             border-bottom: 1px solid $purple-light;\A 87:             .date {\A 88:                 margin: 0;\A 89:                 font-size: 0.9em;\A 90:             }\A 91:         }"; }
