@@ -861,6 +861,7 @@ section.project-page-details {
     section.project-page-details .image-collage img,
     section.project-page-details .image-collage video {
       width: 260px;
+      height: 560px;
       position: absolute;
       display: inline-block; }
       section.project-page-details .image-collage img.top-left,
@@ -950,10 +951,6 @@ main section.about {
   main section.about .about-content {
     margin-top: 20px;
     max-width: 600px; }
-
-footer .footer-content .footer-copyright p {
-  bottom: 20px;
-  position: fixed; }
 
 .blog {
   min-height: calc(100vh - 200px);

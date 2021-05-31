@@ -2,7 +2,7 @@
 
 	<div class="footer-content">
 		<div class="footer-copyright">
-    		<p>&copy; Georgia Bains 2020</p>
+    		<p>&copy; Georgia Bains 2021</p>
     	</div>
     	<div class="footer-on-scroll">
     		<ul>
