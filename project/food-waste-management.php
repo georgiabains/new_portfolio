@@ -58,7 +58,7 @@
         </p>
 
         <figure>
-            <img src="../img/projects/food_waste_management/food_waste_management_mockup_three.png">
+            <img src="../img/projects/.png">
             <figcaption>Lorem ipsum.</figcaption>
         </figure>
 
