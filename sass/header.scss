@@ -54,6 +54,7 @@ header {
                 -moz-transition-duration: 0.4s;
                 -webkit-transition-duration: 0.4s;
                 -o-transition-duration: 0.4s;
+                transition-duration: 0.4s;
                 span {
                     width: 100%;
                     height: 1px;
@@ -118,6 +119,7 @@ header {
                 -moz-transition-duration: 0.4s;
                 -webkit-transition-duration: 0.4s;
                 -o-transition-duration: 0.4s;
+                transition-duration: 0.4s;
             }
         }
         #navigation-menu {
@@ -232,11 +234,6 @@ header {
                 nav {
                     flex-basis: 100%;
                     align-self: flex-end;
-                    ul {
-                        li {
-                            
-                        }
-                    }
                 }
             }
             &.navigation-menu-on-click {
