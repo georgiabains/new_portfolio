@@ -86,6 +86,43 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Food Tech -->
+            <div class="project project-web">
+                <div class="project-thumbnail">
+                    <div class="desktop">
+                        <img src="img/projects/foodtech/foodtech_desktop_one.png"
+                             alt="Screenshot of Volaris Food Tech homepage - desktop">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/foodtech/foodtech_mobile_one.png"
+                             alt="Screenshot of Volaris Food Tech homepage - mobile">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <a href="/projects.php" class="project-type">Microsite</a>
+                    <h4>Volaris Food Tech</h4>
+                    <ul class="project-links">
+                        <li><a class="bracket-link" href="https://foodtech.volarisgroup.com/" target="_blank" rel="noopener">site</a></li>
+                        <li><a class="bracket-link" href="project/foodtech.php">project details</a></li>
+                    </ul>
+                    <p class="description">Volaris Food Tech operates under Constellation Software Inc. and is devoted to acquiring and managing companies within the food technology sector. This microsite provides information and resources on company acquisition.</p>
+                    <div class="role">
+                        <ul>
+                            <li>Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <ul>
+                            <li>CSS (SCSS)</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
             <!-- Open UToronto -->
             <div class="project project-web">

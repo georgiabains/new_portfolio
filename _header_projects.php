@@ -1,6 +1,6 @@
 <header>
 
-    <h1 class="main-title" style="position: absolute !important;"><a href="/portfolio_new/">Georgia Bains.</a></h1>
+    <div class="main-title-wrap"><h1 class="main-title"><a href="/portfolio_new/">Georgia Bains.</a></h1></div>
 
     <div class="roles">
         <h2>

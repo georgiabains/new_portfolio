@@ -3,16 +3,18 @@ header {
     left: 0;
     width: 100%;
     padding: 30px 30px 30px 40px;
-    h1.main-title {
+    .main-title-wrap {
         position: fixed;
-        margin: 22px 0;
-        a {
-            margin: 0;
-            color: #222;
-            &::before,
-            &::after {
-                content: "";
-                width: 0;
+        h1.main-title {
+            margin: 22px 0;
+            a {
+                margin: 0;
+                color: #222;
+                &::before,
+                &::after {
+                    content: "";
+                    width: 0;
+                }
             }
         }
     }
@@ -273,8 +275,10 @@ header {
 @media screen and (min-width: 1600px) {
     header {
         padding: 40px 50px;
-        h1.main-title {
-            font-size: 50px;
+        .main-title-wrap {
+            h1.main-title {
+                font-size: 50px;
+            }
         }
         .roles {
             margin: 28px 0 0 25%;
@@ -298,10 +302,12 @@ header {
 
 @media screen and (max-width: 1300px) {
     header {
-        h1.main-title {
+        .main-title-wrap {
             position: absolute;
-            a {
-                margin: 0 0 0 -3px;
+            h1.main-title {
+                a {
+                    margin: 0 0 0 -3px;
+                }
             }
         }
     }
@@ -309,9 +315,10 @@ header {
 
 @media screen and (max-width: 900px) {
     header {
-        h1.main-title {
+        .main-title-wrap {
             position: relative;
         }
+        
         .roles {
             margin: 0;
         }
@@ -321,8 +328,10 @@ header {
 @media screen and (max-width: 600px) {
     header {
         padding: 20px;
-        h1.main-title {
-            font-size: 40px;
+        .main-title-wrap {
+            h1.main-title {
+                font-size: 40px;
+            }
         }
         .roles {
             h2 {

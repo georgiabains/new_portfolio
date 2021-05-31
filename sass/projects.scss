@@ -1,3 +1,9 @@
+header {
+    .main-title-wrap {
+        position: absolute;
+    }
+}
+
 main {
     section#list-of-projects {
         .projects-heading {
@@ -200,6 +206,17 @@ main {
     }
 }
 
+footer {
+    .footer-content {
+        .footer-copyright {
+            p {
+                bottom: 0;
+                position: relative;
+            }
+        }
+    }
+}
+
 /** Media Queries **/
 @media screen and (max-width: 1300px) {
     main {
@@ -257,6 +274,12 @@ main {
 }
 
 @media screen and (max-width: 900px) {
+    header {
+        .main-title-wrap {
+            position: relative;
+        }
+    }
+    
     main {
         section#list-of-projects {
             .project-container {

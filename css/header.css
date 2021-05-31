@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$secondary".
-        on line 25 of /Users/georgiabains/Sites/portfolio_new/sass/header.scss
+        on line 27 of /Users/georgiabains/Sites/portfolio_new/sass/header.scss
 
-20:         margin: 26px 0 0 25%;
-21:         padding: 0;
-22:         position: relative;
-23:         h2 {
-24:             margin: 0;
-25:             font-family: $secondary;
-26:             font-size: 1.5em;
-27:             text-transform: lowercase;
-28:             color: #848484;
-29:         }
-30:     }
+22:         margin: 26px 0 0 25%;
+23:         padding: 0;
+24:         position: relative;
+25:         h2 {
+26:             margin: 0;
+27:             font-family: $secondary;
+28:             font-size: 1.5em;
+29:             text-transform: lowercase;
+30:             color: #848484;
+31:         }
+32:     }
 
 Backtrace:
-/Users/georgiabains/Sites/portfolio_new/sass/header.scss:25
+/Users/georgiabains/Sites/portfolio_new/sass/header.scss:27
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 25 of /Users/georgiabains/Sites/portfolio_new/sass/header.scss\A \A 20:         margin: 26px 0 0 25%;\A 21:         padding: 0;\A 22:         position: relative;\A 23:         h2 {\A 24:             margin: 0;\A 25:             font-family: $secondary;\A 26:             font-size: 1.5em;\A 27:             text-transform: lowercase;\A 28:             color: #848484;\A 29:         }\A 30:     }"; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 27 of /Users/georgiabains/Sites/portfolio_new/sass/header.scss\A \A 22:         margin: 26px 0 0 25%;\A 23:         padding: 0;\A 24:         position: relative;\A 25:         h2 {\A 26:             margin: 0;\A 27:             font-family: $secondary;\A 28:             font-size: 1.5em;\A 29:             text-transform: lowercase;\A 30:             color: #848484;\A 31:         }\A 32:     }"; }

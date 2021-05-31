@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$secondary".
-        on line 7 of /Users/georgiabains/Sites/portfolio_new/sass/projects.scss
+        on line 13 of /Users/georgiabains/Sites/portfolio_new/sass/projects.scss
 
-2:     section#list-of-projects {
-3:         .projects-heading {
-4:             padding: 25px 0 0;
-5:             h3 {
-6:                 width: 100%; // safari
-7:                 font-family: $secondary;
-8:                 font-size: 15px;
-9:                 letter-spacing: 1px;
-10:                 display: inline-block;
-11:             }
-12:         }
+8:     section#list-of-projects {
+9:         .projects-heading {
+10:             padding: 25px 0 0;
+11:             h3 {
+12:                 width: 100%; // safari
+13:                 font-family: $secondary;
+14:                 font-size: 15px;
+15:                 letter-spacing: 1px;
+16:                 display: inline-block;
+17:             }
+18:         }
 
 Backtrace:
-/Users/georgiabains/Sites/portfolio_new/sass/projects.scss:7
+/Users/georgiabains/Sites/portfolio_new/sass/projects.scss:13
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 7 of /Users/georgiabains/Sites/portfolio_new/sass/projects.scss\A \A 2:     section#list-of-projects {\A 3:         .projects-heading {\A 4:             padding: 25px 0 0;\A 5:             h3 {\A 6:                 width: 100%; // safari\A 7:                 font-family: $secondary;\A 8:                 font-size: 15px;\A 9:                 letter-spacing: 1px;\A 10:                 display: inline-block;\A 11:             }\A 12:         }"; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 13 of /Users/georgiabains/Sites/portfolio_new/sass/projects.scss\A \A 8:     section#list-of-projects {\A 9:         .projects-heading {\A 10:             padding: 25px 0 0;\A 11:             h3 {\A 12:                 width: 100%; // safari\A 13:                 font-family: $secondary;\A 14:                 font-size: 15px;\A 15:                 letter-spacing: 1px;\A 16:                 display: inline-block;\A 17:             }\A 18:         }"; }
