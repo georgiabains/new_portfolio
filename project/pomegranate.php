@@ -71,11 +71,13 @@
             <video loop muted class="play-on-hover">
                 <source src="">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">screen recording</figcaption>
             </div>
-            <figcaption class="video-caption">screen recording</figcaption>
         </figure>
 
         <a href="../projects.php" class="bracket-link">view all projects</a>

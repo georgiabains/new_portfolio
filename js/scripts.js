@@ -7,10 +7,10 @@ $(document).ready(function () {
     var video = $("video.play-on-hover");
     video.hover(hoverVideo, hideVideo);
 
-    $(".video-controls button.pause").hide();
+    $(".video-info .video-controls button.pause").hide();
 
-    $(".video-controls button.play").on("click",function(){
-        var thisVideo = $(this).parent().parent().children().get(0);
+    $(".video-info .video-controls button.play").on("click",function(){
+        var thisVideo = $(this).parent().parent().parent().children().get(0);
         var thisPause = $(this).parent().children("button.pause");
 
         thisVideo.play();
@@ -20,8 +20,8 @@ $(document).ready(function () {
         thisPause.focus();                
     });
 
-    $(".video-controls button.pause").on("click",function(){
-        var thisVideo = $(this).parent().parent().children().get(0);
+    $(".video-info .video-controls button.pause").on("click",function(){
+        var thisVideo = $(this).parent().parent().parent().children().get(0);
         var thisPlay = $(this).parent().children("button.play");
         
         thisVideo.pause();

@@ -79,11 +79,13 @@
             <video loop muted class="play-on-hover">
                 <source src="../img/projects/el/el_desktop_seven.mp4">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">Screen recording of the Instructor Resource titled <em>Experiential Learning 101</em>.</figcaption>
             </div>
-            <figcaption class="video-caption">Screen recording of the Instructor Resource titled <em>Experiential Learning 101</em>.</figcaption>
         </figure>
 
         <p class="description">

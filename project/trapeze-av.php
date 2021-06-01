@@ -64,11 +64,13 @@
             <video loop muted class="play-on-hover">
                 <source src="../img/projects/trapeze_av/trapeze_av_desktop_two.mov">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">A screencapture of the lazy load in the Ongoing Challenges and Opportunities sections.</figcaption>
             </div>
-            <figcaption class="video-caption">A screencapture of the lazy load in the Ongoing Challenges and Opportunities sections.</figcaption>
         </figure>
 
         <p class="description">

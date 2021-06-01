@@ -72,11 +72,13 @@
             <video loop muted class="play-on-hover">
                 <source src="../img/projects/joinus/joinus_desktop_three.mov">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">A screen recording of the timeline in the Our Journey section.</figcaption>
             </div>
-            <figcaption class="video-caption">A screen recording of the timeline in the Our Journey section.</figcaption>
         </figure>
 
         <p class="description">
@@ -87,11 +89,13 @@
             <video loop muted class="play-on-hover">
                 <source src="../img/projects/joinus/joinus_desktop_two.mov">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">A screen recording of the navigation hover effects and their smooth scroll functionality.</figcaption>
             </div>
-            <figcaption class="video-caption">A screen recording of the navigation hover effects and their smooth scroll functionality.</figcaption>
         </figure>
 
 

@@ -81,22 +81,26 @@
 			<video loop muted class="play-on-hover">
 				<source src="../img/projects/volaris/volaris_desktop_three.mov">
 			</video>
-			<div class="video-controls">
-				<button class="play"><i class="fa fa-play"></i> Play</button>
-				<button class="pause"><i class="fa fa-pause"></i> Pause</button>
+			<div class="video-info">
+				<div class="video-controls">
+					<button class="play"><i class="fa fa-play"></i> Play</button>
+					<button class="pause"><i class="fa fa-pause"></i> Pause</button>
+				</div>
+				<figcaption class="video-caption">A screen recording of the carousel on the home page.</figcaption>
 			</div>
-			<figcaption class="video-caption">A screen recording of the carousel on the home page.</figcaption>
 		</figure>
 
 		<figure>
 			<video loop muted class="play-on-hover">
 				<source src="../img/projects/volaris/volaris_desktop_four.mov">
 			</video>
-			<div class="video-controls">
-				<button class="play"><i class="fa fa-play"></i> Play</button>
-				<button class="pause"><i class="fa fa-pause"></i> Pause</button>
+			<div class="video-info">
+				<div class="video-controls">
+					<button class="play"><i class="fa fa-play"></i> Play</button>
+					<button class="pause"><i class="fa fa-pause"></i> Pause</button>
+				</div>
+				<figcaption class="video-caption">A screen recording of the timeline on the About page.</figcaption>
 			</div>
-			<figcaption class="video-caption">A screen recording of the timeline on the About page.</figcaption>
 		</figure>
 
 		<a href="../projects.php" class="bracket-link">view all projects</a>

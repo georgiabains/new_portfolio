@@ -57,10 +57,26 @@
             Lorem ipsum.
         </p>
 
-        <figure>
-            <img src="../img/projects/.png">
-            <figcaption>Lorem ipsum.</figcaption>
-        </figure>
+        <div class="project-page-slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="../img/projects/food_waste_management/food_waste_management_recipes_design.png">
+                </div>
+                <div class="slide">
+                    <img src="../img/projects/food_waste_management/food_waste_management_recipes_prototype.png">
+                </div>
+                <div class="slide">
+                    <img src="../img/projects/food_waste_management/food_waste_management_recipes_design.png">
+                </div>
+                <div class="slide">
+                    <img src="../img/projects/food_waste_management/food_waste_management_recipes_prototype.png">
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="play"><i class="fa fa-play"></i> Play</button>
+                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            </div>
+        </div>
 
         <p class="description">
             Lorem ipsum <code>code test</code>.
@@ -70,11 +86,13 @@
             <video loop muted class="play-on-hover">
                 <source src="../img/projects/food_waste_management/food_waste_management_recipes_recording.mov">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">Lorem ipsum.</figcaption>
             </div>
-            <figcaption class="video-caption">Lorem ipsum.</figcaption>
         </figure>
 
         <a href="../projects.php" class="bracket-link">view all projects</a>

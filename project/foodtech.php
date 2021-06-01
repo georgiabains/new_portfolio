@@ -61,22 +61,26 @@
             <video loop muted class="play-on-hover">
                 <source src="../img/projects/foodtech/foodtech_desktop_two.mov">
             </video>
-            <div class="video-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">A screen recording of the on-scroll animations on the Your Role: Corporate Development page.</figcaption>
             </div>
-            <figcaption class="video-caption">A screen recording of the on-scroll animations on the Your Role: Corporate Development page.</figcaption>
         </figure>
 
         <figure>
 			<video loop muted class="play-on-hover">
 				<source src="../img/projects/foodtech/foodtech_desktop_three.mov">
 			</video>
-			<div class="video-controls">
-				<button class="play"><i class="fa fa-play"></i> Play</button>
-				<button class="pause"><i class="fa fa-pause"></i> Pause</button>
-			</div>
-			<figcaption class="video-caption">A screen recording of the category filter system on the Resources Hub page.</figcaption>
+            <div class="video-info">
+                <div class="video-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <figcaption class="video-caption">A screen recording of the category filter system on the Resources Hub page.</figcaption>
+            </div>
 		</figure>
 
         <a href="../projects.php" class="bracket-link">view all projects</a>

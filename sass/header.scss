@@ -131,7 +131,7 @@ header {
             position: fixed;
             background: $grey-light;
             font-family: $primary;
-            overflow-y: scroll;
+            overflow: hidden;
             display: flex;
             flex-wrap: wrap;
             z-index: 4;
@@ -246,29 +246,6 @@ header {
 }
 
 /** Media Queries **/
-@media screen and (min-width: 1920px) {
-    header {
-        position: relative;
-        .hamburger-container {
-            .button-wrap {
-                right: unset;
-                left: calc(50% + 884px);
-            }
-            #navigation-menu {
-                right: unset;
-                left: calc(50% + 960px);
-                visibility: hidden;
-                opacity: 0;
-                &.navigation-menu-on-click {
-                    left: calc(50% + 660px);
-                    visibility: visible;
-                    opacity: 1;
-                }
-            }
-        }
-    }
-}
-
 @media screen and (min-width: 1600px) {
     header {
         padding: 40px 50px;

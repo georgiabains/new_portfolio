@@ -16,6 +16,7 @@ section.project-page-details {
 		}
 	}
 	figure {
+		width: 100%;
 		margin: 40px 0;
 		padding: 0;
 		display: flex;
@@ -23,12 +24,16 @@ section.project-page-details {
 		img {
 			margin: 0;
 		}
+		video {
+			margin: 0 auto;
+			display: block;
+		}
 		figcaption {
 			flex-basis: 100%;
 			padding: 10px 10px 0;
 			text-align: center;
 			font-family: $secondary;
-			font-size: 0.9em;
+			font-size: 14.5px;
 			line-height: 1.45em;
 			&::after {
 				content: "";
@@ -39,36 +44,41 @@ section.project-page-details {
 				display: block;
 			}
 			&.video-caption {
+				flex-basis: unset;
 				margin: 10px 0;
-				flex-basis: 85%;
 				text-align: left;
 				&::after {
 					width: 0;
 				}
 			}
 		}
-		.video-controls {
-			margin: 10px 0 0;
-			flex-basis: 15%;
-			padding: 6px 10px 0;
-			text-align: right;
-			button {
-				padding: 3px 7px;
-                font-family: $secondary;
-                font-size: 0.8em;
-                letter-spacing: 1px;
-                text-transform: lowercase;
-                color: black;
-                position: relative;
-                background: $purple-light;
-                border-radius: 5px;
-                border: none;
-                i {
-                	font-size: 0.8em;
-                }
-                &:hover {
-                	cursor: pointer;
-                }
+		.video-info {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			.video-controls {
+				width: 100px;
+				margin: 10px 0 0;
+				padding: 6px 10px 0;
+				text-align: right;
+				button {
+					padding: 3px 7px;
+					font-family: $secondary;
+					font-size: 0.8em;
+					letter-spacing: 1px;
+					text-transform: lowercase;
+					color: black;
+					position: relative;
+					background: $purple-light;
+					border-radius: 5px;
+					border: none;
+					i {
+						font-size: 0.8em;
+					}
+					&:hover {
+						cursor: pointer;
+					}
+				}
 			}
 		}
 	}
@@ -152,6 +162,70 @@ section.project-page-details {
 			position: absolute;
 		}
 	}
+	.project-page-slider {
+		margin: auto;
+		width: 100%;
+		position: relative;
+		overflow-x: hidden;
+		background: white;
+		&::before,
+		&::after {
+			@include white-gradient();
+			content: "";
+			height: 100%;
+			width: 80px;
+			position: absolute;
+			z-index: 2;
+		}
+		&::before {
+			top: 0;
+			left: 0;
+		}
+		&::after {
+			right: 0;
+			top: 0;
+			transform: rotateZ(180deg);
+		}
+		.slide-track {
+			width: calc(770px * 4);
+			display: flex;
+			animation: carousel $carouselAnimationSpeed linear infinite;
+			.slide {
+				width: 770px;
+				padding: 0 20px;
+			}
+			&:hover {
+				-webkit-animation-play-state: paused; 
+				-moz-animation-play-state: paused; 
+				-o-animation-play-state: paused;
+				animation-play-state: paused;
+			}
+		}
+		.slider-controls {
+			margin: 10px 0 0;
+			flex-basis: 15%;
+			padding: 6px 10px 0;
+			text-align: right;
+			button {
+				padding: 3px 7px;
+                font-family: $secondary;
+                font-size: 0.8em;
+                letter-spacing: 1px;
+                text-transform: lowercase;
+                color: black;
+                position: relative;
+                background: $purple-light;
+                border-radius: 5px;
+                border: none;
+                i {
+                	font-size: 0.8em;
+                }
+                &:hover {
+                	cursor: pointer;
+                }
+			}
+		}
+	}
 }
 
 /** Media Queries **/
@@ -229,9 +303,12 @@ section.project-page-details {
 					text-align: center;
 				}
 			}
-			.video-controls {
-				flex-basis: 100%;
-				text-align: center;
+			.video-info {
+				flex-wrap: wrap;
+				.video-controls {
+					width: 100%;
+					text-align: center;
+				}
 			}
 		}
 		.project-column {

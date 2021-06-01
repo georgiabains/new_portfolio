@@ -9,6 +9,12 @@
  */
 /** Colours **/
 /** Default Animation **/
+/** For Carousel **/
+@keyframes carousel {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.2
@@ -271,7 +277,7 @@ header {
       position: fixed;
       background: #f4f4f4;
       font-family: "Quicksand", sans-serif;
-      overflow-y: scroll;
+      overflow: hidden;
       display: flex;
       flex-wrap: wrap;
       z-index: 4;
@@ -369,21 +375,6 @@ header {
         transition: all 0.4s ease-in-out; }
 
 /** Media Queries **/
-@media screen and (min-width: 1920px) {
-  header {
-    position: relative; }
-    header .hamburger-container .button-wrap {
-      right: unset;
-      left: calc(50% + 884px); }
-    header .hamburger-container #navigation-menu {
-      right: unset;
-      left: calc(50% + 960px);
-      visibility: hidden;
-      opacity: 0; }
-      header .hamburger-container #navigation-menu.navigation-menu-on-click {
-        left: calc(50% + 660px);
-        visibility: visible;
-        opacity: 1; } }
 @media screen and (min-width: 1600px) {
   header {
     padding: 40px 50px; }
@@ -785,18 +776,22 @@ section.project-page-details {
     font-size: 1.2em;
     line-height: 1.6em; }
   section.project-page-details figure {
+    width: 100%;
     margin: 40px 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap; }
     section.project-page-details figure img {
       margin: 0; }
+    section.project-page-details figure video {
+      margin: 0 auto;
+      display: block; }
     section.project-page-details figure figcaption {
       flex-basis: 100%;
       padding: 10px 10px 0;
       text-align: center;
       font-family: "Anonymous Pro", monospace;
-      font-size: 0.9em;
+      font-size: 14.5px;
       line-height: 1.45em; }
       section.project-page-details figure figcaption::after {
         content: "";
@@ -806,31 +801,35 @@ section.project-page-details {
         background: #ded0fb;
         display: block; }
       section.project-page-details figure figcaption.video-caption {
+        flex-basis: unset;
         margin: 10px 0;
-        flex-basis: 85%;
         text-align: left; }
         section.project-page-details figure figcaption.video-caption::after {
           width: 0; }
-    section.project-page-details figure .video-controls {
-      margin: 10px 0 0;
-      flex-basis: 15%;
-      padding: 6px 10px 0;
-      text-align: right; }
-      section.project-page-details figure .video-controls button {
-        padding: 3px 7px;
-        font-family: "Anonymous Pro", monospace;
-        font-size: 0.8em;
-        letter-spacing: 1px;
-        text-transform: lowercase;
-        color: black;
-        position: relative;
-        background: #ded0fb;
-        border-radius: 5px;
-        border: none; }
-        section.project-page-details figure .video-controls button i {
-          font-size: 0.8em; }
-        section.project-page-details figure .video-controls button:hover {
-          cursor: pointer; }
+    section.project-page-details figure .video-info {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      section.project-page-details figure .video-info .video-controls {
+        width: 100px;
+        margin: 10px 0 0;
+        padding: 6px 10px 0;
+        text-align: right; }
+        section.project-page-details figure .video-info .video-controls button {
+          padding: 3px 7px;
+          font-family: "Anonymous Pro", monospace;
+          font-size: 0.8em;
+          letter-spacing: 1px;
+          text-transform: lowercase;
+          color: black;
+          position: relative;
+          background: #ded0fb;
+          border-radius: 5px;
+          border: none; }
+          section.project-page-details figure .video-info .video-controls button i {
+            font-size: 0.8em; }
+          section.project-page-details figure .video-info .video-controls button:hover {
+            cursor: pointer; }
   section.project-page-details .project-basic-info {
     margin: 40px 0 0;
     display: flex;
@@ -895,6 +894,58 @@ section.project-page-details {
       width: 100%;
       text-align: center;
       position: absolute; }
+  section.project-page-details .project-page-slider {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background: white; }
+    section.project-page-details .project-page-slider::before, section.project-page-details .project-page-slider::after {
+      background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+      content: "";
+      height: 100%;
+      width: 80px;
+      position: absolute;
+      z-index: 2; }
+    section.project-page-details .project-page-slider::before {
+      top: 0;
+      left: 0; }
+    section.project-page-details .project-page-slider::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg); }
+    section.project-page-details .project-page-slider .slide-track {
+      width: calc(770px * 4);
+      display: flex;
+      animation: carousel 40s linear infinite; }
+      section.project-page-details .project-page-slider .slide-track .slide {
+        width: 770px;
+        padding: 0 20px; }
+      section.project-page-details .project-page-slider .slide-track:hover {
+        -webkit-animation-play-state: paused;
+        -moz-animation-play-state: paused;
+        -o-animation-play-state: paused;
+        animation-play-state: paused; }
+    section.project-page-details .project-page-slider .slider-controls {
+      margin: 10px 0 0;
+      flex-basis: 15%;
+      padding: 6px 10px 0;
+      text-align: right; }
+      section.project-page-details .project-page-slider .slider-controls button {
+        padding: 3px 7px;
+        font-family: "Anonymous Pro", monospace;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        color: black;
+        position: relative;
+        background: #ded0fb;
+        border-radius: 5px;
+        border: none; }
+        section.project-page-details .project-page-slider .slider-controls button i {
+          font-size: 0.8em; }
+        section.project-page-details .project-page-slider .slider-controls button:hover {
+          cursor: pointer; }
 
 /** Media Queries **/
 @media screen and (max-width: 1000px) {
@@ -940,9 +991,11 @@ section.project-page-details {
     margin: 0 0 60px;
     flex-basis: 100%;
     text-align: center; }
-  section.project-page-details figure .video-controls {
-    flex-basis: 100%;
-    text-align: center; }
+  section.project-page-details figure .video-info {
+    flex-wrap: wrap; }
+    section.project-page-details figure .video-info .video-controls {
+      width: 100%;
+      text-align: center; }
   section.project-page-details .project-column .column-small,
   section.project-page-details .project-column .column-large {
     flex-basis: 100%;
