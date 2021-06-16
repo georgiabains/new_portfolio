@@ -762,6 +762,9 @@ main#projectsPage {
 @media screen and (max-width: 1300px) {
   main#projectsPage section#list-of-projects .project-container .project-flex .project {
     flex-basis: 100%; } }
+@media screen and (max-width: 600px) {
+  main#projectsPage {
+    padding: 0 20px; } }
 section.project-page-details {
   margin: 20px 0 60px;
   min-height: calc(100vh - 219px); }
