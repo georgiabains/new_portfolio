@@ -846,6 +846,7 @@ section.project-page-details {
       padding: 0px 7px;
       font-family: "Anonymous Pro", monospace;
       font-size: 0.8em;
+      text-transform: lowercase;
       letter-spacing: 1px;
       background: #ded0fb;
       border-radius: 5px;
