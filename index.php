@@ -47,6 +47,33 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Food Waste Management -->
+            <div class="project project-web">
+                <div class="project-thumbnail">
+                    <div class="desktop">
+                        <img src="img/projects/food_waste_management/food_waste_management_mockup_four.png"
+                            alt="">
+                    </div>
+                    <div class="mobile">
+                        <img src="img/projects/food_waste_management/food_waste_management_page_recipes_two.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <a href="/projects.php" class="project-type">Mobile App</a>
+                    <h4>Food Waste Management App</h4>
+                    <ul class="project-links">
+                        <li><a class="bracket-link" href="project/food-waste-management.php">project details</a></li>
+                    </ul>
+                    <p class="description">This high-fidelity prototype for a mobile app was created as part of a group project to tackle the issue of food management among young adults.</p>
+                    <div class="role">
+                        <ul>
+                            <li>Mobile Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
             <!-- Experiential Learning -->
             <div class="project project-web">
