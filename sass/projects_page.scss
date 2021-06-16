@@ -104,10 +104,44 @@ main {
 	}
 }
 
+@media screen and (max-width: 900px) {
+	main {
+		&#projectsPage {
+			padding: 0 20px;
+			section#list-of-projects {
+				.project-container {
+					.project-flex {
+						.project {
+							&.project-web {
+								.project-details {
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 600px) {
 	main {
 		&#projectsPage {
 			padding: 0 20px;
+			section#list-of-projects {
+				.project-container {
+					.project-flex {
+						.project {
+							&.project-web {
+								.project-details {
+									padding: 20px;
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
