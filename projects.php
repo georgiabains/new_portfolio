@@ -1,5 +1,5 @@
 <?php include "_top.php";?>
-<?php include "_header_projects.php";?>
+<?php include "_header.php";?>
 
 <main id="projectsPage">
 
