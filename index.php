@@ -52,12 +52,12 @@
             <div class="project project-web">
                 <div class="project-thumbnail">
                     <div class="desktop">
-                        <img src="img/projects/food_waste_management/food_waste_management_mockup_four.png"
-                            alt="">
+                        <img src="img/projects/food_waste_management/food_waste_management_mockup_three.png"
+                            alt="Mockup of the Login, Home, and Inventory pages.">
                     </div>
                     <div class="mobile">
                         <img src="img/projects/food_waste_management/food_waste_management_page_recipes_two.png"
-                            alt="">
+                            alt="The Recipes page.">
                     </div>
                 </div>
                 <div class="project-details">
