@@ -168,24 +168,6 @@ section.project-page-details {
 		position: relative;
 		overflow-x: hidden;
 		background: white;
-		&::before,
-		&::after {
-			@include white-gradient();
-			content: "";
-			height: 100%;
-			width: 80px;
-			position: absolute;
-			z-index: 2;
-		}
-		&::before {
-			top: 0;
-			left: 0;
-		}
-		&::after {
-			right: 0;
-			top: 0;
-			transform: rotateZ(180deg);
-		}
 		.slide-track {
 			width: calc(770px * 4);
 			display: flex;
@@ -201,28 +183,39 @@ section.project-page-details {
 				animation-play-state: paused;
 			}
 		}
-		.slider-controls {
-			margin: 10px 0 0;
-			flex-basis: 15%;
-			padding: 6px 10px 0;
-			text-align: right;
-			button {
-				padding: 3px 7px;
-                font-family: $secondary;
-                font-size: 0.8em;
-                letter-spacing: 1px;
-                text-transform: lowercase;
-                color: black;
-                position: relative;
-                background: $purple-light;
-                border-radius: 5px;
-                border: none;
-                i {
-                	font-size: 0.8em;
-                }
-                &:hover {
-                	cursor: pointer;
-                }
+		.paused {
+			-webkit-animation-play-state: paused; 
+			-moz-animation-play-state: paused; 
+			-o-animation-play-state: paused;
+			animation-play-state: paused;
+		}
+		.slider-info {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			.slider-controls {
+				margin: 10px 0 0;
+				flex-basis: 15%;
+				padding: 6px 10px 0;
+				text-align: right;
+				button {
+					padding: 3px 7px;
+					font-family: $secondary;
+					font-size: 0.8em;
+					letter-spacing: 1px;
+					text-transform: lowercase;
+					color: black;
+					position: relative;
+					background: $purple-light;
+					border-radius: 5px;
+					border: none;
+					i {
+						font-size: 0.8em;
+					}
+					&:hover {
+						cursor: pointer;
+					}
+				}
 			}
 		}
 	}

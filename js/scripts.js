@@ -31,6 +31,36 @@ $(document).ready(function () {
         thisPlay.focus(); 
     });
 
+    // hover on slideshow to play/pause
+    var slideshowControls = $(".project-page-slider .slider-controls");
+    var slideshowPlay = slideshowControls.children("button.play");
+    var slideshowPause = slideshowControls.children("button.pause");
+
+    slideshowPlay.hide(); // hide play button on page load
+
+    slideshowPause.on("click", function() {
+      var thisSlideshow = $(this).parent().parent().parent().children(".slide-track");
+      var thisSlideshowPlay = $(this).parent().children("button.play");
+
+      thisSlideshow.addClass("paused");
+
+      $(this).toggle();
+      thisSlideshowPlay.toggle();
+      thisSlideshowPlay.focus();
+    });
+
+    slideshowPlay.on("click", function() {
+      var thisSlideshow = $(this).parent().parent().parent().children(".slide-track");
+      var thisSlideshowPause = $(this).parent().children("button.pause");
+
+      thisSlideshow.removeClass("paused");
+
+      $(this).toggle();
+      thisSlideshowPause.toggle();
+      thisSlideshowPause.focus();
+    });
+
+
     // Blinking Underscore
     (function blink() { 
         $('.blinking-underscore').fadeOut(750).fadeIn(750, blink); 

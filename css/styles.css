@@ -900,24 +900,10 @@ section.project-page-details {
     position: relative;
     overflow-x: hidden;
     background: white; }
-    section.project-page-details .project-page-slider::before, section.project-page-details .project-page-slider::after {
-      background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-      content: "";
-      height: 100%;
-      width: 80px;
-      position: absolute;
-      z-index: 2; }
-    section.project-page-details .project-page-slider::before {
-      top: 0;
-      left: 0; }
-    section.project-page-details .project-page-slider::after {
-      right: 0;
-      top: 0;
-      transform: rotateZ(180deg); }
     section.project-page-details .project-page-slider .slide-track {
       width: calc(770px * 4);
       display: flex;
-      animation: carousel 40s linear infinite; }
+      animation: carousel 50s linear infinite; }
       section.project-page-details .project-page-slider .slide-track .slide {
         width: 770px;
         padding: 0 20px; }
@@ -926,26 +912,35 @@ section.project-page-details {
         -moz-animation-play-state: paused;
         -o-animation-play-state: paused;
         animation-play-state: paused; }
-    section.project-page-details .project-page-slider .slider-controls {
-      margin: 10px 0 0;
-      flex-basis: 15%;
-      padding: 6px 10px 0;
-      text-align: right; }
-      section.project-page-details .project-page-slider .slider-controls button {
-        padding: 3px 7px;
-        font-family: "Anonymous Pro", monospace;
-        font-size: 0.8em;
-        letter-spacing: 1px;
-        text-transform: lowercase;
-        color: black;
-        position: relative;
-        background: #ded0fb;
-        border-radius: 5px;
-        border: none; }
-        section.project-page-details .project-page-slider .slider-controls button i {
-          font-size: 0.8em; }
-        section.project-page-details .project-page-slider .slider-controls button:hover {
-          cursor: pointer; }
+    section.project-page-details .project-page-slider .paused {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused; }
+    section.project-page-details .project-page-slider .slider-info {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      section.project-page-details .project-page-slider .slider-info .slider-controls {
+        margin: 10px 0 0;
+        flex-basis: 15%;
+        padding: 6px 10px 0;
+        text-align: right; }
+        section.project-page-details .project-page-slider .slider-info .slider-controls button {
+          padding: 3px 7px;
+          font-family: "Anonymous Pro", monospace;
+          font-size: 0.8em;
+          letter-spacing: 1px;
+          text-transform: lowercase;
+          color: black;
+          position: relative;
+          background: #ded0fb;
+          border-radius: 5px;
+          border: none; }
+          section.project-page-details .project-page-slider .slider-info .slider-controls button i {
+            font-size: 0.8em; }
+          section.project-page-details .project-page-slider .slider-info .slider-controls button:hover {
+            cursor: pointer; }
 
 /** Media Queries **/
 @media screen and (max-width: 1000px) {

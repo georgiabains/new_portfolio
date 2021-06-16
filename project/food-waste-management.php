@@ -72,9 +72,12 @@
                     <img src="../img/projects/food_waste_management/food_waste_management_recipes_prototype.png">
                 </div>
             </div>
-            <div class="slider-controls">
-                <button class="play"><i class="fa fa-play"></i> Play</button>
-                <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+            <div class="slider-info">
+                <div class="slider-controls">
+                    <button class="play"><i class="fa fa-play"></i> Play</button>
+                    <button class="pause"><i class="fa fa-pause"></i> Pause</button>
+                </div>
+                <p class="slider-caption">Lorem ipsum</p>
             </div>
         </div>
 
