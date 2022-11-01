@@ -6,7 +6,6 @@
     	</div>
     	<div class="footer-on-scroll">
     		<ul>
-    			<li>georgiabains@hotmail.co.uk</li>
     			<li><a class="bracket-link" href="https://github.com/georgiabains" target="_blank" rel="noopener">github</a></li>
     			<li><a class="bracket-link" href="https://www.linkedin.com/in/georgia-bains/" target="_blank" rel="noopener">linkedin</a></li>
     		</ul>
